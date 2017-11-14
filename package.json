@@ -1,0 +1,17 @@
+{
+  "name": "jekyll",
+  "main": "index.md",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "bundle exec jekyll serve --drafts --incremental --no-watch",
+    "start": "bundle exec jekyll serve --drafts --incremental",
+    "watch": "npm run start",
+    "watch-all" : "watchy -w _config.yml -- bundle exec jekyll serve --drafts --watch"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "watchy": "^0.7.0"
+  }
+}

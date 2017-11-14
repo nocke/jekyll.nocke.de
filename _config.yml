@@ -1,0 +1,57 @@
+
+# Site metadata --------------------------------------------------
+title: "Frank ► Foo ► Bar ► Testing"
+title_separator: "—"
+
+email: your-email@example.com
+name: "the name of the site"
+description: >-
+  Frank Nocke
+  Master of Computer Science [MSc] • Dipl.-Medieninformatiker [FH]
+  Frontend Entwickler • React • JavaScript • NodeJS — Hamburg | Schweiz
+  Freelancer in Hamburg, Bottighofen 123456
+baseurl: ""
+timezone: "Europe/Berlin"
+url: "https://nocke.github.io/"
+#twitter_username: overnocke
+github_username:  nocke
+
+repository: "nocke/nocke.github.io"
+
+# Site settings --------------------------------------------------
+theme: jekyll-theme-hacker
+github: [metadata]
+
+# Pagination -----------------------------------------------------
+
+#pagination:
+#  debug: true
+#  enabled: true
+#  per_page: 10
+#  sort_reverse: true
+#  trail:
+#    before: 2
+#    after: 2
+
+# Build settings -------------------------------------------------
+category_dir: /
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:title–:slug
+#paginate: 3
+
+plugins:
+  - jekyll-feed
+
+# ls _site  will be a good idea, to see, what else needs exlcuding
+# “Every other directory and file except for those listed above will be copied verbatim to the generated site.“
+
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - package.json
+   - package-lock.json
+   - CNAME
+   - LICENSE
+   - .gitignore
