@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # **head**line _One_ is [here](#)
 ## **head**line _Two_ is [here](#)
 ### **head**line _Three_ is [here](#)
