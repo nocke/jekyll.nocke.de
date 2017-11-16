@@ -21,6 +21,17 @@ repository: "nocke/nocke.github.io"
 # Site settings --------------------------------------------------
 theme: jekyll-theme-hacker
 github: [metadata]
+layout: default
+
+# Front Matter default --------------------------------
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      author: Frank Nocke
+      layout: "default"
+      categories: [blog]
 
 # Pagination -----------------------------------------------------
 
@@ -43,9 +54,11 @@ permalink: /:categories/:year/:month/:title–:slug
 plugins:
   - jekyll-feed
 
+
+include: ["_pages"]
+
 # ls _site  will be a good idea, to see, what else needs exlcuding
 # “Every other directory and file except for those listed above will be copied verbatim to the generated site.“
-
 exclude:
    - Gemfile
    - Gemfile.lock
@@ -54,4 +67,6 @@ exclude:
    - package-lock.json
    - CNAME
    - LICENSE
+   - README.me
+   - .asset-cache
    - .gitignore
