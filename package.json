@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "scripts": {
     "build": "bundle exec jekyll serve --drafts --incremental --no-watch",
-    "start": "bundle exec jekyll serve --drafts --incremental",
-    "watch": "npm run start",
-    "watch-all" : "watchy -w _config.yml -- bundle exec jekyll serve --drafts --watch"
+    "start": "npm run restart & npm run reload",
+    "watch": "bundle exec jekyll serve --drafts --incremental",
+    "restart": "watchy -w _config.yml -- bundle exec jekyll serve --drafts --watch",
+    "reload": "browser-sync start --proxy \"localhost:4000\" --files \"_site/**/*\" \"_config.yml\" --no-ui --port 4001"
   },
   "keywords": [],
   "license": "UNLICENSED",
