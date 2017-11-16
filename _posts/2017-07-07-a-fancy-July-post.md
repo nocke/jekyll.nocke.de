@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "A fance July Title"
-author: myabc
 categories: code
 
 ##### force a different URL indeed
