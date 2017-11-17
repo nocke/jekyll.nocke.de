@@ -1,23 +1,10 @@
+<h3 id='page-type'>page type: {{ page.layout }}</h3>
 <header>
-    <div class="container">
-        <h3>page type: {{ page.layout }}</h3>
+    <div class="wrap">
 
         {% include menu.html %}
 
-        
-
         <h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' | escape }}{% endif %}</h1>
-        
-
-        <section id="downloads">
-            {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-            {% endif %}
-            <a href="{{ site.github.repository_url }}" class="btn btn-github">
-                <span class="icon"></span>View on GitHub</a>
-        </section>  {% include menu.html %}
-
 
 
     </div>

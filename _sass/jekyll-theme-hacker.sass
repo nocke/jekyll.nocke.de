@@ -1,7 +1,7 @@
 /*
   modified hacker-Theme by Frank Nocke
   based on the Hacker Theme by https://github.com/pages-themes/hacker
-  under CC0 1.0 Universal copyright waiver / license
+  under CC-0 1.0 Universal copyright waiver / license
   by Ben Balter (https://github.com/benbalter) and others. */
 
 body
@@ -15,11 +15,6 @@ body
 
 /* General & 'Reset' Stuff */
 
-.container
-  width: 90%
-  max-width: 600px
-  margin: 0 auto
-
 section
   display: block
   margin: 0 0 20px 0
@@ -31,9 +26,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
   color: #b5e853
   letter-spacing: -0.03em
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
+  -webkit-font-smoothing: antialiased
 
 h1, .h1
-  font-size: 30px
+  text-align: center
+  font-size: 38px
 
 h2, .h2
   font-size: 24px
@@ -52,41 +49,9 @@ h6, .h6
   text-transform: uppercase
   color: #999
 
-
 li
   line-height: 1.4
 
-/* Header, <header>
- * header   - container
- * h1       - project name
- * h2       - project description */
-
-header
-  background: rgba(0, 0, 0, 0.1)
-  width: 100%
-  border-bottom: 1px dashed #b5e853
-  padding: 20px 0
-  margin: 0 0 40px 0
-
-  h1
-    font-size: 30px
-    line-height: 1.5
-    margin: 0 0 0 -40px
-    font-weight: bold
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
-    color: #b5e853
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
-    letter-spacing: -1px
-    -webkit-font-smoothing: antialiased
-
-  h1:before
-    content: "./ "
-    font-size: 24px
-
-  h2
-    font-size: 18px
-    font-weight: 300
-    color: #666
 
 #downloads .btn
   display: inline-block
@@ -149,15 +114,3 @@ hr
 a
   color: #63c0f5
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5)
-
-/* Clearfix */
-
-.cf:before, .cf:after
-  content: ""
-  display: table
-
-.cf:after
-  clear: both
-
-.cf
-  zoom: 1

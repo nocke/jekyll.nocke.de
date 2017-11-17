@@ -6,7 +6,6 @@
 *.bak
 tmp
 
-
 ############################
 # build and cache folders
 _site/

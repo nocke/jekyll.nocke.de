@@ -1,10 +1,13 @@
 entries:
 
-- title: Introduction
-  url: introduction.html
+- title: Willkommen
+  url: /
 
-- title: Configuration
-  url: configuration.html
+- title: Fotos
+  url: /frank-nocke-fotos-photographie/bilder/
 
 - title: Werdegang
+  url: /frontend-javascript-freelancer/hamburg/schweiz/frank-nocke/
+
+- title: Kontakt
   url: /frontend-javascript-freelancer/hamburg/schweiz/frank-nocke/
