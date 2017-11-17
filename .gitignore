@@ -15,7 +15,7 @@ _site/
 
 
 # all hidden files/folders (except .gitignore, .htaccess,... )
-# there might be .htaccess on multiple levels...
+# (note: there might be .htaccess on multiple levels...)
 .*
 !.gitignore
 !.htaccess
