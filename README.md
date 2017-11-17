@@ -9,15 +9,20 @@ Well, the styles and data behind my personal blog page...
 
 `npm watch` – watches Jekyll content files, however not `_config.yml`
 
-`npm restart` – does the same, but also restarts on `_config.yml` changes. (might cause a 2-3 delay, in particular together with live reloading, below).
+`npm restart` – does the same, but also restarts on `_config.yml` changes. 
 
 Local site is accessible at [`localhost:4000`](http://localhost:4000).
 
-`npm reload` – live reload (pressing ‘refresh’ no more) proxy, outputs to port 4001.
+`npm reload` – live reload (pressing ‘refresh’ no more) proxy, outputs to port 4001. Works for boths content and styling changes.
 
 **Most convenient:** use `npm restart` and `npm reload`, access dev site at [`localhost:4001`](http://localhost:4001).
 
 `npm start` does precisely that.
+
+### caveats
+→ `_config.yml` changes might cause a 2-3s delay, in particular together with live reloading. But should eventuall load.
+→ adding files might mean to stop and restart the live reload task, so those file get on the watchlist
+
 
 
 ## Acknowledgements
