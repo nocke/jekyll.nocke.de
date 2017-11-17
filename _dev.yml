@@ -1,0 +1,7 @@
+# Site metadata --------------------------------------------------
+title: "Frank ► Foo ► Bar ► Testing (dev mode)"
+
+# Sass compilation -----------------------------------------------
+sass:
+    sass_dir: _sass
+    style: uncompressed
