@@ -1,0 +1,11 @@
+<nav class='menu'>
+
+    <ul class='plain-inline'>
+        {% for item in site.data.menu.entries %}
+        <li>
+            <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+
+</nav>
