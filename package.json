@@ -3,6 +3,7 @@
   "main": "index.md",
   "version": "1.0.0",
   "scripts": {
+    "clean": "rm -rf _site",
     "build": "bundle exec jekyll serve --drafts --incremental --no-watch",
     "start": "npm run restart & npm run reload",
     "watch": "bundle exec jekyll serve --drafts --incremental",
