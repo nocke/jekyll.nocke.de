@@ -1,0 +1,59 @@
+### .gitignore ##############
+
+# temp and backups
+*~
+*.log
+*.bak
+tmp
+
+############################
+# build and cache folders
+_site/
+.sass-cache/
+.jekyll-metadata
+
+
+# all hidden files/folders (except .gitignore, .htaccess,... )
+# (note: there might be .htaccess on multiple levels...)
+.*
+!.gitignore
+!.htaccess
+!.htpasswd
+!.editorconfig
+!.babelrc
+!.jsbeautifyrc
+
+#########################
+## permit specific vscode settings (stackoverflow.com/a/5534865/444255)
+!.vscode
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+# other IDE subfolders ##
+nbproject
+# Eclipse
+.settings
+.cache
+.project
+
+######################
+#  security
+*.dploy
+
+######################
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.picasa.ini
+Icon?
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+##########################
+# npm
+node_modules/**/*

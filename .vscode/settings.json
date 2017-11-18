@@ -1,0 +1,6 @@
+{
+    "html.format.endWithNewline": false,
+    "html.format.extraLiners": "",
+    "css.validate": true,
+    "scss.validate": true
+}

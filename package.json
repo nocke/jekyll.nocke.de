@@ -1,0 +1,22 @@
+{
+  "name": "jekyll",
+  "main": "index.md",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf _site",
+
+    "build": "bundle exec jekyll build --drafts",
+    "watch": "bundle exec jekyll serve --drafts --incremental --config _config.yml,_dev.yml",
+
+    "restart": "watchy -w _config.yml -- bundle exec jekyll serve --drafts --watch --config _config.yml,_dev.yml",
+    "reload": "browser-sync start --proxy \"localhost:4000\" --files \"_site/**/*\" \"_*.yml\" --no-ui --port 4001",
+
+    "start": "npm run restart & npm run reload"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "watchy": "^0.7.0"
+  }
+}
