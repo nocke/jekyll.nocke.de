@@ -3,7 +3,7 @@
 {% include head.html %}
 
 <body>
-  {% include header.html %}
+  {% unless page.show-header == false %}{% include header.html %}{% endunless %}
 
   <div class="wrap">
     <section id="main_content">
