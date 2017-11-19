@@ -7,7 +7,6 @@
 
     "build": "bundle exec jekyll build --drafts",
     "watch": "bundle exec jekyll serve --drafts --incremental --config _config.yml,_dev.yml",
-
     "restart": "watchy -w _config.yml -- bundle exec jekyll serve --drafts --watch --config _config.yml,_dev.yml",
     "reload": "browser-sync start --proxy \"localhost:4000\" --files \"_site/**/*\" \"_*.yml\" --no-ui --port 4001",
 
@@ -17,6 +16,7 @@
   "license": "UNLICENSED",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "watchy": "^0.7.0"
   }
 }
