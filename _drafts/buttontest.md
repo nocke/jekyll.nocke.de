@@ -36,3 +36,17 @@ be
 here
 <span class='anchor'> just a span</span>
 
+----
+
+and getting plain about it
+
+<button class='plain'>plain Button</button>
+some
+<a class='plain' href='#'>plain Anchor</a>
+text
+<a class='plain'>linkless Anchor</a>
+be
+<input class='plain' type='submit' value='Input Button' />
+here
+
+
