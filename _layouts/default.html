@@ -17,8 +17,10 @@
       {{ content }}
 
     </section>
-  </div>
 
+    Number of words: {{ page.content | number_of_words }}
+  </div>
+  
   {% include footer.html %}
 </body>
 

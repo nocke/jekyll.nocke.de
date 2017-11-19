@@ -88,28 +88,17 @@ a, button.anchor, input.anchor, .anchor   // be so explicit for precedence
 
 // plain links (i.e. to prepare for menus, ...) -------------------------
 
-button.plain, a.plain,  input.anchor, .anchor   // be so explicit for precedence
+button.plain, a.plain,  input.plain   // be so explicit for precedence
   // unstyle (also the above, for button)
   background: transparent
+  color: inherit
+  text-decoration: inherit
+  font-size: inherit
+  font-family: inherit
   text-shadow: none
   box-shadow: none
   border: none
-  font-size: inherit // important for input!
-
-  // style
-  display: inline-block
-  // enlarge hover area:
-  padding: 6px
-  margin: -6px
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5)
-  text-decoration: underline
-  cursor: pointer // href-less buttons
-  color: $linkcolor
-  &:focus, &:hover
-    +bump
-    +round-small
-    color: lighten( $linkcolor, 15% )
-    background: rgba( $linkcolor, .1 )
+  padding: inherit
 
 
 
