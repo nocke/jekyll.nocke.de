@@ -1,4 +1,13 @@
 {
+    "files.exclude": {
+    	"**/.git": true,
+    	"**/.sass-cache": true,
+		"**/.tmp": true,
+		"**/node_modules": true,
+		"_site" : true,
+		".vscode" : true
+  	},
+
     "html.format.endWithNewline": false,
     "html.format.extraLiners": "",
     "css.validate": true,
