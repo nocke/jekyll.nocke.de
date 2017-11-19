@@ -2,9 +2,7 @@
 
     <ul class='plain-inline'>
         {% for item in site.data.menu-footer.entries %}
-        <li>
-            <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
-        </li>
+        <li><a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}alt="{{ item.title }}">{{ item.title }}</a></li>
         {% endfor %}
     </ul>
 
