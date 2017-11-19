@@ -5,28 +5,89 @@
  * modern <button> buttons, input buttons, anchor buttons
  * ---------------------------------- */
 
+$button-regular : #555
+$button-main : #c12
+$button-cta : $button-main
+
+$linkcolor : #63c0f5
+
+// everybody being a button
+
+#helperline
+  position: relative
+  height: 1px
+  color: transparent
+  &::after
+    display: block
+    position: absolute
+    width: 100%
+    bottom: -54px
+    content: ''
+    border-top: 1px solid #0f0
+
 button, a.button, input.button
+  margin: 0
+  padding: 0
+  font-family: Verdana, Helvetica, Arial, sans-serif
+  font-size: 1.6rem
   display: inline-block
-  +round-small
-  font-family: Ubuntu, Verdana, Helvetica, Arial, sans-serif
-  font-size: 12px
-  color: white
-  font-weight: bold
-
-
-  text-decoration: none
-  cursor: pointer
-  background: #555
-  margin: 5px 4px 10px -2px
-
-  height: 25px			//  25px + ...
-  padding: 2px 7px 0 7px
-
   border: none
-  box-sizing: border-box
+  line-height: 1em // that makes the input/button identical!
+  text-decoration: none
+  cursor: pointer // for 'action' buttons, w/o href, etc...
+  padding: 4px 8px
 
-// tweak vertical align for input buttons
-button, input.button
-  padding-bottom: 2px // pushing from bottom helps lifting baseline
-  background: #884
+  color: white
+  background: $button-regular
+  +round-small
+  @extend .shadow-tiny-text, .shadow-tiny
+
+  &:focus, &:hover
+    +bump
+    background: lighten( $button-regular, 10% )
+
+.button-main, a.button-main, input.button-main
+  background: $button-main
+  &:focus, &:hover
+    +bump
+    background: lighten( $button-main, 5% )
+
+.button-cta, a.button-cta, input.button-cta
+  background: $button-cta
+  font-size: 3rem
+  padding: 8px 12px
+  &:focus, &:hover
+    +bump
+    background: lighten( $button-cta, 5% )
+
+// everybody being an anchor ..........................
+
+a, button.anchor, input.anchor, .anchor   // be so explicit for precedence
+  // unstyle (also the above, for button)
+  background: transparent
+  text-shadow: none
+  box-shadow: none
+  border: none
+  font-size: inherit // important for input!
+
+  // style
+  display: inline-block
+  // enlarge hover area:
+  padding: 6px
+  margin: -6px
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5)
+  text-decoration: underline
+  cursor: pointer // href-less buttons
+  color: $linkcolor
+  &:focus, &:hover
+    +bump
+    +round-small
+    color: lighten( $linkcolor, 15% )
+    background: rgba( $linkcolor, .1 )
+
+
+
+
+
+
 
