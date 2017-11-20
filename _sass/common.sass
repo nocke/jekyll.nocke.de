@@ -1,5 +1,4 @@
 
-
 html, body
   margin: 0
   padding: 0
@@ -7,6 +6,7 @@ html, body
 
 html
   font-size: 62.5% // 1rem <:=> 10px
+  -webkit-font-smoothing: antialiased
 
 body
   position: relative
@@ -20,8 +20,77 @@ body
   line-height: 1.5
   font-family: Monaco, 'Bitstream Vera Sans Mono', 'Lucida Console', Terminal, monospace
 
+// common block level elements ____________________________
+header, footer, main, nav, section, div, p, blockquote, pre
+  margin: 0
+  padding: 0
 
 
+section
+  display: block
+  margin: 0 0 20px 0
+
+blockquote
+  color: #aaa
+  padding-left: 10px
+  border-left: 1px dotted #666
+
+pre
+  background: rgba(0, 0, 0, 0.9)
+  border: 1px solid rgba(255, 255, 255, 0.15)
+  padding: 10px
+  font-size: 16px
+  color: #b5e853
+  border-radius: 2px
+  text-wrap: normal
+  overflow: auto
+  overflow-y: hidden
+
+
+hr
+  height: 0
+  border: 0
+  border-bottom: 1px dashed #b5e853
+  color: #b5e853
+
+// headlines ______________________________________________
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
+  margin: 0 0 20px
+  font-weight: normal
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
+  color: $hackerGreen
+  letter-spacing: -0.03em
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
+  -webkit-font-smoothing: antialiased
+
+h1, .h1
+  text-align: center
+  font-size: 38px
+
+h2, .h2
+  font-size: 24px
+
+h3, .h3
+  font-size: 18px
+
+h4, .h4
+  font-size: 14px
+
+h5, .h5
+  font-size: 12px
+  text-transform: uppercase
+
+h6, .h6
+  text-transform: uppercase
+  color: #999
+
+// lists ________________________________________________
+
+ul
+  li
+    list-style-image: url("../img/bullet.png")
+    line-height: 1.4em
 
 ul.plain, .ul-plain, ul.plain-inline
   list-style: none
@@ -31,8 +100,7 @@ ul.plain, .ul-plain, ul.plain-inline
   li
     margin: 0
     padding: 0
-    display: block
-    // to fully fill width
+    display: block // to fully fill width
     a
       display: block
 
@@ -40,3 +108,20 @@ ul.plain-inline
   li, a
     display: inline-block
     white-space: nowrap
+
+// table ________________________________________________
+
+table
+  width: 100%
+  margin: 0 0 20px 0
+
+
+th
+  text-align: left
+  border-bottom: 1px dashed #b5e853
+  padding: 5px 10px
+
+td
+  padding: 5px 10px
+
+

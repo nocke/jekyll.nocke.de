@@ -5,8 +5,7 @@
 <body>
   {% unless page.show-header == false %}{% include header.html %}{% endunless %}
 
-  <div class="wrap">
-    <section id="main_content">
+  <main id="main" class="wrap">
 
       {% if my_page.title %}
       <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
@@ -16,12 +15,9 @@
 
       {{ content }}
 
-    </section>
-
-    Number of words: {{ page.content | number_of_words }}
-  </div>
+      Number of words: {{ page.content | number_of_words }}
+  </main>
   
   {% include footer.html %}
 </body>
-
 </html>
