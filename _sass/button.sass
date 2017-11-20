@@ -9,7 +9,7 @@ $button-regular : #555
 $button-main : #c12
 $button-cta : $button-main
 
-$linkcolor : #63c0f5
+$linkcolor : $hackerBlue
 
 // everybody being a button ----------------------------
 
@@ -72,15 +72,12 @@ a, button.anchor, input.anchor, .anchor   // be so explicit for precedence
 
   // style
   display: inline-block
-  // enlarge hover area:
-  padding: 6px
-  margin: -6px
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5)
   text-decoration: underline
   cursor: pointer // href-less buttons
   color: $linkcolor
   &:focus, &:hover
-    +bump
+    +unbump
     +round-small
     color: lighten( $linkcolor, 15% )
     background: rgba( $linkcolor, .1 )

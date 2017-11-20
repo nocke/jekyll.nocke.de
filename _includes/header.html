@@ -1,9 +1,4 @@
 <h3 id='page-type'>page type: {{ page.layout }}</h3>
-{% include menu-header.html %}
-<br/>
-{% include menu-footer.html %}
 <header>
-    <div class="wrap">
-        <h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' | escape }}{% endif %}</h1>
-    </div>
+    {% include menu-header.html %}
 </header>

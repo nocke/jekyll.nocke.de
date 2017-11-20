@@ -1,9 +1,7 @@
-<header>
-    <nav class='menu menu-header'>
+    <nav class='menu'>
         <ul class='plain-inline'>
             {% for item in site.data.menu-header.entries %}
             <li><a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}alt="{{ item.title }}">{{ item.title }}</a></li>
             {% endfor %}
         </ul>
     </nav>
-</header>

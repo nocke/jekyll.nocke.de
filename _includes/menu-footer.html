@@ -1,9 +1,7 @@
-<nav class='menu-footer'>
-
+<nav class='menu'>
     <ul class='plain-inline'>
         {% for item in site.data.menu-footer.entries %}
         <li><a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}alt="{{ item.title }}">{{ item.title }}</a></li>
         {% endfor %}
     </ul>
-
 </nav>
