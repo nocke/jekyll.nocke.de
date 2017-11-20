@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: " en-US " }}">
 {% include head.html %}
-<body>
+<body class='body home{% if page.bodyclass %} {{page.bodyclass}}{% endif %}'>
   {% include header.html %}
 
   <main id="main" class="wrap">
     <section>
 
-      {% if my_page.title %}
+      {% if page.title %}
       <h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' | escape }}{% endif %}</h1>
-      <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
       {% endif %}
 
       {{ content }}

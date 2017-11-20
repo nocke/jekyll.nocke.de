@@ -8,7 +8,7 @@ layout: home
 
 A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.
 
-Meet me on [XING](https://www.xing.com/profile/Frank_Nocke?keywords=frank+nocke+web+entwickler+frontend), [Github](https://github.com/nocke) or [StackOverflow](https://stackoverflow.com/users/444255/frank-nocke).
+Meet me on [<span class='icon-xing2'></span>XING](https://www.xing.com/profile/Frank_Nocke?keywords=frank+nocke+web+entwickler+frontend), [Github&thinsp;<span class='icon-github'></span>](https://github.com/nocke) or [StackOverflow&thinsp;<span class='icon-xing2'></span>](https://stackoverflow.com/users/444255/frank-nocke?tab=topactivity).
 
 ## The Road to enlightenment
 Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers.

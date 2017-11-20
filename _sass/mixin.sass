@@ -7,6 +7,28 @@ $shadowTiny: 0 1px 1px rgba( black, .6)
 .shadow-tiny-text
   text-shadow: 0 .5px 1px rgba( black, .6)
 
+// bounce-in ------------------
+
+// REF → https://codepen.io/codeams/pen/IuGxn
+@keyframes bounceIn
+  0%
+    opacity: 0
+    transform: scale(0.3) translate(-50%,-50%)
+  50%
+    opacity: 0.9
+    transform: scale(1.1) translate(-50%,-50%)
+  80%
+    opacity: 1.05
+    transform: scale(0.89) translate(-50%,-50%)
+  90%
+    opacity: 0.96
+    transform: scale(1.04) translate(-50%,-50%)
+  100%
+    opacity: 1
+    transform: scale(1) translate(-50%,-50%)
+
+
+
 // have buttons jump out ------------------
 =bump()
   transform: scale(1.02)
@@ -16,10 +38,6 @@ $shadowTiny: 0 1px 1px rgba( black, .6)
 
 =round-small()
   border-radius: 4px
-
-=shadow-small()
-  border-radius: 4px
-
 
 =retina
   @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)

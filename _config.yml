@@ -13,7 +13,8 @@ baseurl: ""
 timezone: "Europe/Berlin"
 url: "https://nocke.github.io/"
 #twitter_username: overnocke
-github_username:  nocke
+github_username: nocke
+encoding: UTF-8
 
 repository: "nocke/nocke.github.io"
 
