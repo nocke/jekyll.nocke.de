@@ -2,7 +2,6 @@
 permalink: cornerpin-center/
 bodyclass: cornerpin-center
 ---
-### foo
 
 # **Corner**pin _One_ is [here](#)
 ## The quick brown fox jumps over the lazy dog.

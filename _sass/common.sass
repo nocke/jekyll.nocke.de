@@ -58,15 +58,13 @@ hr
 
 // corner pin _____________________________________________
 
-body.cornerpin
-  background: #aca
+body.cornerpin // aka sticky footer
   main
-    background: #aac
     margin: 0 !important
-    border: 8px solid purple
     +border-box
     position: absolute
     max-width: none
+    // only y scrolling
     overflow: hidden
     overflow-y: auto
     left: 0
@@ -82,7 +80,6 @@ body.cornerpin-center // fully distinct styles
   padding-bottom: $footerHeight // without the +$pad
   main
     display: table-cell
-    background: #cac
     vertical-align: middle
   footer
     position: absolute
