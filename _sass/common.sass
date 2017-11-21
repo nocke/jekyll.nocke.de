@@ -56,6 +56,42 @@ hr
   border-bottom: 1px dashed $hackerGreen
   color: $hackerGreen
 
+// corner pin _____________________________________________
+
+body.cornerpin
+  background: #aca
+  main
+    background: #aac
+    margin: 0 !important
+    border: 8px solid purple
+    +border-box
+    position: absolute
+    max-width: none
+    overflow: hidden
+    overflow-y: auto
+    left: 0
+    right: 0
+    top: $headerHeight
+    bottom: $footerHeight
+
+// this is centering, min height as before,
+// scrollbars, if content demands (and I like it!)
+body.cornerpin-center // fully distinct styles
+  display: table
+  padding-top: $headerHeight // without the +$pad
+  padding-bottom: $footerHeight // without the +$pad
+  main
+    display: table-cell
+    background: #cac
+    vertical-align: middle
+  footer
+    position: absolute
+    left: 0
+    width: 100%
+    bottom: 0
+
+
+
 // headlines ______________________________________________
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
