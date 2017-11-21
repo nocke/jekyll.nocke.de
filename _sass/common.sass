@@ -58,28 +58,34 @@ hr
 
 // corner pin _____________________________________________
 
+// body.cornerpin == aka sticky footer, flexible center
+// body.cornerpin-center
+// == this is centering, min height as before,
+//    scrollbars, if content demands (and I like it!)
+
+// common
+body.cornerpin, body.cornerpin-center
+  main
+    +border-box
+    margin: 0 !important // win over any .wrap
+    max-width: none
+    overflow: hidden // only y scrolling, if any (important also for anim)
+    overflow-y: auto
+
+// individual
 body.cornerpin // aka sticky footer
   main
-    margin: 0 !important
-    +border-box
     position: absolute
-    max-width: none
-    // only y scrolling
-    overflow: hidden
-    overflow-y: auto
     left: 0
     right: 0
     top: $headerHeight
     bottom: $footerHeight
 
-// this is centering, min height as before,
-// scrollbars, if content demands (and I like it!)
-body.cornerpin-center // fully distinct styles
+body.cornerpin-center
   display: table
   padding-top: $headerHeight // without the +$pad
   padding-bottom: $footerHeight // without the +$pad
   main
-    max-width: none
     display: table-cell
     vertical-align: middle
   footer
@@ -87,7 +93,6 @@ body.cornerpin-center // fully distinct styles
     left: 0
     width: 100%
     bottom: 0
-
 
 
 // headlines ______________________________________________
