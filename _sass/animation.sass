@@ -1,0 +1,37 @@
+
+// bounce-in ------------------
+
+// REF → https://codepen.io/codeams/pen/IuGxn
+@keyframes bounceIn
+  0%
+    opacity: 0
+    transform: scale(0.4) translate3d(0,0,0)
+  40%
+    opacity: 0.9
+    transform: scale(1.2)
+  70%
+    opacity: 1
+    transform: scale(.92)
+  90%
+    transform: scale(1.02)
+  100%
+    opacity: 1
+    transform: scale(1) translate3d(0,0,0)
+
+
+.zbounce, .zbounce1, .zbounce2, .zbounce3, .zbounce4, .zbounce5
+    opacity: 0
+    animation-name: bounceIn
+    animation-duration: .5s
+    animation-timing-function: ease-in-out
+    animation-fill-mode: forwards
+
+.zbounce2
+    animation-delay: .2s
+.zbounce3
+    animation-delay: .4s
+.zbounce4
+    animation-delay: .6s
+.zbounce5
+    animation-delay: .8s
+
