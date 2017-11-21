@@ -37,3 +37,41 @@
 .zbounce5
     animation-delay: .8s
 
+
+// drop-in ___________________________________________
+
+// REF → https://codepen.io/codeams/pen/IuGxn
+@keyframes dropIn
+  0%
+    opacity: 0
+    transform: translate3d(0,-80vh,0)
+  40%
+    opacity: 0.9
+    transform: translate3d(0,10%,0)
+  70%
+    opacity: 1
+    transform: translate3d(0,-5%,0)
+  90%
+    transform: translate3d(0,-1%,0)
+  100%
+    opacity: 1
+    transform: translate3d(0,0,0)
+
+
+.zdrop, .zdrop1, .zdrop2, .zdrop3, .zdrop4, .zdrop5
+    opacity: 0
+    animation-name: dropIn
+    animation-duration: .5s
+    animation-timing-function: ease-in-out
+    animation-fill-mode: forwards
+    @at-root #{selector-append(span, &)}
+        display: inline-block
+
+.zdrop2
+    animation-delay: .2s
+.zdrop3
+    animation-delay: .4s
+.zdrop4
+    animation-delay: .6s
+.zdrop5
+    animation-delay: .8s
