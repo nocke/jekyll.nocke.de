@@ -1,5 +1,5 @@
 
-// bounce-in ------------------
+// bounce-in ___________________________________________
 
 // REF → https://codepen.io/codeams/pen/IuGxn
 @keyframes bounceIn
@@ -25,6 +25,8 @@
     animation-duration: .5s
     animation-timing-function: ease-in-out
     animation-fill-mode: forwards
+    @at-root #{selector-append(span, &)}
+        display: inline-block
 
 .zbounce2
     animation-delay: .2s
