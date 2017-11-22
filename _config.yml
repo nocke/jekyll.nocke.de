@@ -70,9 +70,11 @@ exclude:
    - node_modules
    - package.json
    - package-lock.json
+   - script
+   - .asset-cache
+   - .gitignore
    - CNAME
    - LICENSE
    - README.me
-   - .asset-cache
-   - .gitignore
    - PREP
+
