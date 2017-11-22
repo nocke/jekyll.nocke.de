@@ -1,0 +1,29 @@
+// multi-column layouts ______________________________
+// with responsive behaviour
+// various tiles
+//
+
+// https://stackoverflow.com/a/47139091/444255
+.multi-col
+    display: table
+    table-layout: fixed // don't fudge depending on content
+    width: 100%
+    padding: 2% 0
+
+    header
+        display: table-header-group
+
+    .col
+        position: relative // just in case of abs pos children
+        display: table-cell
+        vertical-align: top // a needed override
+        width: 50%
+        padding: 0 0 0 3% // some vertical, and between columns
+        &:first-of-type
+            padding-left: 0  // there's nothing before col1
+
+    ul.col
+        padding-left: 1em !important
+
+
+
