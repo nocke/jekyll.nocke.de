@@ -1,13 +1,53 @@
 #!/usr/bin/env bash
 
-#just a comment
-read -p "Enter Blogpost Name: " POSTNAME
-echo $POSTNAME
+TITLE="$*"
+# Teststring: TITLE="die Jürgen ÄÖÜ.!#äöü Straße 42🎜 ♬"
 
-# generate date automatically
-# derive slug
-# generate file with appropriate liquid header
+if [ $# -eq 0 ]; then
+    echo "usage: ./script/create-post.sh The title of your blogpost goes here"
+    exit 1
+fi
 
-echo howdy, partner!
+# Prepare the slug
+SLUG=$TITLE
+SLUG="$(echo -n "$SLUG" | sed -e 's/[^[:alnum:]]/-/g')"
+SLUG="$(echo -n "$SLUG" | tr -s '-')"
+SLUG="$(echo -n "$SLUG" | sed 'y/ąćęłńóśźż/acelnoszz/')"
+SLUG="$(echo -n "$SLUG" | sed 's/ß/ss/g')"
+SLUG="$(echo -n "$SLUG" | sed 's/ä/ae/g')"
+SLUG="$(echo -n "$SLUG" | sed 's/ö/oe/g')"
+SLUG="$(echo -n "$SLUG" | sed 's/ü/ue/g')"
+SLUG="$(echo -n "$SLUG" | sed 's/Ä/Ae/g')"
+SLUG="$(echo -n "$SLUG" | sed 's/Ö/Oe/g')"
+SLUG="$(echo -n "$SLUG" | sed 's/Ü/Ue/g')"
+SLUG="$(echo -n "$SLUG" | sed -e 's/^[\-]*//' -e 's/[\-]*$//')"
 
+DATE=`date +%Y-%m-%d`
+TYPE='.md'
+PERMALINK=${DATE}-${SLUG}${TYPE}
+FULLPATH=./_posts/${PERMALINK}
+# (do not call it path, for obvious reasons)
 
+echo TITLE:  $TITLE
+echo SLUG:   $SLUG
+echo DATE:   $DATE
+echo PERMA:  $PERMALINK
+echo PATH:   $FULLPATH
+
+# (touch + append avoids accidental deletion of already existing)
+
+touch ${FULLPATH}
+
+echo "---
+layout: post
+title: ${TITLE}
+permalink: ${PERMALINK}
+categories: hamburg, frontend, javascript
+---
+
+" >> $FULLPATH;
+
+echo "Done -----------------"
+
+# No idea, why the heck this is not working:
+code -r "$FULLPATH"
