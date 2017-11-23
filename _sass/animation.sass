@@ -34,6 +34,22 @@
     animation-fill-mode: forwards
 
 
+@keyframes zoomin
+  0%
+    animation-timing-function: linear
+    transform: scale(1) translate3d(0,0,0)
+  80%
+    transform: scale(1.09) translate3d(0,0,0)
+  100%
+    animation-timing-function: ease-out
+    transform: scale(1.1) translate3d(0,0,0)
+
+.zoomin
+    animation-name: zoomin
+    animation-duration: 12s
+    animation-fill-mode: forwards
+
+
 
 .zbounce, .zbounce1, .zbounce2, .zbounce3, .zbounce4, .zbounce5
     opacity: 0
