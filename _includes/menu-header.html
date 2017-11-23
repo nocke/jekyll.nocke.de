@@ -3,5 +3,7 @@
             {% for item in site.data.menu-header.entries %}
             <li><a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}alt="{{ item.title }}">{{ item.title }}</a></li>
             {% endfor %}
+
+            <li class='fav'><a href="favorites">Favs&thinsp;<span class='icon-heart'></span></a></li>
         </ul>
     </nav>

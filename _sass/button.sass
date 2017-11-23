@@ -7,7 +7,7 @@
 
 $button-regular : #555
 $button-main : #c12
-$button-cta : $button-main
+$button-cta : rgb(56,198,58)
 
 $linkcolor : $hackerBlue
 
@@ -54,11 +54,15 @@ button, a.button, input.button
 
 .button-cta, a.button-cta, input.button-cta
   background: $button-cta
+  background: linear-gradient(to bottom, rgba(77,205,79,1) 0%,rgba(62,200,67,1) 50%,rgba(44,158,49,1) 51%,rgba(36,130,39,1) 90%,rgba(54,164,72,1) 100%)
+
   font-size: 3rem
   padding: 8px 12px
   &:focus, &:hover
     +bump
+    color: white
     background: lighten( $button-cta, 5% )
+    background: linear-gradient(to bottom, rgba(94,210,96,1) 0%,rgba(81,205,85,1) 50%,rgba(50,182,57,1) 51%,rgba(44,156,47,1) 90%,rgba(61,187,82,1) 100%)
 
 // everybody being an anchor ..........................
 
