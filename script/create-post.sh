@@ -35,7 +35,6 @@ echo PERMA:  $PERMALINK
 echo PATH:   $FULLPATH
 
 # (touch + append avoids accidental deletion of already existing)
-
 touch ${FULLPATH}
 
 echo "---
@@ -43,6 +42,7 @@ layout: post
 title: ${TITLE}
 permalink: ${PERMALINK}
 categories: hamburg, frontend, javascript
+lang: en-US
 ---
 
 " >> $FULLPATH;
