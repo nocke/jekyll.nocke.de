@@ -2,21 +2,37 @@
 layout: home
 ---
 
-# The **Beauty** of _CSS_ design is [here](#)
+# Herzlich willkommen
 
-![image-title-here](img/bg_amden.jpg){:class="img-responsive"}
+![Frank Nocke](img/frank-nocke/frank-nocke-portrait-ballon.jpg){:class="img-responsive"}
 
-A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.
+Ich bin ein freier Software-Entwickler aus Hamburg, Schwerpunkt Frontend-Entwicklung. HTML5, CSS3, javaScript, jQuery.
 
-Meet me on [<span class='icon-xing2'></span>XING](https://www.xing.com/profile/Frank_Nocke?keywords=frank+nocke+web+entwickler+frontend), [Github&thinsp;<span class='icon-github'></span>](https://github.com/nocke) or [StackOverflow&thinsp;<span class='icon-xing2'></span>](https://stackoverflow.com/users/444255/frank-nocke?tab=topactivity).
+<!-- TODO → English Version -->
 
-## The Road to enlightenment
-Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers.
+Ich habe schon viele „typische“ Agentur-Website-Projekte für kleine und mittlere Internet-Agenturen in Hamburg bearbeitet. Häufig „full stack“, also PHP, Apache, MySQL bis hin zum Frontend (HTML, CSS, jQuery, Sprites…).
 
-We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C, WaSP, and the major browser creators.
+## Skills
 
-The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web.
+HTML5, CSS3, Less, Sass,
+responsive Design, mobile Devices, legacy Browser
+Templateentwicklung mit Smarty, Twig, jsp/JSTL…
+Javascript, jQuery, Ajax, Google Maps API, Twitter API, OpenGraph, Ajax, MVC, Json, XML
+Photoshop (Experte): Entwürfe, Mockups, CSS Sprites
+Linux, Apache, MySQL, PHP (Full Stack)
+git, svn, Perforce
+ 
 
-## So What ist this about?
+## ★ moderne Web Entwicklung ❀ Webdesign  —  html⁵ ❧ CSS³ ➪ responsive Design ❧  mobile ❧ SEO ❧  jQuery ❧ PHP ★
 
-There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The HTML remains the same, the only thing that has changed is the external CSS file. Yes, really.
+Von Februar 2013 bis April 2015 war ich beim SPIEGEL Verlag auf einer ganzen Reihe von Projekten gebucht, mit Schwerpunkt auf  Frontend, responsive Design und javaScript Programmierung: Relaunch von Abo-Shops, Umgestaltung von Sites auf Responsive, Re-Launch einer redaktionellen Website, Self-Services, komplexe Javascript-Logik (Prämienkonfigurator,…).
+
+In meinem letzten Projekt habe ich am UI/Frontend für einen großen Finanzdienstleister mitgarbeitet. Technologien: Apache Wicket, HTML5, CSS3, Optimierungen für Mobile und Tablet mit Media Queries und javascript (jQuery, require.js, angular.js). Taskrunner/Buildloop: Gulp.js (ähnlich Grunt) auf Basis von node.js (require.js, npm). Versionierung: git.
+
+Gerne arbeite ich auch an Konzepten und kann Ideen und Erweiterungen mit konkreten Photoshop-Entwürfen verbindlich in Pixel umsetzen. Mein Foto- und Computergrafik-Hintergrund hift mir, viele Aufgaben zwischen Gestaltung und Programmierung reibungslos und gern auch mit direktem Kontakt zur Fachabteilung zu lösen.
+
+
+
+Mein Lebenslauf (word/pdf) ist verfügbar auf <a href='/kontakt/'>Anfrage</a>.
+
+[➪ Mehr über mich]({% link _pages/werdegang-deutsch.md %})

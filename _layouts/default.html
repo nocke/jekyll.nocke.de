@@ -6,14 +6,10 @@
   {% unless page.show-header == false %}{% include header.html %}{% endunless %}
 
   <main id="main" class="wrap">
-
       {% if page.title %}
       <h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' | escape }}{% endif %}</h1>
       {% endif %}
-
       {{ content }}
-
-      Number of words: {{ page.content | number_of_words }}
   </main>
   
   {% include footer.html %}

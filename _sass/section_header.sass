@@ -1,6 +1,8 @@
 
 header
+  margin-top: 200px //TMEPTEMP
   position: absolute
+  +border-box
   top: 0
   width: 100%
   z-index: 20
@@ -8,7 +10,31 @@ header
   border-bottom: 4px solid darken($gray, 10%)
   height: $headerHeight
 
+  .header-image
+    height: 140px
+    background: green
+    //overflow: hidden
+    box-shadow: inset 0px -4px 16px 0px rgba(0,0,0,0.5)
+    div
+      +border-box      
+      width: 100%
+      height: 100%
+      border: 4px solid purple
+      @extend .zoomout
+
+    span
+      +border-box
+      display: block
+      border: 4px solid orange
+      +transcenter()
+
+    img
+      width: 1920px
+      height: 400px
+      opacity: .5
+
   .menu
+    opacity: .6
     text-align: left
     font-size: 0
     a

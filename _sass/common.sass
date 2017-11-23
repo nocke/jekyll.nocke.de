@@ -23,11 +23,13 @@ body
   font-family: Monaco, 'Bitstream Vera Sans Mono', 'Lucida Console', Terminal, monospace
 
 // common block level elements ____________________________
-header, footer, main, nav, section, div, p, blockquote, pre
+header, footer, main, nav, section, div, blockquote, pre
   position: relative
   margin: 0
   padding: 0
 
+p
+  margin: .8em 0
 
 section
   display: block
@@ -155,8 +157,9 @@ ul.plain-inline
 
 // img handling _________________________________________
 
-img
-  max-width: 100%
+main // only in main!
+  img
+    max-width: 100%
 
 
 // table ________________________________________________

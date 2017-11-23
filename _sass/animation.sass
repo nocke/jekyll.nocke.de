@@ -18,6 +18,22 @@
     opacity: 1
     transform: scale(1) translate3d(0,0,0)
 
+@keyframes zoomout
+  0%
+    animation-timing-function: linear
+    transform: scale(1.1) translate3d(0,0,0)
+  80%
+    transform: scale(1.03) translate3d(0,0,0)
+  100%
+    animation-timing-function: ease-out
+    transform: scale(1) translate3d(0,0,0)
+
+.zoomout
+    animation-name: zoomout
+    animation-duration: 8s
+    animation-fill-mode: forwards
+
+
 
 .zbounce, .zbounce1, .zbounce2, .zbounce3, .zbounce4, .zbounce5
     opacity: 0
@@ -25,7 +41,8 @@
     animation-duration: .5s
     animation-timing-function: ease-in-out
     animation-fill-mode: forwards
-    @at-root #{selector-append(span, &)}
+    // on inline-stuff like letters, adjust blocking
+    @at-root #{selector-append(span, &)}  // → stackoverflow.com/q/47417943
         display: inline-block
 
 .zbounce2

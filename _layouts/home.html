@@ -7,13 +7,7 @@
   <main id="main" class="wrap">
     <section>
 
-      {% if page.title %}
-      <h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' | escape }}{% endif %}</h1>
-      {% endif %}
-
       {{ content }}
-
-      {% include post-list.html %}
 
     </section>
   </main>
