@@ -2,7 +2,7 @@
 title: Frank Nocke - Vita & Resume
 categories: Frank Nocke, Frontend, Freelancer, Lebenslauf, Freiberufler, Web Entwickler, Javascript
 permalink: frontend-javascript-react-freelancer/resume/cv/english/switzerland/frank-nocke/
-lang: en-US
+lang: en
 ---
 
 ![Frank Nocke Presse Fotographie](/img/frank-nocke/portrait/frank-nocke-deich.jpg){:class="floatright"}
