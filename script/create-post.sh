@@ -4,7 +4,7 @@ TITLE="$*"
 # Teststring: TITLE="die Jürgen ÄÖÜ.!#äöü Straße 42🎜 ♬"
 
 if [ $# -eq 0 ]; then
-    echo "usage: ./script/create-post.sh The title of your blogpost goes here"
+    printf "\nusage: ./script/create-post.sh The title of your blogpost goes here\n\n"
     exit 1
 fi
 
@@ -42,12 +42,10 @@ layout: post
 title: ${TITLE}
 permalink: ${PERMALINK}
 categories: hamburg, frontend, javascript
-lang: en-US
+lang: en
 ---
 
 " >> $FULLPATH;
 
 echo "Done -----------------"
-
-# No idea, why the heck this is not working:
 code -r "$FULLPATH"
