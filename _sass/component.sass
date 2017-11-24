@@ -1,0 +1,21 @@
+
+
+body .bilingual
+  background: rgba(green, .2)
+
+  a
+    +radiusL
+    background: rgba(purple, .2)
+    overflow: hidden
+    text-overflow: ellipsis
+    &:hover, &:focus
+      background: rgba(white, .2)
+
+  // height limiter (can't do on table)
+  span
+    display: block
+    background: rgba(orange, .2)
+    //height: 12em
+    overflow: hidden
+    text-overflow: ellipsis
+      
