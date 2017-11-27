@@ -18,8 +18,8 @@ Images in the `/img/frank-nocke` folder are UNLICENSED. Please remove from your 
 
 Webfonts contained are under the respective License:
 
-[**Ubuntu Font**](css/fonts/ubuntu/) taken from [here](https://design.ubuntu.com/font/) is under the [Ubuntu Open Font license Version 1.0](https://www.ubuntu.com/legal/terms-and-policies/font-licence) ([local license file TODO](css/fonts/ubuntu/LICENSE.txt))
+[**Ubuntu Font**](css/fonts/ubuntu/) taken from [here](https://design.ubuntu.com/font/) is under the [Ubuntu Open Font license Version 1.0](https://www.ubuntu.com/legal/terms-and-policies/font-licence) ([license file in repo](css/fonts/ubuntu/LICENCE.txt))
 
-[**Pacifico Font**](css/fonts/pacifico/) taken from [here](https://fonts.google.com/specimen/Pacifico) is under the [SIL Open Font License, Version 1.1](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web) ([local license file TODO](css/fonts/pacifico/LICENSE.txt))
+[**Pacifico Font**](css/fonts/pacifico/) taken from [here](https://fonts.google.com/specimen/Pacifico) is under the [SIL Open Font License, Version 1.1](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web) ([license file in repo](css/fonts/pacifico/LICENSE.txt))
 
 The [**Icomoon icon font**](css/fonts/icomoon/) generated [here](https://icomoon.io/app) is used under the [Creative Commons CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) Keyamoon ([github](https://github.com/Keyamoon/IcoMoon-Free)|[website](http://keyamoon.com/)) license.
