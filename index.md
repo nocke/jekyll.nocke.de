@@ -8,7 +8,8 @@ bodyclass: home
     <div class='col h1 center zdrop1'>Welcome</div>
 </div>
 
-![Frank Nocke](img/frank-nocke/frank-nocke-portrait-ballon.jpg){:class="img-responsive"}
+
+![{{site.description | strip_newlines | strip_html | truncatewords:24 | replace: "|", "" }}]({{site.static}}/img/frank-nocke/frank-nocke-portrait-ballon.jpg)
 
 {% capture introDE %}{% include intro_DE.md %}{% endcapture %}
 {% capture introEN %}{% include intro_EN.md %}{% endcapture %}
@@ -62,7 +63,7 @@ Linux, Apache, MySQL, PHP (Full Stack)
 git, svn, Perforce
 
 
-## ★ Lebenslauf \/ Resume ★
+## ★ Lebenslauf / Resume ★
 
 Mein Lebenslauf (word/pdf) ist verfügbar auf <a href='/kontakt/'>Anfrage</a>.
 

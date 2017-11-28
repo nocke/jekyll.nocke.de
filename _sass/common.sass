@@ -17,10 +17,10 @@ body
   background: #151515 url('./bkg.png') 0 0
 
   color: white
-  font-size: 16px // actual font size
+  font-size: 20px // actual font size
   min-height: 100vh
-  line-height: 1.5
-  font-family: Monaco, 'Bitstream Vera Sans Mono', 'Lucida Console', Terminal, monospace
+  line-height: 1.6
+  font-family: Ubuntu, Arial, Helvetica, sans-serif
 
 // common block level elements ____________________________
 header, footer, main, nav, section, div, blockquote, pre
@@ -103,9 +103,7 @@ body.cornerpin-center
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
   margin: .32em 0 .1em
   font-weight: normal
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
-  color: $hackerGreen
-  letter-spacing: -0.03em
+  color: white
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
   -webkit-font-smoothing: antialiased
 
@@ -121,7 +119,8 @@ h1, .h1
     word-spacing: .12em
 
 h2, .h2
-  font-size: 24px
+  color: $green
+  font-size: 30px
   &.fancy, .fancy &
     font-size: 50px
     word-spacing: .12em
@@ -171,6 +170,8 @@ ul.plain-inline
 
 main // only in main!
   img
+    font-size: .5em
+    color: rgba( black, .4 ) // don't overlit alt-texts
     max-width: 100%
 
 
