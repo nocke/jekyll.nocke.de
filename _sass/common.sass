@@ -107,16 +107,23 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
   -webkit-font-smoothing: antialiased
 
-  &.fancy, .fancy &
+  &.fancy, .fancy &,
     font-weight: 400
     font-family: Pacifico, Segoe, "Segoe UI", sans-serif
+
+body.h1fancy h1, body.h1fancy .h1
+  font-weight: 400
+  font-family: Pacifico, Segoe, "Segoe UI", sans-serif
+
 
 h1, .h1
   text-align: center
   font-size: 44px
   &.fancy, .fancy &
+  @at-root body.h1fancy &
     font-size: 90px
     word-spacing: .12em
+
 
 h2, .h2
   color: $green
@@ -181,13 +188,14 @@ table
   width: 100%
   margin: 0 0 20px 0
 
-
 th
   text-align: left
-  border-bottom: 1px dashed $hackerGreen
+  border-bottom: 4px solid $hackerBlue
   padding: 5px 10px
 
 td
   padding: 5px 10px
 
+tr:nth-child(odd) td
+  background: rgba( $hackerBlue, .18)
 

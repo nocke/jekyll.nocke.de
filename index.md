@@ -4,8 +4,8 @@ bodyclass: home
 ---
 
 <div class='multi-col'>
-    <div class='col h1 center zbounce1'>Herzlich willkommen</div>
-    <div class='col h1 center zdrop1'>Welcome</div>
+    <div class='col h1 fancy center zbounce1'>Herzlich willkommen</div>
+    <div class='col h1 fancy center zdrop1'>Welcome</div>
 </div>
 
 
@@ -30,8 +30,19 @@ bodyclass: home
 
 </section>
 
+## Skills
 
-## Academia
+| React JS, Redux, Node JS, npm, yarn |
+| --- |
+| HTML5, CSS3, Less, Scss/Sass, Stylus |
+| responsive Design, mobile Devices, legacy Browser |
+| Templateentwicklung mit Smarty, Twig, jsp/JSTL… |
+| Javascript, jQuery, Ajax, Google Maps API, Twitter API, OpenGraph, Ajax, MVC, Json, XML |
+| Photoshop (Experte): Entwürfe, Mockups, CSS Sprites |
+| Linux, Apache, MySQL, PHP (Full Stack) |
+| git, svn, Perforce |
+
+## Academia &amp; Experience
 
 * Diplom-Informatiker[[FH Furtwangen](https://www.hs-furtwangen.de/studierende/fakultaeten/digitale-medien/medieninformatik-bsc.html)] 1993–1997
 * Master of Computer Science [[FH Wedel](http://www.fh-wedel.de/)] 2002–2005
@@ -39,33 +50,15 @@ bodyclass: home
 * 2 years [teaching Computer Science in Singapore](http://www.np.edu.sg/ict/Pages/default.aspx)
 * Freelance Web Developer since 2011
 
-## Skills
+<h2 class='h1'>★ Lebenslauf / Resume ★</h2>
 
-| Just          | A             | Table |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | €100  |
-| col 2 is      | centered      | ¥100  |
-| zebra stripes | are neat      | $100  |
+<div class='multi-col'>
+    <div class='col h1 center zbounce1'>
+        <button class='button-cta'>➪ Mehr über mich</button>
+    </div>
+    <div class='col h1 center zdrop1'>
+        <button class='button-cta'>➪ More about me</button>
+    </div>
+</div>
 
-| Just          | A             | Table |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | €100  |
-| col 2 is      | centered      | ¥100  |
-| zebra stripes | are neat      | $100  |
-
-
-HTML5, CSS3, Less, Sass,
-responsive Design, mobile Devices, legacy Browser
-Templateentwicklung mit Smarty, Twig, jsp/JSTL…
-Javascript, jQuery, Ajax, Google Maps API, Twitter API, OpenGraph, Ajax, MVC, Json, XML
-Photoshop (Experte): Entwürfe, Mockups, CSS Sprites
-Linux, Apache, MySQL, PHP (Full Stack)
-git, svn, Perforce
-
-
-## ★ Lebenslauf / Resume ★
-
-Mein Lebenslauf (word/pdf) ist verfügbar auf <a href='/kontakt/'>Anfrage</a>.
-
-[➪ Mehr über mich]({% link _pages/werdegang-deutsch.md %})
-[➪ More about me]({% link _pages/resume-english.md %})
+Mein Lebenslauf (word/pdf) ist für Recruiter & Auftraggeber verfügbar auf <a href='/kontakt/'>Anfrage</a>.

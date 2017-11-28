@@ -7,13 +7,13 @@ header
   top: 0
   width: 100%
   z-index: 20
-  background: $gray
-  border-bottom: 4px solid darken($gray, 10%)
+  background: $gray2
+  border-bottom: 4px solid $gray1
   height: $headerHeight
 
   .header-image
     height: $headerImageHeight
-    background: $grayDark
+    background: $darkblue
     overflow: hidden
     .zoomer
       width: 100%
@@ -44,9 +44,9 @@ header
     a
       color: $grayLight
       text-decoration: none
-      padding: 9px 10px
+      padding: 6px 10px
+      margin: 2px 0
       +radiusL
-      margin: 0
     li.active a
       background: white
       color: black
@@ -57,7 +57,10 @@ header
 
     .fav
       span, span::before
-        color: $grayLight
+        color: $gray5
         line-height: 0 !important
         padding: 0 !important
         margin: 0 !important
+      &.active span::before
+        color: $orange
+        @extend .zbounce2
