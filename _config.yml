@@ -22,6 +22,7 @@ repository: "nocke/nocke.github.io"
 theme: jekyll-theme-hacker
 github: [metadata]
 layout: default
+static: '//static.nocke.de'
 
 # Sass compilation -----------------------------------------------
 sass:

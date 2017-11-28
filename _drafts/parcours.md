@@ -8,7 +8,7 @@ permalink: parcours/
 #### **head**line _Four_ is [here](#)
 ##### **head**line _Five_ is [here](#)
 
-![image-title-here](/img/bg_amden.jpg){:class="img-responsive"}
+![image-title-here]({{site.static}}/img/bg_amden.jpg){:class="img-responsive"}
 
 ```javascript
     const demo = { a:42, b:true};
@@ -82,7 +82,7 @@ here
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
-[I'm a relative reference to a repository file](/img/alunan.jpg)
+[I'm a relative reference to a repository file]({{site.static}}/img/alunan.jpg)
 
 [You can use numbers for reference-style link definitions][1]
 

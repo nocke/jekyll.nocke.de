@@ -4,7 +4,7 @@ categories: Frank Nocke, Frontend, Freelancer, Lebenslauf, Freiberufler, Web Ent
 permalink: frontend-javascript-freelancer/hamburg/schweiz/frank-nocke/
 ---
 
-![Frank Nocke Presse Fotographie](/img/frank-nocke/portrait/frank-nocke-deich.jpg){:class="floatright"}
+![Frank Nocke Presse Fotographie]({{site.static}}/img/frank-nocke/portrait/frank-nocke-deich.jpg){:class="floatright"}
 
 Aufgewachsen bin ich in Osnabrück. Möglicherweise war mein beruflicher Weg über ZX-81, Apple ][ und Amiga 500 ein wenig vorbestimmt… An der FH Furtwangen im Schwarzwald habe ich von 1993 bis 1997 Medieninformatik studiert.
 
@@ -28,7 +28,7 @@ Von Februar 2013 bis April 2015 war ich beim SPIEGEL Verlag auf einer ganzen Rei
 
 Gerne arbeite ich auch an Konzepten und kann Ideen und Erweiterungen mit konkreten Photoshop-Entwürfen verbindlich in Pixel umsetzen. Mein Foto- und Computergrafik-Hintergrund hift mir, viele Aufgaben zwischen Gestaltung und Programmierung reibungslos und gern auch mit direktem Kontakt zur Fachabteilung zu lösen.
 
-![Frank Nocke Presse Fotographie](/img/frank-nocke/frank-nocke-portrait-beach.jpg){:class="img-responsive"}
+![Frank Nocke Presse Fotographie]({{site.static}}/img/frank-nocke/frank-nocke-portrait-beach.jpg){:class="img-responsive"}
 
 
 Künstlerisch tobe ich mich in meiner Freizeit weiterhin im Bereich Panorama-, Sport- und Event-Fotos² aus. Von lokalen Events bis hin zu Bundesliga und deutsche Meisterschaften. Veröffentlichungen in Stern, Abendblatt, Taz, Welt, Hamburger Morgenpost und Elbe Wochenblatt.
