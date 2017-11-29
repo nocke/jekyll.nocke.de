@@ -3,6 +3,23 @@
 //     <────────┼─────────┼─────────┼──────────┼──────────┤
 //       purple    blue     green      yellow    orange
 $breakpoints: (s: 480px, m: 768px, l: 960px, xl: 1200px)
+$tween: ()
+
+$prior: null
+@each $bp, $value in $breakpoints
+  @if $prior != null
+    $tweenResolution : floor( (map-get($breakpoints, $prior) + map-get($breakpoints, $bp)) / 2)
+    $tuple: ( #{$prior}-#{$bp} : $tweenResolution )
+    $tween: map-merge($tween, $tuple)
+  $prior: $bp
+
+$breakpoints: map-merge($breakpoints, $tween)
+
+// debug output
+@each $bp, $value in $breakpoints
+  .banana-#{$bp}
+    color: #{$value}
+
 
 =below($breakpoint)
   $value: map-get($breakpoints, $breakpoint)
