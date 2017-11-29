@@ -2,6 +2,15 @@
 permalink: parcours/
 ---
 
+<div id='breakpoints' markdown='1'>
+
+| 480px  | 624px  | 768px  | 864px  | 960px  | 1080px | 1200px | above  |
+| -----: | -----: | -----: | -----: | -----: | -----: | -----: | -----: |
+| s      | s-m    | m      | m-l    | l      | l-xl   | xl     |        |
+
+</div>
+
+
 # **head**line _One_ is [here](#) – Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 ## **head**line _Two_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 ### **head**line _Three_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
@@ -24,8 +33,7 @@ permalink: parcours/
 
 Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una, pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine.
 
-
-<!-- ![image-title-here]({{site.static}}/img/bg_amden.jpg){:class="img-responsive"} -->
+![image-title-here]({{site.static}}/img/bg_amden.jpg){:class="img-responsive"}
 
 
 

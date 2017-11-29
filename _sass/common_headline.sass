@@ -46,22 +46,6 @@
   +below(s)
     font-size: 20px
 
-
-
-// debug coloring:
-.r1, .r2, .r3
-  background: rgba( lawngreen, .2)
-  +above(l)
-    background: rgba( yellow, .2)
-  +above(xl)
-    background: rgba( orange, .2)
-  +below(m)
-    background: rgba( blue, .2)
-  +below(s)
-    background: rgba( purple, .2)
-
-
-
 // headlines ______________________________________________
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
@@ -79,30 +63,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
 body.h1fancy h1, body.h1fancy .h1
   font-weight: 400
   font-family: Pacifico, Segoe, "Segoe UI", sans-serif
+  font-size: 90px
+  word-spacing: .12em
 
 
 h1, .h1
+  @extend .r1
   text-align: center
-  font-size: 44px
-  &.fancy, .fancy &  // hack (can join together)
-    font-size: 90px
-    word-spacing: .12em
-  @at-root body.h1fancy &
-    font-size: 90px
-    word-spacing: .12em
-
 
 h2, .h2
+  @extend .r2
   color: $green
-  font-size: 30px
-  &.fancy, .fancy &
-    font-size: 50px
-    word-spacing: .12em
 
 h3, .h3
+  @extend .r3
   font-size: 18px
-  &.fancy, .fancy &
-    font-size: 30px
 
 h4, .h4
   color: $gray6
