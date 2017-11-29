@@ -7,8 +7,8 @@ header
   top: 0
   width: 100%
   z-index: 20
-  background: $gray2
-  border-bottom: 4px solid $gray1
+  background: $gray3
+  border-bottom: 3px solid $gray2
   height: $headerHeight
 
   .header-image
@@ -35,39 +35,63 @@ header
       box-shadow: inset 0px -4px 16px 0px rgba(0,0,0,0.8)
 
   .menu
+    border-top: 2px solid $gray4
     text-align: center
     +below(m)
       text-align: left
       padding-left: $pad
-      padding-right: $pad
+      padding-right: floor($pad/4)
 
     ul.plain-inline
-      font-size: 0
+      font-size: 0 // prevent spaces
     li
       font-size: 1.6rem
+
+    // an inner div, to not hightlight all, but have the margin in the hover area
     a
-      color: $grayLight
+      display: block
+      color: $gray5
       text-decoration: none
-      padding: 6px 10px
+      padding: 2px 4px
+      +below(l)
+        padding: 2px 2px
+    div
+      +radiusS
+      text-align: center
+      padding: 6px 20px
+      +below(xl)
+        padding: 6px 15px
+      +below(l-xl)
+        padding: 6px 6px
       +below(m-l)
-        padding: 6px 4px
-      margin: 2px 0
-      +radiusL
-    li.active a
+        padding: 6px 3px
+    li:focus, li:hover
+      div
+        +bump
+        background: rgba( $gray4, .5)
+        //@extend .bounce
+    li.active div
       background: white
       color: black
 
+
     ul li:first-child a
       font-weight: 900
-      margin-right: 40px
+      padding-right: 40px
+      +below(xl)
+        padding-right: 20px
       +below(l)
-        margin-right: 4px
+        padding-right: 4px
         span
           display: none
+      +below(s-m)
+        b
+          display: none
+
+    b
+      font-weight: inherit
 
     .fav
-      b
-        font-weight: inherit
         +below(m-l)
           display: none
       i, i::before
@@ -76,9 +100,9 @@ header
         padding: 0 !important
       &:focus, &:hover, &.active
         i::before
+          @extend .bounce
           transform: scale(1.2) translate3d(0,0,0)
-          color: $orange
-          @extend .bounce2
+          color: $orange // the heart orange
       +below(m)
         font-size: 1.8rem
         float: right

@@ -2,7 +2,7 @@ entries:
 
 # Frank Nocke – Frontend Entwickler
 
-- title: Frank Nocke<span> • Frontend • Javascript 123</span>
+- title: Frank Nocke<span> • Frontend • Javascript</span>
   short: Startseite
   url: /
 
@@ -12,8 +12,8 @@ entries:
 - title: About me
   url: /frontend-javascript-react-freelancer/resume/cv/english/switzerland/frank-nocke/
 
-- title: Parcour3
-  link: _pages/parcour.md
+- title: Parcour
+  url: /parcours/
 
 - title: Blog
   url: /blog/

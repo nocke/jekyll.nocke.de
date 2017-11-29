@@ -2,6 +2,14 @@
 permalink: parcours/
 ---
 
+<div id='grays' markdown='1'>
+
+| -----: | -----: | -----: | -----: | -----: | -----: |
+| gray1  | gray2  | gray3  | gray4  | gray5  | white  |
+
+</div>
+
+
 <div id='breakpoints' markdown='1'>
 
 | 480px  | 624px  | 768px  | 864px  | 960px  | 1080px | 1200px | above  |

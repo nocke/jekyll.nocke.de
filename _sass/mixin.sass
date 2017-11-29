@@ -23,18 +23,21 @@ $shadowTiny: 0 1px 1px rgba( black, .6)
   transform: translate(-50%,-50%)
 
 
-=bump()
+=bump
   transform: scale(1.02)
 
-=unbump()
+=unbump
   transform: scale(1.00)
 
-=round-small()
+=round-small
   border-radius: 4px
 
 //I am just lazy
-=border-box()
-  box-sizing: border-box
+=border-box
+  box-sizing: border-box !important
+
+=content-box
+  box-sizing: content-box !important
 
 =retina
   @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)

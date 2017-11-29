@@ -10,13 +10,10 @@
     <ul class='plain-inline'>
         {% for item in site.data.menu-header.entries %}
         <li {% if url == item.url %}class='active' {% endif %}>
-            <a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}alt="{{ item.title }}">
-                {% if rooturl == item.url %}<i class='icon-home'></i>&thinsp;{% endif %}
-                {{ item.title }}
-            </a>
+            <a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}alt="{{ item.title }}"><div>{% if rooturl == item.url %}<i class='icon-home'></i>&thinsp;{% endif %}<b>{{ item.title }}</b></div></a>
         </li>
         {% endfor %}
 
-        <li class='fav{% if url == '/favorites/' %} active {% endif %}'><a href="/favorites/"><span>Favourites&thinsp;</span><i class='icon-heart'></i></a></li>
+        <li class='fav{% if url == '/favorites/' %} active {% endif %}'><a href="/favorites/"><div><span>Favourites&thinsp;</span><i class='icon-heart'></i></div></a></li>
     </ul>
 </nav>
