@@ -36,6 +36,10 @@ header
 
   .menu
     text-align: center
+    +below(m)
+      text-align: left
+      padding-left: $pad
+      padding-right: $pad
 
     ul.plain-inline
       font-size: 0
@@ -45,6 +49,8 @@ header
       color: $grayLight
       text-decoration: none
       padding: 6px 10px
+      +below(m-l)
+        padding: 6px 4px
       margin: 2px 0
       +radiusL
     li.active a
@@ -53,14 +59,30 @@ header
 
     ul li:first-child a
       font-weight: 900
-      padding-right: 40px
+      margin-right: 40px
+      +below(l)
+        margin-right: 4px
+        span
+          display: none
 
     .fav
-      span, span::before
+      b
+        font-weight: inherit
+        +below(m-l)
+          display: none
+      i, i::before
         color: $gray5
         line-height: 0 !important
         padding: 0 !important
-        margin: 0 !important
-      &.active span::before
-        color: $orange
-        @extend .zbounce2
+      &:focus, &:hover, &.active
+        i::before
+          transform: scale(1.2) translate3d(0,0,0)
+          color: $orange
+          @extend .bounce2
+      +below(m)
+        font-size: 1.8rem
+        float: right
+        span
+          display: none
+
+

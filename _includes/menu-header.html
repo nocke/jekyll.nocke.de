@@ -1,16 +1,22 @@
 {% assign url = page.url %}
-{% assign start = url | truncate: 6, '' %}
 
-{% if start == '/blog/' %}
+{% assign blogtest = url | truncate: 6, '' %}
+{% if blogtest == '/blog/' %}
 {% assign url = '/blog/' %}
 {% endif %}
 
+{% capture rooturl %}{% link index.md %}{% endcapture %}
 <nav class='menu'>
     <ul class='plain-inline'>
         {% for item in site.data.menu-header.entries %}
-        <li {% if url == item.url %}class='active' {% endif %}><a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}alt="{{ item.title }}">{{ item.title }}</a></li>
+        <li {% if url == item.url %}class='active' {% endif %}>
+            <a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}alt="{{ item.title }}">
+                {% if rooturl == item.url %}<i class='icon-home'></i>&thinsp;{% endif %}
+                {{ item.title }}
+            </a>
+        </li>
         {% endfor %}
 
-        <li class='fav{% if url == '/favorites/' %} active {% endif %}'><a href="/favorites/">Favs&thinsp;<span class='icon-heart'></span></a></li>
+        <li class='fav{% if url == '/favorites/' %} active {% endif %}'><a href="/favorites/"><span>Favourites&thinsp;</span><i class='icon-heart'></i></a></li>
     </ul>
 </nav>
