@@ -18,6 +18,21 @@
     opacity: 1
     transform: scale(1) translate3d(0,0,0)
 
+// same, same but w/o fade-in
+@keyframes bounce
+  0%
+    transform: scale(1.2) translate3d(0,0,0)
+  10%
+    transform: scale(0.6) translate3d(0,0,0)
+  30%
+    transform: scale(1.1)
+  65%
+    transform: scale(.92)
+  80%
+    transform: scale(1.02)
+  100%
+    transform: scale(1) translate3d(0,0,0)
+
 @keyframes zoomout
   0%
     animation-timing-function: linear
@@ -51,7 +66,7 @@
 
 
 
-.zbounce, .zbounce1, .zbounce2, .zbounce3, .zbounce4, .zbounce5
+.zbounce, .zbounce1, .zbounce2, .zbounce3, .zbounce4, .zbounce5, .bounce, .bounce1, .bounce2, .bounce3, .bounce4, .bounce5
     opacity: 0
     animation-name: bounceIn
     animation-duration: .5s
@@ -61,14 +76,10 @@
     @at-root #{selector-append(span, &)}  // → stackoverflow.com/q/47417943
         display: inline-block
 
-.zbounce2
-    animation-delay: .2s
-.zbounce3
-    animation-delay: .4s
-.zbounce4
-    animation-delay: .6s
-.zbounce5
-    animation-delay: .8s
+.bounce, .bounce1, .bounce2, .bounce3, .bounce4, .bounce5
+    opacity: 1
+    animation-name: bounce
+
 
 
 // drop-in ___________________________________________
@@ -99,6 +110,29 @@
     animation-fill-mode: forwards
     @at-root #{selector-append(span, &)}
         display: inline-block
+
+
+// delays collectively TODO =================
+
+
+.bounce2
+    animation-delay: .2s
+.bounce3
+    animation-delay: .4s
+.bounce4
+    animation-delay: .6s
+.bounce5
+    animation-delay: .8s
+
+.zbounce2
+    animation-delay: .2s
+.zbounce3
+    animation-delay: .4s
+.zbounce4
+    animation-delay: .6s
+.zbounce5
+    animation-delay: .8s
+
 
 .zdrop2
     animation-delay: .2s
