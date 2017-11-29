@@ -1,24 +1,72 @@
 
 
 // responsive headlines __________________________________
+// make default size the media-query-less default. just in case.
 
 .r1
-  color: orange
-  font-size: 16px
-  +below(xl)
-      background: rgba( yellow, .3)
-  +below(l)
-      background: rgba( lawngreen, .3)
+  line-height: 1.2em
+  font-size: 50px
+
+  +above(l)
+    font-size: 60px
+  +above(xl)
+    font-size: 75px
+
   +below(m)
-      background: rgba( blue, .3)
+    font-size: 40px
   +below(s)
-      background: rgba( purple, .3)
+    font-size: 36px
+
+.r2
+  line-height: 1.2em
+  font-size: 32px
+
+  +above(l)
+    font-size: 42px
+  +above(xl)
+    font-size: 50px
+
+  +below(m)
+    font-size: 28px
+  +below(s)
+    font-size: 24px
+
+.r3
+  line-height: 1.2em
+  font-size: 22px
+  font-weight: bold
+
+  +above(l)
+    font-size: 28px
+  +above(xl)
+    font-size: 32px
+
+  +below(m)
+    font-size: 24px
+  +below(s)
+    font-size: 20px
+
+
+
+// debug coloring:
+.r1, .r2, .r3
+  background: rgba( lawngreen, .2)
+  +above(l)
+    background: rgba( yellow, .2)
+  +above(xl)
+    background: rgba( orange, .2)
+  +below(m)
+    background: rgba( blue, .2)
+  +below(s)
+    background: rgba( purple, .2)
+
 
 
 // headlines ______________________________________________
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
   margin: .32em 0 .1em
+  line-height: 1.28em
   font-weight: normal
   color: white
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
@@ -57,12 +105,15 @@ h3, .h3
     font-size: 30px
 
 h4, .h4
+  color: $gray6
   font-size: 14px
 
 h5, .h5
+  color: $gray5
   font-size: 12px
   text-transform: uppercase
 
 h6, .h6
+  color: $gray5
   text-transform: uppercase
   color: #999

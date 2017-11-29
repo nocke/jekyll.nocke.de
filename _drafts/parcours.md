@@ -2,21 +2,32 @@
 permalink: parcours/
 ---
 
-# **head**line _One_ is [here](#)
-## **head**line _Two_ is [here](#)
-### **head**line _Three_ is [here](#)
-#### **head**line _Four_ is [here](#)
-##### **head**line _Five_ is [here](#)
+# **head**line _One_ is [here](#) – Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
+## **head**line _Two_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
+### **head**line _Three_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
+#### **head**line _Four_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
+##### **head**line _Five_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 
 <div class='fancy' markdown='1'>
-# **head**line _One_ is [here](#)
-## **head**line _Two_ is [here](#)
-### **head**line _Three_ is [here](#)
-#### **head**line _Four_ is [here](#)
-##### **head**line _Five_ is [here](#)
+# **head**line _One_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
+## **head**line _Two_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
+### **head**line _Three_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
+#### **head**line _Four_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
+##### **head**line _Five_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 </div>
 
-![image-title-here]({{site.static}}/img/bg_amden.jpg){:class="img-responsive"}
+<div id='responsive-fonts' class='r1'>R1 – Responsive öäüß <b>Font</b> <i>Number One</i> <a href='#'>is here</a>. The quick <i>brown</i> fox jumps over the lazy dog.</div>
+
+<div class='r2'>R2 – Responsive öäüß <b>Font</b> <i>Number One</i> <a href='#'>is here</a>. The quick <i>brown</i> fox jumps over the lazy dog.</div>
+
+<div class='r3'>R3 – Responsive öäüß <b>Font</b> <i>Number One</i> <a href='#'>is here</a>. The quick <i>brown</i> fox jumps over the lazy dog.</div>
+
+Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una, pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine.
+
+
+<!-- ![image-title-here]({{site.static}}/img/bg_amden.jpg){:class="img-responsive"} -->
+
+
 
 ```javascript
     const demo = { a:42, b:true};
