@@ -36,7 +36,9 @@ body.h1fancy h1, body.h1fancy .h1
 h1, .h1
   text-align: center
   font-size: 44px
-  &.fancy, .fancy &
+  &.fancy, .fancy &  // hack (can join together)
+    font-size: 90px
+    word-spacing: .12em
   @at-root body.h1fancy &
     font-size: 90px
     word-spacing: .12em
