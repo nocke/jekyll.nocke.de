@@ -1,0 +1,96 @@
+html, body
+  margin: 0
+  padding: 0
+  background: darkgreen
+
+html
+  font-size: 62.5% // 1rem <:=> 10px
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+body
+  position: relative
+  padding-top: $headerHeight+$pad
+  padding-bottom: $footerHeight+$pad // reserved for footer
+  box-sizing: border-box // so padding reserved for footer does not add up
+  background: #151515 url('./bkg.png') 0 0
+
+  color: white
+  font-size: 20px // actual font size
+  min-height: 100vh
+  line-height: 1.6
+  font-family: Ubuntu, Arial, Helvetica, sans-serif
+
+// common block level elements ____________________________
+header, footer, main, nav, section, div, blockquote, pre
+  position: relative
+  margin: 0
+  padding: 0
+
+p
+  margin: .8em 0
+
+section
+  display: block
+  margin: 0 0 20px 0
+
+blockquote
+  color: #aaa
+  padding-left: 10px
+  border-left: 1px dotted #666
+
+pre
+  background: rgba(0, 0, 0, 0.9)
+  border: 1px solid rgba(255, 255, 255, 0.15)
+  padding: 10px
+  font-size: 16px
+  color: $hackerGreen
+  border-radius: 2px
+  text-wrap: normal
+  overflow: auto
+  overflow-y: hidden
+
+hr
+  height: 0
+  border: 0
+  border-bottom: 1px dashed $hackerGreen
+  color: $hackerGreen
+
+// corner pin _____________________________________________
+
+// body.cornerpin == aka sticky footer, flexible center
+// body.cornerpin-center
+// == this is centering, min height as before,
+//    scrollbars, if content demands (and I like it!)
+
+// common
+body.cornerpin, body.cornerpin-center
+  main
+    +border-box
+    margin: 0 !important // win over any .wrap
+    max-width: none
+    overflow: hidden // only y scrolling, if any (important also for anim)
+    overflow-y: auto
+
+// individual
+body.cornerpin // aka sticky footer
+  main
+    position: absolute
+    left: 0
+    right: 0
+    top: $headerHeight
+    bottom: $footerHeight
+
+body.cornerpin-center
+  display: table
+  padding-top: $headerHeight // without the +$pad
+  padding-bottom: $footerHeight // without the +$pad
+  width: 100%
+  main
+    display: table-cell
+    vertical-align: middle
+  footer
+    position: absolute
+    left: 0
+    width: 100%
+    bottom: 0

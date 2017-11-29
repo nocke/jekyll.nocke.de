@@ -1,0 +1,24 @@
+// lists ________________________________________________
+
+ul
+  li
+    list-style-image: url("./bullet.png")
+    line-height: 1.4em
+
+ul.plain, .ul-plain, ul.plain-inline
+  list-style: none
+  list-style-image: none
+  margin: 0
+  padding: 0
+  line-height: normal
+  li
+    margin: 0
+    padding: 0
+    display: block // to fully fill width
+    a
+      display: block
+
+ul.plain-inline
+  li, a
+    display: inline-block
+    white-space: nowrap

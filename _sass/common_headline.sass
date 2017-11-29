@@ -1,0 +1,66 @@
+
+
+// responsive headlines __________________________________
+
+.r1
+  color: orange
+  font-size: 16px
+  +below(xl)
+      background: rgba( yellow, .3)
+  +below(l)
+      background: rgba( lawngreen, .3)
+  +below(m)
+      background: rgba( blue, .3)
+  +below(s)
+      background: rgba( purple, .3)
+
+
+// headlines ______________________________________________
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
+  margin: .32em 0 .1em
+  font-weight: normal
+  color: white
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1)
+  -webkit-font-smoothing: antialiased
+
+  &.fancy, .fancy &,
+    font-weight: 400
+    font-family: Pacifico, Segoe, "Segoe UI", sans-serif
+
+body.h1fancy h1, body.h1fancy .h1
+  font-weight: 400
+  font-family: Pacifico, Segoe, "Segoe UI", sans-serif
+
+
+h1, .h1
+  text-align: center
+  font-size: 44px
+  &.fancy, .fancy &
+  @at-root body.h1fancy &
+    font-size: 90px
+    word-spacing: .12em
+
+
+h2, .h2
+  color: $green
+  font-size: 30px
+  &.fancy, .fancy &
+    font-size: 50px
+    word-spacing: .12em
+
+h3, .h3
+  font-size: 18px
+  &.fancy, .fancy &
+    font-size: 30px
+
+h4, .h4
+  font-size: 14px
+
+h5, .h5
+  font-size: 12px
+  text-transform: uppercase
+
+h6, .h6
+  text-transform: uppercase
+  color: #999
