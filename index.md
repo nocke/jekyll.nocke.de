@@ -54,11 +54,11 @@ bodyclass: home
 
 <div class='multi-col'>
     <div class='col h1 center zbounce1'>
-        <button class='button-cta'>➪ Mehr über mich</button>
+        <a href='{% link _pages/werdegang-deutsch.md %}' class='button button-cta'>➪ Mehr über mich</a>
     </div>
     <div class='col h1 center zdrop1'>
-        <button class='button-cta'>➪ More about me</button>
+        <a href='{% link _pages/werdegang-deutsch.md %}' class='button button-cta'>➪ More about me</a>
     </div>
 </div>
 
-Mein Lebenslauf (word/pdf) ist für Recruiter & Auftraggeber verfügbar auf <a href='/kontakt/'>Anfrage</a>.
+<h5 class='center tpad20'>Mein Lebenslauf (word/pdf) für Recruiter & Auftraggeber ist verfügbar auf <a href='/kontakt/'>Anfrage</a>.</h5>
