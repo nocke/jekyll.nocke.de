@@ -4,14 +4,15 @@ footer
   width: 100%
   bottom: 0
   box-sizing: border-box
-  background: $gray3
+  background: $gray1
   min-height: $footerHeight
 
   .teaserbox
-    @extend .h3, .wrap, .fancy
+    color: $gray3
+    @extend .wrap
     padding: 10px
     border: 1px
-    font-size: 2rem !important
+    +responsiveSize(1.2)
 
   .menu
     text-align: right
@@ -20,6 +21,6 @@ footer
     a
       font-size: 14px
       line-height: initial
-      color: $gray5
+      color: $gray4
       text-decoration: none
       padding: 4px 6px
