@@ -60,11 +60,12 @@ a#ribbon
   z-index: 40
   background-image: url('http://static.nocke.de/img/sprite/sprite2.png') !important
   background-size: 480px 320px
+  &:focus, &:hover
+    // benefit: adds on top of whatever position
+    margin-top: -2px
   +below(s-m)
     top: -16px
     right: -24px
-  &:focus, &:hover
-    +bumpL
 
 span.sprite, .inline.sprite
   display: inline-block  // roll back from above
