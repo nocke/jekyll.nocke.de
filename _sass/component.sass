@@ -1,21 +1,21 @@
 
-
 body .bilingual
-  background: rgba(green, .2)
+  // tricking away h1 and h2
+  h1, h2
+    font-size: 20px
+    position: absolute
 
   a
     +radiusL
-    background: rgba(purple, .2)
     overflow: hidden
     text-overflow: ellipsis
-    &:hover, &:focus
-      background: rgba(white, .2)
+    &:hover, &:focus, &:hover span, &:focus span,
+      background: #444
 
-  // height limiter (can't do on table)
-  span
-    display: block
-    background: rgba(orange, .2)
-    //height: 12em
-    overflow: hidden
-    text-overflow: ellipsis
+    span
       
+      background-image: url(./bkg.png) // SEO-cover...
+      display: block
+      position: relative
+      overflow: hidden
+      text-overflow: ellipsis

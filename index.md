@@ -42,7 +42,7 @@ bodyclass: home
 | Linux, Apache, MySQL, PHP (Full Stack) |
 | git, svn, Perforce |
 
-## Academia &amp; Experience
+## Studies &amp; Experience
 
 * Diplom-Informatiker[[FH Furtwangen](https://www.hs-furtwangen.de/studierende/fakultaeten/digitale-medien/medieninformatik-bsc.html)] 1993–1997
 * Master of Computer Science [[FH Wedel](http://www.fh-wedel.de/)] 2002–2005
@@ -50,7 +50,7 @@ bodyclass: home
 * 2 years [teaching Computer Science in Singapore](http://www.np.edu.sg/ict/Pages/default.aspx)
 * Freelance Web Developer since 2011
 
-<h2 class='h1'>★ Lebenslauf / Resume ★</h2>
+<h2 class='h1 fancy'>★ Lebenslauf / Resume ★</h2>
 
 <div class='multi-col'>
     <div class='col h1 center zbounce1'>
@@ -61,4 +61,5 @@ bodyclass: home
     </div>
 </div>
 
-<h5 class='center tpad20'>Mein Lebenslauf (word/pdf) für Recruiter & Auftraggeber ist verfügbar auf <a href='/kontakt/'>Anfrage</a>.</h5>
+<h4 class='center tpad20'>Mein vollständiger Lebenslauf (word/pdf) für Recruiter & Auftraggeber verfügbar auf <a href='/kontakt/'>Anfrage</a>.</h4>
+<h4 class='center tpad20'>My complete resumé/CV (word/pdf) is available to Recruiters & Employers <a href='/kontakt/'>upon request</a>.</h4>
