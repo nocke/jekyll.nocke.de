@@ -29,7 +29,10 @@ $shadowMassive: 0 4px 8px rgba(0, 0, 0, 1)
 
 
 =bump
-  transform: scale(1.02)
+  transform: scale(1.02) !important
+
+=bumpL
+  transform: translate3d(0,0,0) scale(1.08) !important
 
 =unbump
   transform: scale(1.00)
@@ -43,10 +46,6 @@ $shadowMassive: 0 4px 8px rgba(0, 0, 0, 1)
 
 =content-box
   box-sizing: content-box !important
-
-=retina
-  @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)
-    @content
 
 =print
   @media print
