@@ -4,8 +4,8 @@
  * regular and retina support
  * __________________________________ */
 
-=retina
-  @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)
+=retina($ratio)
+  @media only screen and (-webkit-min-device-pixel-ratio: $ratio),only screen and (min--moz-device-pixel-ratio: $ratio), only screen and (-o-min-device-pixel-ratio: $ratio / 1), only screen and (min-device-pixel-ratio: $ratio), only screen and (min-resolution: floor(72*$ratio)dpi), only screen and (min-resolution: #{$ratio}dppx)
     @content
 
 .sprite
@@ -17,8 +17,11 @@
   // background-color: #aae !important // DEBUG
   +content-box
   background-image: url('http://static.nocke.de/img/sprite/sprite1.png') !important
-  +retina
-    background-image: url('http://static.nocke.de/img/sprite/sprite1.png') !important
+  +retina(1.3)
+    background-image: url('http://static.nocke.de/img/sprite/sprite2.png') !important
+    background-size: 480px 320px
+  +retina(2.2)
+    background-image: url('http://static.nocke.de/img/sprite/sprite4.png') !important
     background-size: 480px 320px
 
   &-xing, &-stackoverflow, &-github, &-medium, &-jekyll
