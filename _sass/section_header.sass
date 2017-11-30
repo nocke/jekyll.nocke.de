@@ -34,6 +34,24 @@ header
       height: 100%
       box-shadow: inset 0px -4px 16px 0px rgba(0,0,0,0.8)
 
+    .description
+      color: white
+      display: block
+      position: absolute
+      width: 100%
+      font-family: Pacifico, Segoe, "Segoe UI", sans-serif
+      top: 40%
+      left: 50%
+      transform: translate(-50%,-50%)
+      text-align: center
+      +responsiveSize(4)
+      +shadow-massive-text
+      +below(s-m)
+        +responsiveSize(6)
+        span
+          +responsiveSize(3)
+          display: block
+
   .menu
     border-top: 2px solid $gray4
     text-align: center

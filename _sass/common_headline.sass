@@ -46,6 +46,24 @@
   +below(s)
     font-size: 20px
 
+=responsiveSize($factor)
+  // assume l as default
+  font-size:   ( 1rem * $factor * 100) / 100
+  +above(l-xl)
+    font-size: ( 1.13rem * $factor * 100) / 100
+  +above(xl)
+    font-size: ( 1.25rem * $factor * 100) / 100
+
+  +below(m-l)
+    font-size: ( .9rem * $factor * 100) / 100
+  +below(m)
+    font-size: ( .8rem * $factor * 100) / 100
+  +below(s-m)
+    font-size: ( .65rem * $factor * 100) / 100
+  +below(s)
+    font-size: ( .5rem * $factor * 100) / 100
+
+
 // headlines ______________________________________________
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
