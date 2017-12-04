@@ -77,6 +77,7 @@ $breakpoints: map-merge($breakpoints, $tween)
     +below($name)
         display: none !important  //we mean it. no override by some coincidental precedence
   .show-#{$name}
+    display: none !important
     +below($name)
         display: block !important
   .show-inline-#{$name}
