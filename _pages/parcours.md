@@ -25,13 +25,6 @@ permalink: parcours/
 #### **head**line _Four_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 ##### **head**line _Five_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 
-<div class='fancy' markdown='1'>
-# **head**line _One_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
-## **head**line _Two_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
-### **head**line _Three_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
-#### **head**line _Four_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
-##### **head**line _Five_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
-</div>
 
 <div id='responsive-fonts' class='r1'>R1 – Responsive öäüß <b>Font</b> <i>Number One</i> <a href='#'>is here</a>. The quick <i>brown</i> fox jumps over the lazy dog.</div>
 

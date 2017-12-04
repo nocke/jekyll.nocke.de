@@ -4,8 +4,8 @@ bodyclass: home
 ---
 
 <div class='multi-col'>
-    <div class='col h1 fancy center zbounce1'>Herzlich willkommen</div>
-    <div class='col h1 fancy center zdrop1'>Welcome</div>
+    <div class='col h1 center zbounce1'>Herzlich willkommen</div>
+    <div class='col h1 center zdrop1'>Welcome</div>
 </div>
 
 
@@ -50,7 +50,7 @@ bodyclass: home
 * 2 years [teaching Computer Science in Singapore](http://www.np.edu.sg/ict/Pages/default.aspx)
 * Freelance Web Developer since 2011
 
-<h2 class='h1 fancy'>★ Lebenslauf / Resume ★</h2>
+<h2 class='h1'>★ Lebenslauf / Resume ★</h2>
 
 <div class='multi-col'>
     <div class='col h1 center zbounce1'>

@@ -1,7 +1,6 @@
 ---
 title: Favorites
 permalink: /favorites/
-bodyclass: h1fancy
 ---
 
 ## stuff I like, love or recommend.

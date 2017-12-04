@@ -21,7 +21,7 @@ lang: en
   </h2>
   </section>
 
-  <h2 class='h1 fancy tpad60'>Weitere Profile im Netz...</h2>
+  <h2 class='h1 tpad60'>Weitere Profile im Netz...</h2>
 
   <section class='multi-col'>
   <h2 class='col'>
