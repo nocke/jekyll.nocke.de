@@ -19,7 +19,8 @@ encoding: UTF-8
 profile:
   mail: frank[át]nocke.de
   xing: https://www.xing.com/profile/Frank_Nocke
-  stackoverflow: https://stackoverflow.com/users/444255/frank-nocke?tab=topactivity
+  #stackoverflow: https://stackoverflow.com/users/444255/frank-nocke?tab=topactivity
+  stackoverflow: https://stackoverflow.com/cv/react-javascript-frontend-developer-freelancer-hamburg-switzerland
   github: https://github.com/nocke
 
 
