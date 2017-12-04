@@ -1,9 +1,59 @@
 
 // img handling _________________________________________
 
-main // only in main!
+// precautions:
+main
   img
-    font-size: .5em
-    color: rgba( black, .4 ) // don't overlit alt-texts
     max-width: 100%
+    font-size: .5em // prevent large, too bright alt texts
+    color: rgba( black, .4 )
 
+
+picture
+  overflow: hidden
+
+  // true for all images
+  img
+    max-width: 100%
+    font-size: .5em // prevent large, too bright alt texts
+    color: rgba( black, .4 )
+
+  // alignments / styles _______________________________
+  &.picture-right
+    display: block
+    float: right
+    margin: $pad 0 $pad $pad
+
+  &.picture-left
+    display: block
+    float: left
+    margin: $pad $pad $pad 0
+
+  // an image, of which I trust, that it's very lengthy,
+  // ( bad choice for anything 16:9, 4:3, 3:2, ... )
+  &.picture-wide
+    color: green
+
+  // decoration ___________________________________
+
+  &.picture-round
+    +radiusL
+
+
+  // sizing ______________________________________
+
+  // only use on -left and -right images!
+  &.picture-m
+    width: 300px
+    max-width: 40%
+    +below(s)
+      width: auto
+      max-width: none
+      float: none
+      height: 300px
+      img
+        height: 300px
+        margin: 0 auto
+
+  img
+    display: block
