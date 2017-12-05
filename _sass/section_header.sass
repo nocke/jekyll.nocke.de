@@ -34,9 +34,11 @@ header
       height: 100%
       box-shadow: inset 0px -4px 16px 0px rgba(0,0,0,0.8)
 
-    .description
+    .description a
       color: white
       display: block
+      text-decoration: none
+      line-height: 1.0em
       position: absolute
       width: 100%
       font-family: Pacifico, Segoe, "Segoe UI", sans-serif
@@ -46,6 +48,7 @@ header
       text-align: center
       +responsiveSize(4)
       text-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 -2px 4px rgba(0, 0, 0, 1), $shadowMassive, $shadowMassive
+      // structure into big head and smaller subhead below given size
       +below(s-m)
         +responsiveSize(6)
         span

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en" }}">
 {% include head.html %}
-<body class='body home{% if page.bodyclass %} {{page.bodyclass}}{% endif %}'>
+<body class='body home {{page.bodyclass}}'>
   {% include header.html %}
 
-  <main id="main" class="wrap">
+  <main id="main" class="wrap {{page.mainclass}}">
     <section>
 
       {{ content }}

@@ -10,6 +10,7 @@ html
 
 body
   position: relative
+  @extend .ubuntu
   padding-top: $headerHeight+$pad
   padding-bottom: $footerHeight+$pad // reserved for footer
   box-sizing: border-box // so padding reserved for footer does not add up
@@ -19,7 +20,6 @@ body
   font-size: 20px // actual font size
   min-height: 100vh
   line-height: 1.6
-  font-family: Ubuntu, Arial, Helvetica, sans-serif
 
 // common block level elements ____________________________
 header, footer, main, nav, section, div, blockquote, pre
@@ -56,8 +56,11 @@ hr
   border-bottom: 1px dashed $hackerGreen
   color: $hackerGreen
 
-// corner pin _____________________________________________
 
+
+// useful bodyclasses __________________________________________
+
+// corner pin _____________________________________________
 // body.cornerpin == aka sticky footer, flexible center
 // body.cornerpin-center
 // == this is centering, min height as before,
@@ -95,3 +98,12 @@ body.cornerpin-center
     left: 0
     width: 100%
     bottom: 0
+
+// useful mainclasses __________________________________________
+
+// only justify above reasonably wide widths
+// (small widths may generate unreasonable spacing)
+.justify-wide
+  +above(s-m)
+    text-align: justify !important
+

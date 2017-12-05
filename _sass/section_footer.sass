@@ -8,8 +8,8 @@ footer
   min-height: $footerHeight
 
   .teaserbox
+    @extend .wrap  // gets (not yet harming) side effects from common_image
     color: $gray3
-    @extend .wrap
     padding: 10px
     border: 1px
     +responsiveSize(1.2)

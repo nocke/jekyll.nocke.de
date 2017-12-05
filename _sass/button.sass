@@ -73,7 +73,6 @@ a, button.anchor, input.anchor, .anchor   // be so explicit for precedence
   text-shadow: none
   box-shadow: none
   border: none
-  font-size: inherit // important for input!
 
   // style
   display: inline-block
@@ -84,6 +83,12 @@ a, button.anchor, input.anchor, .anchor   // be so explicit for precedence
   &:focus, &:hover
     +round-small
     color: lighten( $linkcolor, 15% )
+
+// only those of the above who need it, should get this
+// (render difference for inherit on samsung tablet)
+input.anchor
+  font-size: inherit // important for input!
+
 
 // plain links (i.e. to prepare for menus, ...) -------------------------
 

@@ -5,6 +5,7 @@
 $breakpoints: (s: 480px, m: 768px, l: 960px, xl: 1200px)
 $tween: ()
 
+// generate inbetween sizes
 $prior: null
 @each $bp, $value in $breakpoints
   @if $prior != null
@@ -16,9 +17,9 @@ $prior: null
 $breakpoints: map-merge($breakpoints, $tween)
 
 // debug output
-@each $bp, $value in $breakpoints
-  .banana-#{$bp}
-    color: #{$value}
+// @each $bp, $value in $breakpoints
+//   .banana-#{$bp}
+//     color: #{$value}
 
 
 =below($breakpoint)

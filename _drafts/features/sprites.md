@@ -19,6 +19,3 @@ permalink: sprites/
 <a class='sprite inline sprite-jekyll'></a>
 
 <a href='https://github.com/nocke/nocke.github.io' target='_blank' id='ribbon' class='sprite sprite-ribbon' title='view on github'></a>
-
-
-<div class='sprite>

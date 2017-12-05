@@ -2,6 +2,7 @@
 title: Frank Nocke - Werdegang
 categories: Frank Nocke, Frontend, Freelancer, Lebenslauf, Freiberufler, Web Entwickler, Javascript
 permalink: frontend-javascript-freelancer/hamburg/schweiz/frank-nocke/
+mainclass: justify-wide
 ---
 
 {% include tags/picture.html
@@ -25,7 +26,7 @@ Pünktlich zu meiner Rückkehr 2002 platzte gerade die Internet-Blase. Suboptima
 Im Mai 2005 hatte ich denndann in der Tasche und fing bei Adobe Systems in Hamburg an. Ja, die mit PDF, Photoshop & Co haben einen Standort in Hamburg. Nach einigen wertvollen Erfahrungen im Bereich Qualitätssicherung beschloß man recht bald, mich zum Programmierer zu machen, und ich fand mich im XMP Metadaten Team wieder. Es galt, für diverse, bekannte Adobe-Produkte und auf drei Plattformen gleichzeitig (Windows, Mac OS, Linux) eine Metadaten-Library weiterzuentwickeln.
 
 {% include tags/picture.html
-  class="picture-wide picture-round hide-s-m"
+  class="picture-wide hide-s-m"
   title="Frank Nocke, Schweiz, Hamburg, Seevetal"
   src="/img/frank-nocke/frank-nocke-oberhafenkantine.jpg"
 %}
@@ -44,14 +45,15 @@ Von Februar 2013 bis April 2015 war ich beim SPIEGEL Verlag auf einer ganzen Rei
 Gerne arbeite ich auch an Konzepten und kann Ideen und Erweiterungen mit konkreten Photoshop-Entwürfen verbindlich in Pixel umsetzen. Mein Foto- und Computergrafik-Hintergrund hift mir, viele Aufgaben zwischen Gestaltung und Programmierung reibungslos und gern auch mit direktem Kontakt zur Fachabteilung zu lösen.
 
 {% include tags/picture.html
-  class="picture-wide picture-round"
+  class="picture-wide"
   title="Frank Nocke, Beachvolleyball, Presse, Sportfotografie, Hamburg"
   src="/img/frank-nocke/frank-nocke-portrait-beach.jpg"
 %}
 
 In Hamburgs zu kurzen Sommern spiele ich Beachvolleyball an der Elbe, fahre Rad oder gehe Paddeln.
 
-Künstlerisch tobe ich mich in meiner Freizeit weiterhin im Bereich Panorama-, Sport- und Presse-Fotografie aus. Von lokalen Events bis hin zu Bundesliga und deutsche Meisterschaften. Veröffentlichungen in Stern, Abendblatt, Taz, Welt, Hamburger Morgenpost und Elbe Wochenblatt.
-Mit dem Hut in der Hand (und einem ernst gemeinten Objektiv in der anderen) kommt man doch weiter als man denkt…
+Künstlerisch tobe ich mich in meiner Freizeit weiterhin im Bereich Panorama-, Sport- und Presse-Fotografie aus. Von lokalen Events bis hin zu Bundesliga und deutsche Meisterschaften. Veröffentlichungen in Stern, Abendblatt, Taz, Welt, Hamburger Morgenpost und Elbe Wochenblatt. Mit dem Hut in der Hand (und einem ernst gemeinten Objektiv in der anderen) kommt man doch weiter als man denkt…
+
+
 
 

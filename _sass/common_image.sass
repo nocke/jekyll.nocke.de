@@ -10,6 +10,7 @@ main
 
 
 picture
+  display: block
   overflow: hidden
 
   // true for all images
@@ -20,19 +21,17 @@ picture
 
   // alignments / styles _______________________________
   &.picture-right
-    display: block
     float: right
     margin: $pad 0 $pad $pad
 
   &.picture-left
-    display: block
     float: left
     margin: $pad $pad $pad 0
 
   // an image, of which I trust, that it's very lengthy,
   // ( bad choice for anything 16:9, 4:3, 3:2, ... )
   &.picture-wide
-    color: green
+    nothing: 42
 
   // decoration ___________________________________
 
@@ -57,3 +56,11 @@ picture
 
   img
     display: block
+
+
+// wode-images im wrap-context: seamless zum Rand
+main.wrap > .picture-wide  // only in margin-mode: snap to full width
+  @media ( max-width: $maxWidth + 2*$pad + $scrollBar )
+    margin-left: -$pad
+    margin-right: -$pad
+    width: auto

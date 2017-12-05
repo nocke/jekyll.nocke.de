@@ -2,6 +2,7 @@
 title: Frank Nocke - Vita & Resume
 categories: Frank Nocke, Frontend, Freelancer, Lebenslauf, Freiberufler, Web Entwickler, Javascript
 permalink: frontend-javascript-react-freelancer/resume/cv/english/switzerland/frank-nocke/
+mainclass: justify-wide
 lang: en
 ---
 
@@ -27,7 +28,7 @@ Right in time for my return in 2002, the internet bubble bursts, also over Germa
 By May 2005 I got my “Master of Computer Science” and started working for Adobe Systems in Hamburg. Yes, Adobe got a Hamburg office, something I neither knew before. After some initial QA work, I became software developer quite quickly, and found myself in the XMP metadata team, where we developed a metadata library for all those well-known Adobe products and on three platforms (Windows, Mac OS, Linux).
 
 {% include tags/picture.html
-  class="picture-wide picture-round hide-s-m"
+  class="picture-wide hide-s-m"
   title="Frank Nocke, Schweiz, Hamburg, Seevetal"
   src="/img/frank-nocke/frank-nocke-oberhafenkantine.jpg"
 %}
@@ -46,7 +47,7 @@ From February 2013 till April 2015 I worked for SPIEGEL Verlag, Germany's well-k
 I like to do conceptual work and can turn ideas and feature extensions into actual Photoshop pixels quite quickly. My Photography- and CGI-backbround often helps me, to ease communication between product owners and software development.
 
 {% include tags/picture.html
-  class="picture-wide picture-round"
+  class="picture-wide"
   title="Frank Nocke, Beachvolleyball, Presse, Sportfotografie, Hamburg"
   src="/img/frank-nocke/frank-nocke-portrait-beach.jpg"
 %}
