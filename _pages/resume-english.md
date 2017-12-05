@@ -44,6 +44,10 @@ Since 2011 I am a freelance software developer. Initially doing plenty of “typ
 
 From February 2013 till April 2015 I worked for SPIEGEL Verlag, Germany's well-known news magazine, on numerous projects. Relaunch of subscription sites, converting sites to responsive design, relaunch of an editorial website, self-services and premium configurators...
 
+Currently, since September 2017, I am working on a very nice React.js-Project in Switzerland... my current availabilty can be found in [my XING profile]({{site.profile.xing}}){:target="_blank"}.
+
+----
+
 I like to do conceptual work and can turn ideas and feature extensions into actual Photoshop pixels quite quickly. My Photography- and CGI-backbround often helps me, to ease communication between product owners and software development.
 
 {% include tags/picture.html
@@ -52,8 +56,4 @@ I like to do conceptual work and can turn ideas and feature extensions into actu
   src="/img/frank-nocke/frank-nocke-portrait-beach.jpg"
 %}
 
-Durings Hamburgs painfully short summers I like to play Beachvolleyball at the Elbe river, go cycling and kayaking.
-
-In my spare time, I still spend some time on panoramic imaging and sports photography. From local events to Germany Championships. I even made it into Bundesliga stadiums, sitting next to the pro photographers…
-
-
+Durings Hamburgs painfully short summers I like to play Beachvolleyball at the Elbe river, go cycling and kayaking. I still spend some time on panoramic imaging and sports photography.
