@@ -1,8 +1,8 @@
 ---
 title: Frank Nocke - Werdegang
 categories: Frank Nocke, Frontend, Freelancer, Lebenslauf, Freiberufler, Web Entwickler, Javascript
-permalink: frontend-javascript-freelancer/hamburg/schweiz/frank-nocke/
-mainclass: justify-wide
+permalink: frontend-react-javascript-freelancer/hamburg/schweiz/frank-nocke/
+mainclass: justify-wide bpad40
 ---
 
 {% include tags/picture.html

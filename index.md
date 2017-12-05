@@ -15,13 +15,13 @@ bodyclass: home
 {% capture introEN %}{% include intro_EN.md %}{% endcapture %}
 
 <section class='multi-col bilingual'>
-    <a lang='de' href='{% link _pages/werdegang-deutsch.md %}' class='col plain'>
+    <a lang='de' href='{% link _pages/about_DE.md %}' class='col plain'>
         <h1 class='h2'>Frontend Entwickler | JavaScript, Node JS, React | Web Apps | Konzeption & UI</h1>
         <span markdown='1'>
             {{ introDE | truncatewords: 50 }}
         </span>
     </a>
-    <a lang='de' href='{% link _pages/resume-english.md %}' class='col plain'>
+    <a lang='de' href='{% link _pages/about_EN.md %}' class='col plain'>
         <h2>Frontend Developer | JavaScript Node JS, React | Web Apps | Concepts & UI</h2>
         <span markdown='1'>
             {{ introEN | truncatewords: 50 }}
@@ -50,16 +50,14 @@ bodyclass: home
 * 2 years [teaching Computer Science in Singapore](http://www.np.edu.sg/ict/Pages/default.aspx)
 * Freelance Web Developer since 2011
 
-<h2 class='h1'>★ Lebenslauf / Resume ★</h2>
-
 <div class='multi-col'>
     <div class='col h1 center zbounce1'>
-        <a href='{% link _pages/werdegang-deutsch.md %}' class='button button-cta'>➪ Mehr über mich</a>
+        <a href='{% link _pages/about_DE.md %}' class='button button-cta'>➪ Mehr über mich</a>
     </div>
     <div class='col h1 center zdrop1'>
-        <a href='{% link _pages/werdegang-deutsch.md %}' class='button button-cta'>➪ More about me</a>
+        <a href='{% link _pages/about_EN.md %}' class='button button-cta'>➪ More about me</a>
     </div>
 </div>
 
-<h4 class='center tpad20'>Mein vollständiger Lebenslauf (word/pdf) für Recruiter & Auftraggeber verfügbar auf <a href='/kontakt/'>Anfrage</a>.</h4>
-<h4 class='center tpad20'>My complete resumé/CV (word/pdf) is available to Recruiters & Employers <a href='/kontakt/'>upon request</a>.</h4>
+<h4 class='center tpad10'>Mein Lebenslauf als pdf für Recruiter & Auftraggeber verfügbar auf <a href='/contact/'>Anfrage</a>.</h4>
+<h4 class='center tpad10'>My resumé/CV (pdf) is available to Recruiters & Employers <a href='/contact/'>upon request</a>.</h4>

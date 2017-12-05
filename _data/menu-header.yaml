@@ -7,10 +7,10 @@ entries:
   url: /
 
 - title: Über mich
-  url: /frontend-javascript-freelancer/hamburg/schweiz/frank-nocke/
+  url: /frontend-react-javascript-freelancer/hamburg/schweiz/frank-nocke/
 
 - title: About me
-  url: /frontend-javascript-react-freelancer/resume/cv/english/switzerland/frank-nocke/
+  url: /frontend-reactjs-javascript-react-freelancer/resume/cv/english/switzerland/frank-nocke/
 
 - title: Parcour
   url: /parcours/
@@ -22,4 +22,4 @@ entries:
   url: /slides/
 
 - title: Kontakt
-  url: /kontakt/
+  url: /contact/
