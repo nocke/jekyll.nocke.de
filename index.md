@@ -5,7 +5,7 @@ bodyclass: home
 
 <div class='multi-col'>
     <div class='col h1 center zbounce1'>Herzlich willkommen</div>
-    <div class='col h1 center zdrop1'>Welcome</div>
+    <div class='col h1 center zdrop1 middle'>Welcome</div>
 </div>
 
 
@@ -18,7 +18,7 @@ bodyclass: home
     <a lang='de' href='{% link _pages/about_DE.md %}' class='col plain'>
         <h1 class='h2'>Frontend Entwickler | JavaScript, Node JS, React | Web Apps | Konzeption & UI</h1>
         <span markdown='1'>
-            {{ introDE | truncatewords: 50 }}
+            {{ introDE | truncatewords: 45 }}
         </span>
     </a>
     <a lang='de' href='{% link _pages/about_EN.md %}' class='col plain'>
@@ -59,5 +59,5 @@ bodyclass: home
     </div>
 </div>
 
-<h4 class='center tpad10'>Mein Lebenslauf als pdf für Recruiter & Auftraggeber verfügbar auf <a href='/contact/'>Anfrage</a>.</h4>
+<h4 class='center tpad20'>Mein Lebenslauf als pdf für Recruiter & Auftraggeber verfügbar auf <a href='/contact/'>Anfrage</a>.</h4>
 <h4 class='center tpad10'>My resumé/CV (pdf) is available to Recruiters & Employers <a href='/contact/'>upon request</a>.</h4>
