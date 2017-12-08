@@ -1,7 +1,7 @@
 ---
 permalink: parcours/
 ---
-
+  
 <div id='grays' markdown='1'>
 
 | -----: | -----: | -----: | -----: | -----: | -----: |

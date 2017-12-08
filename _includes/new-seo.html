@@ -1,0 +1,17 @@
+    <title>{{ site.title }} – {{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta name="author" content="{{ page.author }}" />
+    <meta property="og:locale" content="{{ page.lang | replace:'-','_' }}" />
+
+    {{ /* TODO: add page-related content */ }}
+    <meta name="description" content="{{ site.description }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+
+    <link rel="canonical" href="https://www.nocke.de{{page.url}}" />
+    <meta property="og:url" content="https://www.nocke.de{{page.url}}" />
+    <meta property="og:site_name" content="{{site.seotitle}}" />
+    {{ /* TODO: could somewhat depend on url */ }}
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+    {{ /*   twitter deck, facebook card, application/ld+json →
+        /depot/knowhow/devnotes/jekyll/REF_template.html   */ }}
