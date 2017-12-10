@@ -32,7 +32,7 @@ repository: "nocke/nocke.github.io"
 theme: jekyll-theme-hacker
 github: [metadata]
 layout: default
-static: 'http://static.nocke.de'
+static: 'https://ssl.webpack.de/static.nocke.de' # TEMPTEMP kinda
 
 # Sass compilation -----------------------------------------------
 sass:
