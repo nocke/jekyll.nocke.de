@@ -72,6 +72,7 @@ permalink: /:categories/:year/:month/:title–:slug
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 collections:
   pages:
