@@ -13,11 +13,11 @@ mainclass: justify-wide bpad40
 
 Aufgewachsen bin ich in Osnabrück. Möglicherweise war mein beruflicher Weg über ZX-81, Apple ][ und Amiga 500 ein wenig vorbestimmt… An der FH Furtwangen im Schwarzwald habe ich von 1993 bis 1997 Medieninformatik studiert.
 
-Furtwangen war damals der erste Medieninformatik-Studiengang in Deutschland überhaupt, als es dieses Internetz in der öffentlichen Wahrnehmung eigentlich noch nicht vorkam und „MultiMedia“ noch ein Fachwort war und für Briefmarkenvideos stand...
+Furtwangen war damals der erste Medieninformatik-Studiengang in Deutschland überhaupt, als dieses Internetz in der öffentlichen Wahrnehmung eigentlich noch nicht existierte und „MultiMedia“ noch ein Fachwort für Briefmarkenvideos und MIDI-keyboards war...
 
 Über Praxissemester und Diplomarbeit habe ich schließlich meine Wahl-HH-eimat kennengelernt. Mein Fokus lag zunächst im Bereich „Computergrafik mit Programmierung“, Bildbearbeitung (Flint/Flame/Inferno auf SGI markierten damals das Top-End) und 3D Computergrafik (Softimage, 3D Studio, 3DS Max). Ende 1999 zog es mich ins Ausland, eigentlich™ auf Weltreise…
 
-Die verlief planmässig über zuvor organisierte 6 Wochen Mitarbeit in Beijing in der „Huayu TV Postproduction“ (Flint/Flame, Bildbearbeitung & Compositing )und endete dann (weit weniger vorhergesehen) in Singapur. Für 2 Jahre als Gastdozent am „Ngee Ann Polytechnic“. In einem Mix aus Computergrafik und Programmierthemen. Mit voller Verantwortung für Kursinhalte und Prüfungen („Module Leader“).
+Die verlief planmässig über zuvor organisierte 6 Wochen Mitarbeit in Beijing in der „Huayu TV Postproduction“ (Flint/Flame, Bildbearbeitung & Compositing) und endete dann (weit weniger vorhergesehen) in Singapur. Für 2 Jahre als Gastdozent am „Ngee Ann Polytechnic“. In einem Mix aus Computergrafik und Programmierthemen. Mit voller Verantwortung für Kursinhalte und Prüfungen als „Module Leader“.
 
 Zwei Jahre Leben mit angelsächsischen Flatmates, Unterrichten & Arbeiten auf Englisch. Mein Englisch würde ich als präsentations- und verhandlungssicher bezeichnen. Aus Gründen persönlicher Sturheit bin ich danach immerhin ostwärts nach Hause gereist, über Australien und Südamerika. So gesehen war es dann doch ein round-the-world trip.
 
