@@ -14,7 +14,7 @@ bodyclass: cornerpin-center
       <a href='#' target='_blank' class='email' title='Frank Nocke Hamburg Email'><span class='sprite sprite-email'></span><span class='label'>{{ site.profile.mail }}</span></a>
     </li>
     <li>
-      <a href='#' target='_blank' title='Frank Nocke Hamburg XING'><span class='sprite sprite-xing'></span>...auf Xing</a>
+      <a href='{{site.profile.xing}}' target='_blank' title='Frank Nocke Hamburg XING'><span class='sprite sprite-xing'></span>...auf Xing</a>
     </li>
     <li>
       <h2 class='h2 tpad40'>weitere Profile im Netz...</h2>
