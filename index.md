@@ -1,6 +1,7 @@
 ---
 layout: home
 bodyclass: home
+title: Hamburg Javascript Freelancer, Zürich, Bern
 ---
 
 <div class='multi-col'>
