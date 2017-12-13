@@ -24,9 +24,9 @@ profile:
   #stackoverflow: https://stackoverflow.com/users/444255/frank-nocke?tab=topactivity
   stackoverflow: https://stackoverflow.com/cv/react-javascript-frontend-developer-freelancer-hamburg-switzerland
   github: https://github.com/nocke
+  repository: https://github.com/nocke/jekyll.nocke.de
 
-
-repository: "nocke/nocke.github.io"
+repository: "nocke/jekyll.nocke.de"
 
 # Site settings --------------------------------------------------
 theme: jekyll-theme-hacker
