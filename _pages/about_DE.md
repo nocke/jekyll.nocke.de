@@ -21,9 +21,9 @@ Die verlief planmässig über zuvor organisierte 6 Wochen Mitarbeit in Beijing i
 
 Zwei Jahre Leben mit angelsächsischen Flatmates, Unterrichten & Arbeiten auf Englisch. Mein Englisch würde ich als präsentations- und verhandlungssicher bezeichnen. Aus Gründen persönlicher Sturheit bin ich danach immerhin ostwärts nach Hause gereist, über Australien und Südamerika. So gesehen war es dann doch ein round-the-world trip.
 
-Pünktlich zu meiner Rückkehr 2002 platzte gerade die Internet-Blase. Suboptimal für „½ Programmierer / ½ Grafiker“. Da ich Programmieren mittlerweile spannender fand als reines „Pixel-pushing“ und ich merkte, daß mir in dem Bereich doch noch ein das eine odere andere fehlt, entschied ich mich für ein „Upgrade“ an der Fachhochschule Wedel, vor den Toren Hamburgs, zum „Master of Computer Science“ (MSc).
+Pünktlich zu meiner Rückkehr 2002 platzte gerade die Internet-Blase. Suboptimal für „½ Programmierer / ½ Grafiker“. Da ich Programmieren mittlerweile spannender fand als reines „Pixel-pushing“, entschied ich mich für ein „Upgrade“ an der Fachhochschule Wedel vor den Toren Hamburgs zum „Master of Computer Science“ (MSc).
 
-Im Mai 2005 hatte ich denn dann in der Tasche und fing bei Adobe Systems in Hamburg an. Nach einigen Wochen im Bereich Qualitätssicherung beschloß man recht bald, mich zum Programmierer zu machen, und ich fand mich im „Metadaten Team“ wieder. Es galt für diverse, bekannte Adobe-Produkte die Metadaten-Library weiterzuentwickeln. Auf drei Plattformen gleichzeitig (Windows, Mac OS, Linux) und zusammen mit indischen und amerikanischen Kollegen.
+Im Mai 2005 hatte ich denn dann in der Tasche und fing bei Adobe Systems in Hamburg an. Zunächst im Bereich Qualitätssicherung, dann recht bald als Programmierer für den Bereich Metadaten. Es galt für diverse, bekannte Adobe-Produkte die Metadaten-Library weiterzuentwickeln. Auf drei Plattformen gleichzeitig (Windows, Mac OS, Linux) und zusammen mit Kollegen in San Jose und Noida.
 
 {% include tags/picture.html
   class="picture-wide hide-s-m"
@@ -36,7 +36,7 @@ Im Mai 2005 hatte ich denn dann in der Tasche und fing bei Adobe Systems in Hamb
   src="/img/frank-nocke/portrait/frank-nocke-oberhafenkantine-square.jpg"
 %}
 
-Diverse Entwicklungstools, komplexe Build- und Releaseprozesse, internationele Zusammenarbeit mit diversen Teams… Nach gut 4 intensiven Jahren bei Adobe darf ich wohl als „richtiger“ Programmierer gelten. 2009 war ein schlechtes Jahr, auch für die Software-Industrie: Adobe feuerte quer durch alle Standorte 10% der Mitarbeiter. Was nach gut 4 Jahren binärer Filehandler („4 bytes vor, 3 bytes zurück“) aber auch in Ordnung war. Rückschauend betrachtet.
+Diverse Entwicklungstools, komplexe Build- und Releaseprozesse, internationale Zusammenarbeit mit diversen Teams… Nach gut 4 intensiven Jahren bei Adobe darf ich wohl als „richtiger“ Programmierer gelten. 2009 war ein schlechtes Jahr, auch für die Software-Industrie: Adobe feuerte quer durch alle Standorte 10% der Mitarbeiter. Was nach gut 4 Jahren binärer Filehandler („4 bytes vor, 3 bytes zurück“) aber auch in Ordnung war. Rückschauend betrachtet.
 
 Seit 2011 bin ich freier Software-Entwickler. Ich habe viele „typische“ Agentur-Website-Projekte für kleine und mittlere Internet-Agenturen in Hamburg bearbeitet. Häufig „full stack“, also PHP, Apache, MySQL bis hin zum Frontend (HTML, CSS, jQuery, Sprites…). Wobei mir Frontend ganz besonders liegt, wohl auch aufgrund meines grafischen Hintergrunds.
 
