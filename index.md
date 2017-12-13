@@ -45,7 +45,7 @@ title: Hamburg Javascript Freelancer, Zürich, Bern
 
 ## Studies &amp; Experience
 
-* Diplom-Informatiker[FH Furtwangen](https://www.hs-furtwangen.de/studierende/fakultaeten/digitale-medien/medieninformatik-bsc.html){:target="_blank"} 1993&thinsp;–&thinsp;1997
+* Diplom-Informatiker [FH Furtwangen](https://www.hs-furtwangen.de/studierende/fakultaeten/digitale-medien/medieninformatik-bsc.html){:target="_blank"} 1993&thinsp;–&thinsp;1997
 * Master of Computer Science [FH Wedel](http://www.fh-wedel.de/){:target="_blank"} 2002–2005
 * 4½ years at Adobe Systems, contributing to [XMP](http://www.adobe.com/products/xmp.html){:target="_blank"}
 * 2 years [teaching Computer Science in Singapore](http://www.np.edu.sg/ict/Pages/default.aspx){:target="_blank"}
