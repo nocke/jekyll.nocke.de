@@ -1,5 +1,6 @@
 ---
 permalink: parcours/
+bodyclass: hide-header
 ---
   
 <div id='grays' markdown='1'>
@@ -19,18 +20,36 @@ permalink: parcours/
 </div>
 
 
+## Column testing:
+
+### col-2-sm
+
+<div class='col-2-m'>
+    <div class='col'>
+        Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una, pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine.
+    </div>
+    <div class='col'>
+        Cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una, pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine.
+    </div>
+</div>
+
+
+
 # **head**line _One_ is [here](#) – Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 ## **head**line _Two_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 ### **head**line _Three_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 #### **head**line _Four_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 ##### **head**line _Five_ is [here](#)– Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt.
 
+<hr>
 
 <div id='responsive-fonts' class='r1'>R1 – Responsive öäüß <b>Font</b> <i>Number One</i> <a href='#'>is here</a>. The quick <i>brown</i> fox jumps over the lazy dog.</div>
 
 <div class='r2'>R2 – Responsive öäüß <b>Font</b> <i>Number One</i> <a href='#'>is here</a>. The quick <i>brown</i> fox jumps over the lazy dog.</div>
 
 <div class='r3'>R3 – Responsive öäüß <b>Font</b> <i>Number One</i> <a href='#'>is here</a>. The quick <i>brown</i> fox jumps over the lazy dog.</div>
+
+<hr>
 
 Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una, pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine.
 

@@ -4,8 +4,8 @@ bodyclass: home
 title: Hamburg Javascript Freelancer, Zürich, Bern
 ---
 
-<div class='multi-col'>
-    <div class='col h1 center zbounce1'>Herzlich willkommen</div>
+<div class='col-2-m'>
+    <div class='col h1 center zbounce1 hide-s'>Herzlich willkommen</div>
     <div class='col h1 center zdrop1 middle'>Welcome</div>
 </div>
 
@@ -15,7 +15,7 @@ title: Hamburg Javascript Freelancer, Zürich, Bern
 {% capture introDE %}{% include intro_DE.md %}{% endcapture %}
 {% capture introEN %}{% include intro_EN.md %}{% endcapture %}
 
-<section class='multi-col bilingual'>
+<section class='col-2-m bilingual'>
     <a lang='de' href='{% link _pages/about_DE.md %}' class='col plain'>
         <h1 class='h2'>Frontend Entwickler | JavaScript, Node JS, React | Web Apps | Konzeption & UI</h1>
         <span markdown='1'>
@@ -51,7 +51,7 @@ title: Hamburg Javascript Freelancer, Zürich, Bern
 * 2 years [teaching Computer Science in Singapore](http://www.np.edu.sg/ict/Pages/default.aspx){:target="_blank"}
 * Freelance Web Developer since 2011
 
-<div class='multi-col'>
+<div class='col-2-m'>
     <div class='col h1 center zbounce1'>
         <a href='{% link _pages/about_DE.md %}' class='button button-cta'>➪ Mehr über mich</a>
     </div>
