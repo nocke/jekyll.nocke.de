@@ -15,15 +15,15 @@ lang: en
 
 I was born and raised in northern Germany. Possibly my profession was somewhat pre-determined by ZX-81, Apple ][ and Amiga 500. I studied “media computer science” at FH Furtwangen (nowadays: “Hochschule Furtwangen University” ) from 1993 till 1997.
 
-Furtwangen was one of the first Media Computer Science curricula in Germany every... a year or two, before the internet raised to public's attention, and when “Multi Media” was rarely known, and meant CD-ROMs or stamp-sized videos.
+Furtwangen was one of the first Media Computer Science curricula in Germany every... a year or two, before the internet raised to public's attention, and when “Multi Media” was rarely known, and meant CD-ROMs or stamp-sized videos…
 
-Through internshops and my diploma thesis I got to know my hometown by choice Hamburg. Initially my focus was on „computer graphics + pogramming“, video compositing (Flint/Flame/Inferno on SGI were the top end machines in those days) and some 3D animation (Softimage, 3D Studio, 3DS Max). By the end of 1999 I finally got up to long-hedged plans for a round-the-world backpacker trip...
+Through internshops and my diploma thesis I got to know my hometown by choice Hamburg. Initially my focus was on „computer graphics + pogramming“, video compositing (Flint/Flame/Inferno on SGI were the top end machines in those days) and some 3D animation (Softimage, 3D Studio, 3DS Max). By the end of 1999 I finally got up to long-hedged plans for a round-the-world backpacker trip…
 
 That went nicely and according to plan, including a planned 6 wonderful weeks in Beijing, doing Flint/Flame Compositing end Video Editing at „Huayu TV Postproduction“. And continued quite spontaneously in Singpore. Where I worked as a visting lecturer at “Ngee Ann Polytechnic”, doing a combination of computer graphics and programming subjects. With full responsibilty für course contents and even exams as “module leader”.
 
 Two years with mostly anglo saxon Flatmates, Teaching & Working on English gave me a pretty good level of English. For reasons of personal stubborness I decided to return eastbound, according to my original plan. That way, it still became a round-the-world-trip.
 
-Right in time for my return in 2002, the internet bubble bursts, also over Germany. Not ideal for half-a-programmer, half-pixel-pusher. Since I realized, that programming can be my passion, but still missed a thing or two, I went for an “upgrade”, doing a Master's degree at Fachhochschule Wedel, right outside the gates of the city...
+Right in time for my return in 2002, the internet bubble bursts, also over Germany. Not ideal for half-a-programmer, half-pixel-pusher. Since I realized, that programming can be my passion, but still missed a thing or two, I went for an “upgrade”, doing a Master's degree at Fachhochschule Wedel, right outside the gates of the city…
 
 By May 2005 I got my “Master of Computer Science” and started working for Adobe Systems in Hamburg. Yes, Adobe got a Hamburg office, something I neither knew before. After some initial QA work, I became software developer quite quickly, and found myself in the XMP metadata team, where we developed a metadata library for all those well-known Adobe products and on three platforms (Windows, Mac OS, Linux).
 

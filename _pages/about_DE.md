@@ -42,7 +42,7 @@ Seit 2011 bin ich freier Software-Entwickler. Ich habe viele „typische“ Agen
 
 Von Februar 2013 bis April 2015 war ich beim SPIEGEL Verlag auf einer ganzen Reihe von Projekten gebucht, mit Schwerpunkt auf und voller Verantwortung für das Frontend: Relaunch von Abo-Shops, Umgestaltung von Sites auf Responsive, Re-Launch einer redaktionellen Website, Self-Services, komplexe Javascript-Logik (Prämienkonfigurator,…).
 
-Aktuell, seit September 2017, arbeite ich in der Schweiz auf einem sehr schönen React.js–Projekt... meine aktuelle Verfügbarkeit steht in [meinem XING-Profil]({{site.profile.xing}}){:target="_blank"}.
+Aktuell, seit September 2017, arbeite ich in der Schweiz auf einem sehr schönen React.js–Projekt… → meine aktuelle Verfügbarkeit steht in [meinem XING-Profil]({{site.profile.xing}}){:target="_blank"}.
 
 ----
 

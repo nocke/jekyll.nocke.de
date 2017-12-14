@@ -24,7 +24,7 @@ show-header: false
 
 ### und jetzt mal den Spieß umdrehen
 
-Everybody being an anchor...
+Everybody being an anchor…
 
 <button class='anchor'>plain Button</button>
 some
