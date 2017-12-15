@@ -2,7 +2,14 @@
 permalink: parcours/
 bodyclass: hide-header
 ---
-  
+
+### Before hammering out individual pages, one should ensure, his common styles work well.
+
+### Even afterwords, with the pages party or fully standing, it's great to hava a singular, common testing to see how things behave, and if they are consistent to each other. So this is, what you are looking at.
+{: .bpad40}
+
+If you are interesed in the styles, they are [all here](https://github.com/nocke/jekyll.nocke.de/tree/master/_sass){:target="_blank"}
+
 <div id='grays' markdown='1'>
 
 | -----: | -----: | -----: | -----: | -----: | -----: |
@@ -18,6 +25,14 @@ bodyclass: hide-header
 | s      | s-m    | m      | m-l    | l      | l-xl   | xl     |        |
 
 </div>
+
+
+> Quote styles – Single Line
+
+Yes
+
+> Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt,
+
 
 
 ## Column testing:
