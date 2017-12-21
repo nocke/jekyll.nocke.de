@@ -1,14 +1,17 @@
 ---
 permalink: parcours/
-bodyclass: hide-header
+bodyclass: NOPE-hide-header
 ---
 
-### Before hammering out individual pages, one should ensure, his common styles work well.
+> Before hammering out individual pages, one should ensure, his common styles work well. Even in the midst (or maintenance) of a project, with the pages partly or fully standing, it's great to have a singular, common test page, showcasing every stylistic element there is, including critical edge cases...
+>
+> To see how things behave, and if they are consistent to each other. **So this is, 
+what you are looking at…**
 
-### Even afterwords, with the pages party or fully standing, it's great to hava a singular, common testing to see how things behave, and if they are consistent to each other. So this is, what you are looking at.
+
 {: .bpad40}
 
-If you are interesed in the styles, they are [all here](https://github.com/nocke/jekyll.nocke.de/tree/master/_sass){:target="_blank"}
+→ If you are interesed in styles &amp; macros, they are [all here](https://github.com/nocke/jekyll.nocke.de/tree/master/_sass){:target="_blank"}
 
 <div id='grays' markdown='1'>
 

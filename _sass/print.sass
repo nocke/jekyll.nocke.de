@@ -15,13 +15,13 @@
     .printonly
         display: block !important
 
-    .neverprint
+    .neverprint,
         display: none !important
 
     // otherwise, white becomes some light gray
     body
         color: black
-    
+
     footer
         display: none
 
@@ -29,13 +29,33 @@
 // site-specific tweaks _________________________________
 
 @media print
-    .wrap
-        max-width: none
+    body
+        font-size: 16px // a bit smaller than on screen
+        padding-top: 0
+
+    // "inline" the abs-positioned head
+    header
+        position: static
+        height: auto !important
+
+    header .header-image
+        height: auto !important
+
+    h1
+        margin-top: 0.2em !important
 
     // de-corner-pinning
     body.cornerpin, body.cornerpin-center
         display: block !important
         position: relative !important
+
+
+    // never print “connected to Browser Sync”
+    #__bs_notify__
+        display: none !important
+
+    .wrap
+        max-width: none
 
     footer .teaserbox
         font-size: 3rem

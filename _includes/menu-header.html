@@ -6,7 +6,7 @@
 {% endif %}
 
 {% capture rooturl %}{% link index.md %}{% endcapture %}
-<nav class='menu'>
+<nav class='menu neverprint'>
     <ul class='plain-inline'>
         {% for item in site.data.menu-header.entries %}
         <li {% if url == item.url %}class='active' {% endif %}>

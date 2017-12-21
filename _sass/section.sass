@@ -1,11 +1,11 @@
 
 // error page ____________________________
 
-div.middle // --> atomic
-  position: relative
-  padding: 1px 0 120px // margin decollapse
-
 body.e404
   div.h1
-    font-size: 200px
+    +responsiveSize(18, 1.4rem)
     line-height: .5em
+
+  div.middle // --> atomic
+    position: relative
+    padding-bottom: 220px

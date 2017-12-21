@@ -11,19 +11,19 @@ bodyclass: cornerpin-center
 
   <ul class='big-links bpad20'>
     <li>
-      <a href='#' target='_blank' class='email' title='Frank Nocke Hamburg Email'><span class='sprite sprite-email'></span><span class='label'>{{ site.profile.mail }}</span></a>
+      <a href='#' target='_blank' class='email zbounce1' title='Frank Nocke Hamburg Email'><span class='sprite sprite-email'></span><span class='label'>{{ site.profile.mail }}</span></a>
     </li>
     <li>
-      <a href='{{site.profile.xing}}' target='_blank' title='Frank Nocke Hamburg XING'><span class='sprite sprite-xing'></span>...auf Xing</a>
+      <a href='{{site.profile.xing}}' target='_blank' title='Frank Nocke Hamburg XING'><span class='sprite sprite-xing zbounce2'></span>...auf Xing</a>
     </li>
     <li>
-      <h2 class='h2 tpad40'>weitere Profile im Netz...</h2>
+      <h2 class='h2 tpad20 bpad20 center zdrop1'>weitere Profile im Netz...</h2>
     </li>
     <li>
-      <a href='{{site.profile.stackoverflow}}' target='_blank' title='Frank Nocke Stackoverflow'><span class='sprite sprite-stackoverflow'></span>Stackoverflow</a>
+      <a class='zdrop1' href='{{site.profile.stackoverflow}}' target='_blank' title='Frank Nocke Stackoverflow'><span class='sprite sprite-stackoverflow zbounce1'></span>Stackoverflow</a>
     </li>
     <li>
-      <a href='{{site.profile.github}}' target='_blank' title='Frank Nocke Github Twitter'><span class='sprite sprite-github'></span>github.com/nocke</a>
+      <a class='zbounce2' href='{{site.profile.github}}' target='_blank' title='Frank Nocke Github Twitter'><span class='sprite sprite-github zbounce2'></span>github.com/nocke</a>
     </li>
   </ul>
 

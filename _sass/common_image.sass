@@ -59,8 +59,15 @@ picture
 
 
 // wode-images im wrap-context: seamless zum Rand
-main.wrap > .picture-wide  // only in margin-mode: snap to full width
-  @media ( max-width: $maxWidth + 2*$pad + $scrollBar )
+// WAS (with '>' main.wrap > .picture-wide
+main.wrap .picture-wide  // only in margin-mode: snap to full width
+  +below( $maxWidth + 2*$pad + $scrollBar )
     margin-left: -$pad
     margin-right: -$pad
     width: auto
+
+  +below( s-m )
+    margin-left: -$halfpad
+    margin-right: -$halfpad
+
+  // COULDDO: derive both from layout.sass → .wrap … below()

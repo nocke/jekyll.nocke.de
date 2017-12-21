@@ -13,21 +13,20 @@ title: Hamburg Javascript Freelancer, Zürich, Bern
 {% capture introDE %}{% include intro_DE.md %}{% endcapture %}
 {% capture introEN %}{% include intro_EN.md %}{% endcapture %}
 
-
 {% include tags/picture.html
-  class=""
+  class="picture-wide"
   title=imgMeta
   src="/img/frank-nocke/frank-nocke-portrait-ballon.jpg"
 %}
 
 <section class='col-2-m bilingual'>
-    <a lang='de' href='{% link _pages/about_DE.md %}' class='col plain'>
+    <a lang='de' href='{% link _pages/work_DE.md %}' class='col plain'>
         <h1 class='h2'>Frontend Entwickler | JavaScript, Node JS, React | Web Apps | Konzeption & UI</h1>
         <span markdown='1'>
             {{ introDE | truncatewords: 45 }}
         </span>
     </a>
-    <a lang='de' href='{% link _pages/about_EN.md %}' class='col plain'>
+    <a lang='de' href='{% link _pages/work_EN.md %}' class='col plain'>
         <h2>Frontend Developer | JavaScript Node JS, React | Web Apps | Concepts & UI</h2>
         <span markdown='1'>
             {{ introEN | truncatewords: 50 }}
@@ -58,10 +57,10 @@ title: Hamburg Javascript Freelancer, Zürich, Bern
 
 <div class='col-2-m'>
     <div class='col h1 center zbounce1'>
-        <a href='{% link _pages/about_DE.md %}' class='button button-cta'>➪ Mehr über mich</a>
+        <a href='{% link _pages/work_DE.md %}' class='button button-cta'>➪ Mehr über mich</a>
     </div>
     <div class='col h1 center zdrop1'>
-        <a href='{% link _pages/about_EN.md %}' class='button button-cta'>➪ More about me</a>
+        <a href='{% link _pages/work_EN.md %}' class='button button-cta'>➪ More about me</a>
     </div>
 </div>
 
