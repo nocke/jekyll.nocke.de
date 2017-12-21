@@ -6,8 +6,11 @@
   {% unless page.show-header == false %}{% include header.html %}{% endunless %}
 
   <main id="main" class="wrap {{page.mainclass}}">
-      {% if page.title %}
-      <h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' | escape }}{% endif %}</h1>
+      {% if page.mocktitle %}
+        <h1 class='mockunder'>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' }}{% endif %}</h1>
+        <h2 class='h1 mockover'>{{ page.mocktitle | escape }}</h2>
+      {% elsif page.title %}
+      <h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' }}{% endif %}</h1>
       {% endif %}
       {{ content }}
   </main>
