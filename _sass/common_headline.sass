@@ -46,8 +46,7 @@
   +below(s)
     font-size: 20px
 
-=responsiveSize($factor)
-  $minSize : 0.5rem
+=responsiveSize($factor, $minSize:0.5rem)
   // assume l as default
   font-size:   ( 1rem * $factor * 100) / 100 + $minSize
   +above(l-xl)
@@ -88,8 +87,8 @@ h1, .h1
 
 h2, .h2
   margin: .5em 0 0em
-  @extend .r2
-  color: $green
+  color: orange
+  +responsiveSize(2.2, 1.2rem)
 
 h3, .h3
   font-weight: bold
