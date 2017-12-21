@@ -9,11 +9,16 @@ title: Hamburg Javascript Freelancer, Zürich, Bern
     <div class='col h1 center zdrop1 middle'>Welcome</div>
 </div>
 
-
-![{{site.description | strip_newlines | strip_html | truncatewords:24 | replace: "|", "" }}]({{site.static}}/img/frank-nocke/frank-nocke-portrait-ballon.jpg)
-
+{% capture imgMeta %}{{site.description | strip_newlines | strip_html | truncatewords:24 | replace: "|", "" }}{% endcapture %}
 {% capture introDE %}{% include intro_DE.md %}{% endcapture %}
 {% capture introEN %}{% include intro_EN.md %}{% endcapture %}
+
+
+{% include tags/picture.html
+  class=""
+  title=imgMeta
+  src="/img/frank-nocke/frank-nocke-portrait-ballon.jpg"
+%}
 
 <section class='col-2-m bilingual'>
     <a lang='de' href='{% link _pages/about_DE.md %}' class='col plain'>

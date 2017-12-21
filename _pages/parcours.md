@@ -66,8 +66,11 @@ Yes
 
 <hr>
 
-Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una, pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine.
+Qua de causa `Helvetii` quoque reliquos `Gallos` virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una, pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine.
 
+(old-fashioned, deprecated way. Use → 
+    `\{\% include tags/picture.html…`
+)
 ![image-title-here]({{site.static}}/img/bg_amden.jpg){:class="img-responsive"}
 
 

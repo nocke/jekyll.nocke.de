@@ -1,8 +1,9 @@
 ---
 title: # Freiberufliche Javascript, React.js Entwicklung
 categories: Javascript React Entwickler, Frontend Entwickler, Freelancer, Schweiz, Freelancer, Freiberufler, Zürich, Bern, Hamburg
-permalink: javascript-entwickler/react-entwickler/hamburg-schweiz/frank-nocke/
+permalink: javascript-developer/react-developer/hamburg-switzerland/frank-nocke/
 mainclass: justify-wide bpad40
+lang: en
 ---
 
 {% include tags/picture.html

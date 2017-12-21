@@ -6,9 +6,13 @@
     "clean": "rm -rf _site",
 
     "build": "bundle exec jekyll build --drafts",
-    "watch": "bundle exec jekyll serve --drafts --incremental --config _config.yml,_dev.yml",
+    "watch": "bundle exec jekyll serve --watch --verbose --drafts --incremental --config _config.yml,_dev.yml",
+
+    "newwatch": "bundle exec jekyll serve --watch --drafts",
+    "_": "// https://stackoverflow.com/q/47922363/#comment82813712_47922363",
+
     "restart": "watchy -w _config.yml -- bundle exec jekyll serve --drafts --watch --incremental --config _config.yml,_dev.yml",
-    "reload": "browser-sync start --proxy \"localhost:4000\" --files \"_site/**/*\" \"_*.yml\" --no-ui --port 4001",
+    "reload": "browser-sync start --reloadDebounce 100 --proxy \"localhost:4000\" --files \"_site/**/*\" \"_*.yml\" --no-ui --port 4001",
 
     "start": "npm run restart & npm run reload",
 
