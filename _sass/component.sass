@@ -52,13 +52,14 @@ body .bilingual
     display: table-cell
     vertical-align: middle
     display: block
+
     &:hover, &:focus
       color: white
       +shadow-tiny-text
       background-color: rgba( white, .4 )
       span.sprite, span.sprite:focus, span.sprite:hover
         background-color: transparent !important
-        +bumpL
+        @extend .zbounce
 
 
 // recruiter-advice

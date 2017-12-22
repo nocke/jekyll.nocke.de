@@ -26,10 +26,6 @@
   &-xing, &-stackoverflow, &-github, &-medium, &-email
     width: 80px
     height: 80px
-    &:focus, &:hover
-      +bumpM
-      @extend .zbounce
-      background-color: rgba( white, .1) !important
   &-xing
     background-position: 0 -80px
     @at-root #{selector-append(a, &, ':focus')}, #{selector-append(a, &, ':hover')}
