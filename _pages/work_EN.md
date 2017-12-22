@@ -1,8 +1,8 @@
 ---
-title: ' '
+title: Freelance Senior Javascript developer, React.js, Redux, UI/UX, Freelancer Mangotestword Kiwihamburg TODO
+mocktitle: About me
 categories: Javascript React Entwickler, Frontend Entwickler, Freelancer, Schweiz, Freelancer, Freiberufler, Zürich, Bern, Hamburg
 permalink: javascript-developer/react-redux-developer/hamburg-switzerland/frank-nocke/
-bodyclass: cornerpin-center
 mainclass: justify-wide bpad40
 lang: en
 ---
@@ -24,10 +24,7 @@ lang: en
 
 I am a freelance web developer with focus on `react.js` and `UX/UI`. So it's `Javascript`, `ES6`, `NodeJS`, `React` und `Redux`, and styling languages `CSS3`, `Less`, `Sass` und `Stylus`.
 
-I hold a diploma in media computer science (Medieninformatik FH) since 1997, and a “Master of Computer Science [MSc.]” since 2005. Ever since 2011 I work as a web development freelancer.
-
-
-[My first computer](https://de.wikipedia.org/wiki/Sinclair_ZX81){:target="_blank"} I got at age 9, [my second](https://de.wikipedia.org/wiki/Apple_IIe){:target="_blank"} when I turned 13, [and my third](https://de.wikipedia.org/wiki/Amiga_500){:target="_blank"} when I was 15.
+I hold a diploma in media computer science (Medieninformatik FH) since 1997, and a “Master of Computer Science [MSc.]” since 2005. Ever since 2011 I work as a web development freelancer. [My first computer](https://de.wikipedia.org/wiki/Sinclair_ZX81){:target="_blank"} I got at age 9, [my second](https://de.wikipedia.org/wiki/Apple_IIe){:target="_blank"} when I turned 13, [and my third](https://de.wikipedia.org/wiki/Amiga_500){:target="_blank"} when I was 15.
 
 ## Overview
 

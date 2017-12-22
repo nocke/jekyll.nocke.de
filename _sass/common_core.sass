@@ -12,7 +12,9 @@ body
   position: relative
   font-weight: normal
   font-family: Ubuntu, Arial, Helvetica, sans-serif
-  padding-top: $headerHeight+$pad
+  padding-top: $headerHeight+$halfpad
+  &.tpad0 // nice bodyclass
+    padding-top: $headerHeight !important
 
   padding-bottom: $footerHeight // reserved for footer
   +below(s-m)
