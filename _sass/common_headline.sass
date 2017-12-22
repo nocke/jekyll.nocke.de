@@ -3,49 +3,6 @@
 // responsive headlines __________________________________
 // make default size the media-query-less default. just in case.
 
-.r1
-  line-height: 1.2em
-  font-size: 50px
-
-  +above(l)
-    font-size: 60px
-  +above(xl)
-    font-size: 75px
-
-  +below(m)
-    font-size: 40px
-  +below(s)
-    font-size: 36px
-
-.r2
-  line-height: 1.2em
-  font-size: 32px
-
-  +above(l)
-    font-size: 42px
-  +above(xl)
-    font-size: 50px
-
-  +below(m)
-    font-size: 28px
-  +below(s)
-    font-size: 24px
-
-.r3
-  line-height: 1.2em
-  font-size: 22px
-  font-weight: bold
-
-  +above(l)
-    font-size: 28px
-  +above(xl)
-    font-size: 32px
-
-  +below(m)
-    font-size: 24px
-  +below(s)
-    font-size: 20px
-
 =responsiveSize($factor, $minSize:0.5rem)
   // assume l as default
   font-size:   ( 1rem * $factor * 100) / 100 + $minSize
@@ -83,7 +40,7 @@ h1, .h1
 
 h1, .h1
   text-align: center
-  @extend .r1
+  +responsiveSize(3.8, 1.4rem)
 
 h2, .h2
   margin: 1em 0 0
@@ -92,7 +49,7 @@ h2, .h2
 
 h3, .h3
   font-weight: bold
-  @extend .r3
+  +responsiveSize(1, 1.2rem)
   font-size: 18px
 
 h4, .h4

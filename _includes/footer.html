@@ -1,11 +1,12 @@
 <footer id='footer'>
     <h2 class='teaserbox'>
-        <a href='{% link _pages/contact.md %}'>
+        <section>
             <b>Frank Nocke</b>
+            <a class='button button-main floatright' href='{% link _pages/contact.md %}'>E-Mail&thinsp;&amp;&thinsp;Kontakt</a>
             Master of Computer Science&thinsp;[MSc] • Dipl.-Medieninformatiker&thinsp;[FH]
             Frontend Entwickler • React JS • JavaScript • NodeJS • Freelancer
             <span class='nowrap'>Hamburg | Schweiz | Remote</span>
-        </a>
+            {% include menu-footer.html %}
+        </section>
     </h2>
-    {% include menu-footer.html %}
 </footer>

@@ -4,33 +4,37 @@ footer
   width: 100%
   bottom: 0
   box-sizing: border-box
-  background: $gray1
-  min-height: $footerHeight
+  background: rgba( $gray1, .6)
 
   .teaserbox
     @extend .wrap  // gets (not yet harming) side effects from common_image
-    padding: 10px
+    padding: 10px 10px 2px
     border: 1px
-    +responsiveSize(1.2)
+    +responsiveSize(1)
+    section
+      margin: 0
+      color: $gray3
+      display: block
+      text-decoration: none
     b
       display: block
       color: $gray4
-    a
-      color: $gray3
-      display: block
-      text-decoration: none
-      &:focus, &:hover
-        color: $gray4
-        b
-          color: white
+    .button
+      margin-left: $pad
+      +below(s)
+        margin: 4px auto
+        float: none !important
+        display: block
 
   .menu
-    text-align: right
+    text-align: left
     padding: 1px 2% 6px 0
     font-size: 0
+    li
+      padding: 4px 6px 2px 0
     a
-      font-size: 14px
+      +responsiveSize(.2, 1rem)
       line-height: initial
-      color: $gray3
+      color: rgba( $gray3, .6 )
       text-decoration: none
-      padding: 4px 6px
+      padding: 0 // pad outside

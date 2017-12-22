@@ -46,7 +46,7 @@ body .bilingual
     vertical-align: middle
     margin-right: $pad
   a
-    @extend .r2
+    +responsiveSize(1.8, 1.4rem)
     +radiusL
     text-decoration: none
     display: table-cell
@@ -59,3 +59,12 @@ body .bilingual
       span.sprite, span.sprite:focus, span.sprite:hover
         background-color: transparent !important
         +bumpL
+
+
+// recruiter-advice
+.recruiter-advice
+  padding: $halfpad 0
+  +below(s-m)
+    div
+      display: inline
+

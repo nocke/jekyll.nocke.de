@@ -13,7 +13,13 @@ body
   font-weight: normal
   font-family: Ubuntu, Arial, Helvetica, sans-serif
   padding-top: $headerHeight+$pad
-  padding-bottom: $footerHeight+$pad // reserved for footer
+
+  padding-bottom: $footerHeight // reserved for footer
+  +below(s-m)
+    padding-bottom: $footerHeightSM // reserved for footer
+  +below(s)
+    padding-bottom: $footerHeightS // reserved for footer
+
   box-sizing: border-box // so padding reserved for footer does not add up
   background: #151515 url('./bkg.png') 0 0
 
@@ -76,7 +82,7 @@ code.highlighter-rouge
   margin-right: 2px
   text-decoration: none
   +radiusS
-  
+
 // to switch the underline from blue to green
 a code.highlighter-rouge
   display: inline-block
@@ -90,13 +96,8 @@ a code.highlighter-rouge
 // useful bodyclasses __________________________________________
 
 // corner pin _____________________________________________
-// body.cornerpin == aka sticky footer, flexible center
-// body.cornerpin-center
-// == this is centering, min height as before,
-//    scrollbars, if content demands (and I like it!)
 
-// common
-body.cornerpin, body.cornerpin-center
+body.cornerpin-center
   main
     +border-box
     @extend .clearfix
@@ -105,23 +106,18 @@ body.cornerpin, body.cornerpin-center
     overflow: hidden // only y scrolling, if any (important also for anim)
     overflow-y: auto
 
-// individual
-body.cornerpin // aka sticky footer
-  main
-    position: absolute
-    left: 0
-    right: 0
-    top: $headerHeight
-    bottom: $footerHeight
-
 body.cornerpin-center
   display: table
-  padding-top: $headerHeight // without the +$pad
-  padding-bottom: $footerHeight // without the +$pad
+  padding-top: $headerHeight // just without the +$pad
+  // padding-bottom (incl. responsive steps) is fine, as above
+
   width: 100%
   main
     display: table-cell
     vertical-align: middle
+    // debug
+    // +border-box
+    // border: 10px solid rgba(red, .3)
   footer
     position: absolute
     left: 0

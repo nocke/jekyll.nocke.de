@@ -29,6 +29,9 @@ body  // TODO  body.debug
             background: rgba( purple, .3)
 
 #breakpoints
+    overflow: hidden
+    +responsiveSize(1)
+
     td:nth-child(1)
         background: rgba( purple, .3)
     td:nth-child(2)
@@ -61,17 +64,3 @@ body  // TODO  body.debug
     td:nth-child(6)
         color: $gray1
         background: white
-
-
-// // debug coloring:
-// .r1, .r2, .r3
-//   background: rgba( lawngreen, .2)
-//   +above(l)
-//     background: rgba( yellow, .2)
-//   +above(xl)
-//     background: rgba( orange, .2)
-//   +below(m)
-//     background: rgba( blue, .2)
-//   +below(s)
-//     background: rgba( purple, .2)
-

@@ -29,12 +29,14 @@ bodyclass: cornerpin-center
 
 </section>
 
-<h5 lang='de' class='center tpad20'>Erste Kontaktaufnahme durch <b>Personalvermittler</b> bitte per Email oder XING, nicht telefonisch.</h5>
-<h5 lang='en' class='center'><b>Recruiters:</b> Please contact me first through Email or XING only, not over the phone.</h5>
+<h5 class='recruiter-advice center tpad20'>
+  <div lang='de'>Erste Kontaktaufnahme durch <b>Personalvermittler</b>: bitte per Email oder XING, nicht&nbsp;telefonisch.</div>
+  <div lang='en'><b>Recruiters:</b> Please contact me for the first time through Email or XING, not over&nbsp;the&nbsp;phone.</div>
+</h5>
 
 
 <script type="text/javascript">
-  
+
   var elems = document.getElementsByTagName('a'), i;
   for (i in elems) {
       console.log( elems[i].className );

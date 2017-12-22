@@ -35,6 +35,8 @@ title: Hamburg Javascript Freelancer, Zürich, Bern
 
 </section>
 
+<div class='box h3'>→ Aktuelle Verfügbarkeit: März/April 2018.</div>
+
 ## Skills
 
 | React JS, Redux, Node JS, npm, yarn |
