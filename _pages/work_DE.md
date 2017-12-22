@@ -18,15 +18,27 @@ mainclass: justify-wide
 %}
 
 
-## Javascript & React.js Freelancer
+## Javascript Freelancer
 
 Ich bin freiberuflicher Web-Entwickler / Freelancer mit Schwerpunkt Frontend. Also: `Javascript`, `ES6`, `NodeJS`, `React` und `Redux`, aber vor allem auch Styling mit `CSS3`, `Less`, `Sass` und `Stylus`.
 
 Diplom-Medieninformatiker&thinsp;[FH] bin ich seit 1997, Master of Computer&thinsp;Science&thinsp;[MSc] seit 2005 und freiberuflicher Javascript–Entwickler (Freelancer) seit 2011. [Meinen ersten Computer](https://de.wikipedia.org/wiki/Sinclair_ZX81){:target="_blank"} bekam ich mit 9, [meinen zweiten](https://de.wikipedia.org/wiki/Apple_IIe){:target="_blank"} mit 13, [meinen dritten](https://de.wikipedia.org/wiki/Amiga_500){:target="_blank"} mit 15.
 
+## Übersicht
+
+| ----------: | :---------------------                                       |
+|        1993 | Abitur in Osnabrück                                          |
+| 1993 – 1997 | **FH Furtwangen**: Diplom-Medieninformatiker [FH]            |
+| 1996 – 1999 | **Hamburg**: Praxissemester, Diplom, Computergrafik…         |
+| 2000 – 2001 | **Singapur**: Ngee Ann Polytechnic                           |
+| 2002 – 2005 | **FH Wedel**: Master of Computer Science [MSc.],             |
+| 2005 – 2009 | Adobe Systems, **Hamburg** (+phasenweise San Jose): C++, XMP |
+| seit **2011** | **Web Entwickler (Freelancer)** <br> • 2011-13 diverse, LAMP-Stack <br>• 2013-15 SPIEGEL-Verlag<br>• 2015-2017 Angular.js, React-Projekte… <br>• Winter 2017/18: Kunde in der Schweiz…  |
+
+
 ## Selbständigkeit & Technologien
 
-Zu Beginn meiner Selbständigkeit habe ich vor allem Full-Stack Projekte für Hamburger Agenturen bearbeitet. – **„LAMP“** =&nbsp;`Linux`, `Apache`, `MySQL`, `PHP` und natürlich `html`, `CSS`&thinsp;&amp;&thinsp;jede Menge `jQuery`. Dann war ich gut 2 Jahre beim SPIEGEL–Verlag intensiv mit einer Reihe von Frontend-Projekten betraut: Responsive Design, Javascript Applikationen, Self-Service Portale mit Styling, Javascript und Anbindung mit Templatesprachen (JSP, JSTL, EJS, JSX, …) an die jeweilligen Backends.
+Zu Beginn meiner Selbständigkeit habe ich vor allem Full-Stack Projekte für Hamburger Agenturen bearbeitet. – **„LAMP“** =&nbsp;`Linux`, `Apache`, `MySQL`, `PHP` und natürlich `html`, `CSS`&thinsp;&amp;&thinsp;jede Menge `jQuery`. Dann war ich gut 2 Jahre beim SPIEGEL–Verlag intensiv mit einer Reihe von Frontend-Projekten betraut: Responsive Design, Javascript Applikationen, Self-Service Portale mit Styling, Javascript und Anbindung mit Template-Sprachen (JSP, JSTL, EJS, JSX, …) an die jeweiligen Backends.
 
 Mit dem Aufkommen von `NodeJS` wurde JavaScript zur großartigen Alternative zu Java und PHP als Backend-Sprache und war quasi sofort mein Favorit. Zunächst in einem `Angular.js` Projekt, seit dem mit `React.js`, was mir noch etwas besser gefällt. Erfahrungen mit REST-APIs, Microservices und Technologien wie [GraphQL](http://graphql.org/learn/){:target="_blank"} konnte ich außerdem sammeln.
 
@@ -34,7 +46,7 @@ An CSS-Layout-Systemen/UI Libraries hatte ich `Bootstrap` und `Ant-Design` gearb
 
 An **build-tools / task-handlern / bundlern** habe ich natürlich immer schon viel mit `make`, `ant` und `maven` gearbeitet. In den letzten Jahren kamen `npm`, `gulp` und natürlich `Webpack` für React.js dazu. Das „drumherum“ ist natürlich auch vorhanden: `npm`, `bash`-scripting, testing &amp; TDD mit `mocha`, `jasmin` und `jest`. Weniger Erfahrung habe ich bislang mit DevOps (deployment, Cloud, CI, …). Auch wenn ich z.B. für diese Site hier schon so meine eigenen deployment-scripte und apache-Setups habe…
 
-Ich arbeite am liebsten unter `Linux`, habe aber auch lange Jahre unter Windows und Mac&thinsp;OS gearbeitet.
+Ich arbeite am liebsten unter `Linux` (aktuell Ubuntu MATE), habe aber auch lange Jahre unter Windows und Mac&thinsp;OS gearbeitet.
 
 
 {% include tags/picture.html
@@ -52,20 +64,20 @@ Ich arbeite am liebsten unter `Linux`, habe aber auch lange Jahre unter Windows 
 %}
 
 
-Nach meinem Medieninformatik-Studium (1993-97) hatte ich mich zunächst auf Computer-Animation (3D Studio, 3DS Max, Softimage,…) und Compositing (Eddie, After Effects, Flint, Flame, Inferno…) verlegt, in verschiedenen Hamburger TV Post&shy;produktionen, unter anderem bei Spans&thinsp;&amp;&thinsp;Partner. Und zu Beginner meiner Weltreise sogar für 6 Wochen in Peking bei der „Huayu Advertising Co“. Zu Studien&shy;zeiten gab's mal ein Praxissemster bei der [Markenfilm](http://www.markenfilm.com). Alles Dinge, die später in mein Photo- und Design-Hobby eingingen,...
+Nach meinem Medieninformatik-Studium (1993-97) hatte ich mich zunächst auf Computer-Animation (3D Studio, 3DS Max, Softimage,…) und Compositing (Eddie, After Effects, Flint, Flame, Inferno…) verlegt, in verschiedenen Hamburger TV Post&shy;produktionen, unter anderem bei Spans&thinsp;&amp;&thinsp;Partner. Und Ende 1999 sogar mal 6 Wochen in Peking bei der „Huayu Advertising Co“. Zu Studien&shy;zeiten gab's mal ein Praxissemester bei der [Markenfilm](http://www.markenfilm.com).
 
 Dieser Computergrafik-Background hilft mir aber auch, Dinge schnell zu visualisieren. Sei es komplette Entwürfe oder einzelne Features schnell zu visualisieren, zum besseren Verständnis aller Beteiligten.
 
-In Photoshop würde ich mich als Experte einstufen. Vielleicht nicht bei Druckvorstufe, Proofs & Kalibration, aber doch bei Entwürfen, Pixelpushing, Raw-Entwickung und Retuschen…
+In Photoshop würde ich mich daher als Experte einstufen. Vielleicht nicht bei Druckvorstufe, Proofs & Kalibration, aber bei Entwürfen, Pixelpushing, Raw-Entwickung und Retuschen…
 
-Diese Website ist übrigens mit [`Jekyll`](https://jekyllrb.com/) entstanden, einem rein statischen site-Generator, wie er auch sehr komfortabel für [`github-pages`](https://pages.github.com/){:target="_blank"} eingesetzt wird.
+Diese Website ist übrigens mit [`Jekyll`](https://jekyllrb.com/) erzeugt, einem rein statischen site-Generator, wie er auch sehr komfortabel für [`github-pages`](https://pages.github.com/){:target="_blank"} eingesetzt wird.
 
-Für kleine „Auftritte“ und „Visitenkarten“ ideal, weil man sich nicht mit den Komplexitäten eines CMS und den unvermeidlichen Aufwänden einer Datenbank herumschlagen muss. Jegliche Versionierung und Deployment an einem Ort zu haben, hat einfach unglaubliche Vorteile. Mal ganz abgesehen von unglaublich präzisen SEO-Möglichkeiten, die in größeren CMS deutlich mehr Mühe bereiten würden... den source code inklusive Templates&thinsp;&amp;&thinsp;Styles meiner Site finden Sie (mit leichtem Rückstand) übrigens [auf github](https://github.com/nocke/jekyll.nocke.de){:target="_blank"}.
+Ein wunderbares System, weil man sich nicht mit den Komplexitäten eines CMS und den unvermeidlichen Aufwänden einer Datenbank herumschlagen muss. Jegliche Versionierung und Deployment an einem Ort zu haben, hat einfach unglaubliche Vorteile. Zumal man als Programmierer halt auch git gewohnt ist. Und letztlich schreibt sich markdown schneller, also der schönste wysiwyg-Editor… Und mal ganz abgesehen von unglaublich präzisen SEO-Möglichkeiten, die in größeren CMS deutlich mehr Mühe bereiten würden... den Source Code inklusive Templates&thinsp;&amp;&thinsp;Styles meiner Site finden Sie (mit leichtem Rückstand) übrigens [auf github](https://github.com/nocke/jekyll.nocke.de){:target="_blank"}.
 
 
 ## Sprachen & International
 
-Die ersten 2 Jahre des Milleniums habe ich in Singpur gelebt und gearbeitet, als „International Fellow&thinsp;/ Visiting Lecturer“ an einem [Polytechnic](www.np.edu.sg/ict){:target="_blank"}). Komplett auf Englisch, mit britischen, schottischen, neuseeländischen und amerikanischen Flatmates. So gesehen spreche ich jetzt fließend Singlish, Cinglish und, naja, kann Schotten verstehen. Das Arbeiten bei Adobe Systems (2005-2009) verlief ebenfalls zu einem Großteil auf Englisch. Insoweit würde ich mein Englisch als robust, präsentations- und verhandlungssicher bezeichnen.
+Die ersten 2 Jahre des Jahrtausends habe ich in Singapur gelebt &amp;&thinsp;gearbeitet, als „International Fellow&thinsp;/ Visiting Lecturer“ an einem [Polytechnic](www.np.edu.sg/ict){:target="_blank"}. Komplett auf Englisch, mit britischen, schottischen, neuseeländischen und amerikanischen Flatmates. So gesehen spreche ich jetzt fließend Singlish, Cinglish und, naja, ich kann Schotten verstehen. Das Arbeit bei Adobe Systems (2005-2009) verlief ebenfalls zu einem Großteil auf Englisch. Insoweit würde ich mein Englisch als robust, präsentations- und verhandlungssicher bezeichnen.
 
 Gearbeitet habe ich freiberuflich bislang in Hamburg, Hannover, Liechtenstein und der Schweiz. Zuvor neben Singapur (2000–2001) auch mal 6 Wochen in Peking (Ende '99), damals noch in Sachen Computergrafik.
 
@@ -74,21 +86,6 @@ Gearbeitet habe ich freiberuflich bislang in Hamburg, Hannover, Liechtenstein un
   title="Frank Nocke, Beachvolleyball, Presse, Sportfotografie, Hamburg"
   src="/img/frank-nocke/frank-nocke-portrait-ballon.jpg"
 %}
-
-
-## Übersicht
-
-**So. Und wem das jetzt alles zu unübersichtlich war…**
-
-| ----------: | :---------------------                                       |
-|        1993 | Abitur in Osnabrück                                          |
-| 1993 – 1997 | Diplom-Medieninformatik (FH) im Schwarzwald                  |
-| 1996 – 1999 | **Hamburg**: Praxissemster, Diplom, Computergrafik…          |
-| 2000 – 2001 | Singapur: Ngee Ann Polytechnic                               |
-| 2002 – 2005 | **Master of Computer Science [MSc.]**, FH Wedel              |
-| 2005 – 2009 | Adobe Systems, **Hamburg** (+phasenweise San Jose): C++, XMP |
-| 2011 – …    | **Frontend Freelancer** <br> • davon 2013-15 beim SPIEGEL <br>• Winter 2017/18 in der Schweiz…  |
-
 
 ## Persönliches
 
@@ -103,4 +100,3 @@ Zwischen Projekten reise ich immer noch recht viel. Eigentlich [alles](https://m
 %}
 
 Und da man ja nie genug Zeit vor dem Schirm verbringen kann, habe ich ein kleines open-source ‚pet projekt’ auf github, bislang mit dem nüchternen Namen [`photocmd`](https://github.com/nocke/photocmd){:target="_blank"}. Es soll vor allem beim Auswählen & Ausmisten großer Photomengen helfen...
-
