@@ -65,7 +65,7 @@ Ich arbeite am liebsten unter `Linux` (aktuell Ubuntu MATE), habe aber auch lang
 %}
 
 
-Nach meinem Medieninformatik-Studium (1993-97) hatte ich mich zunächst auf Computer-Animation (3D Studio, 3DS Max, Softimage,…) und Compositing (Photoshop, After Effects, Flint, Flame, Inferno auf SGI) verlegt, in verschiedenen Hamburger TV Post&shy;produktionen, unter anderem bei Spans&thinsp;&amp;&thinsp;Partner. Und Ende 1999 sogar mal 6 Wochen in Peking bei der „Huayu Advertising Co“. Zu Studien&shy;zeiten gab's mal ein Praxissemester bei der [Markenfilm](http://www.markenfilm.com), Hamburgs größte Werbefilmproduktion.
+Nach meinem Medieninformatik-Studium (1993-97) hatte ich mich zunächst auf Computer-Animation (3D Studio, 3DS Max, Softimage,…) und Compositing (Photoshop, After Effects, Flint, Flame, Inferno auf SGI) verlegt, in verschiedenen Hamburger TV Post&shy;produktionen, unter anderem bei Spans&thinsp;&amp;&thinsp;Partner. Und Ende 1999 sogar mal 6 Wochen in Peking bei der „Huayu Advertising Co“. Zu Studien&shy;zeiten gab's mal ein Praxissemester bei der [Markenfilm](http://www.markenfilm.com){:target="_blank"}, Hamburgs größte Werbefilmproduktion.
 
 Mein Computergrafik-Background hilft mir, Dinge schnell zu visualisieren. Sei es komplette Entwürfe oder einzelne Features schnell zu visualisieren, zum besseren Verständnis aller Beteiligten.
 

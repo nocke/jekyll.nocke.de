@@ -72,7 +72,7 @@ My preferred OS is `Linux` (currently using Ubuntu MATE), but I also worked many
   src="/img/frank-nocke/portrait/frank-nocke-oberhafenkantine-square.jpg"
 %}
 
-After my diploma in Media Computer Science (1993-97) I initially focussed on Computer-Animation (3D Studio, 3DS Max, Softimage,…) and Compositing (Photoshop, After Effects, Flint, Flame, Inferno on SGI) in various Hamburg TV Post&shy;productions, Spans&thinsp;&amp;&thinsp;Partner among these. Bei the End of 1999 I even worked for 6 weeks in Beijing for the „Huayu Advertising Co“. Earlier in my studies, I did a 6-months-internship at [Markenfilm](http://www.markenfilm.com), a commercials movie production.
+After my diploma in Media Computer Science (1993-97) I initially focussed on Computer-Animation (3D Studio, 3DS Max, Softimage,…) and Compositing (Photoshop, After Effects, Flint, Flame, Inferno on SGI) in various Hamburg TV Post&shy;productions, Spans&thinsp;&amp;&thinsp;Partner among these. Bei the End of 1999 I even worked for 6 weeks in Beijing for the „Huayu Advertising Co“. Earlier in my studies, I did a 6-months-internship at [Markenfilm](http://www.markenfilm.com){:target="_blank"}, a commercials movie production.
 
 My cgi background often helps me, to visualize Things fast. Be it complete screen designs or just single features that need to be sketched, for the better understanding of all stakeholders.
 
