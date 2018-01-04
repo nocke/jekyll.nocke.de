@@ -86,7 +86,7 @@ A great system, because one does not have to deal with the complexcity of a CMS 
 
 ## Languages & International
 
-The first 2 years of the millenium I lived &amp;&thinsp;worked in Singapore, as „International Fellow&thinsp;/ Visiting Lecturer“ at a [Polytechnic](www.np.edu.sg/ict){:target="_blank"}.
+The first 2 years of the millenium I lived &amp;&thinsp;worked in Singapore, as „International Fellow&thinsp;/ Visiting Lecturer“ at a [Polytechnic](http://www.np.edu.sg/ict){:target="_blank"}.
 
 Completely on Englisch, together with british, scottish, kiwi and american fellows/flatmates. Ever since I speak Singlish, Cinglish and understand, whatever language the Scots are using. My time at Adobe Systems (2005-2009) also largely happened on English. Thus I would call my English somewhat fluent and presentation-proof.
 

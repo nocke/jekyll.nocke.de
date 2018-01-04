@@ -77,7 +77,7 @@ Ein wunderbares System, weil man sich nicht mit den Komplexitäten eines CMS und
 
 ## Sprachen & International
 
-Die ersten 2 Jahre des Jahrtausends habe ich in Singapur gelebt &amp;&thinsp;gearbeitet, als „International Fellow&thinsp;/ Visiting Lecturer“ an einer [technischen Hochschule](www.np.edu.sg/ict){:target="_blank"}. Komplett auf Englisch, zusammen mit britischen, schottischen, neuseeländischen und amerikanischen Fellows/Flatmates. So gesehen spreche ich jetzt fließend Singlish, Cinglish und, naja, ich kann Schotten verstehen. Das Arbeit bei Adobe Systems (2005-2009) verlief ebenfalls zu einem Großteil auf Englisch. Insoweit würde ich mein Englisch als robust, präsentations- und verhandlungssicher bezeichnen.
+Die ersten 2 Jahre des Jahrtausends habe ich in Singapur gelebt &amp;&thinsp;gearbeitet, als „International Fellow&thinsp;/ Visiting Lecturer“ an einer [technischen Hochschule](http://www.np.edu.sg/ict){:target="_blank"}. Komplett auf Englisch, zusammen mit britischen, schottischen, neuseeländischen und amerikanischen Fellows/Flatmates. So gesehen spreche ich jetzt fließend Singlish, Cinglish und, naja, ich kann Schotten verstehen. Das Arbeit bei Adobe Systems (2005-2009) verlief ebenfalls zu einem Großteil auf Englisch. Insoweit würde ich mein Englisch als robust, präsentations- und verhandlungssicher bezeichnen.
 
 Gearbeitet habe ich neben Singapur auch schon in Liechtenstein, der Schweiz, einige Zeit in San Jose und Seattle, und 1999 mal 6 Wochen in Peking, kurz vor Singapur.
 
