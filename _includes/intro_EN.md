@@ -1,10 +1,7 @@
-**I am a freelance software developer since 2011.** Early on I worked primarily on smaller projects for various Online Agencies in Hamburg. Frequently “full stack“, thus from Frontend (HTML, CSS, javaScript, jQuery, Photoshop) to Backend (PHP, Apache, mySQL).
+**I am a freelance web developer** with focus on `react.js` and `UX/UI`. So it's `Javascript`, `ES6`, `NodeJS`, `React` und `Redux`, and styling languages `CSS3`, `Less`, `Sass` und `Stylus`.
 
-From 2013 till 2015 I was booked by SPIEGEL Verlag (mayor German news magazine) on a number of projects: Relauch of subscription-shops, marketing and editorial websites, premium configuration modules (complex javaScript). With focus on Frontend, Styling and Responsive Design.
+When I got self-employed I started working an smaller full-stack projects for various Hamburg media agency. – **„LAMP“** =&nbsp;`Linux`, `Apache`, `MySQL`, `PHP` and `html`, `CSS`&thinsp;&amp;&thinsp;plenty of `jQuery`, naturally.
 
-On my most recent projects I primarily worked on React JS Web Apps:
-Node JS, npm, gulp, webpack, react-router, redux, ejs, css (less/stylus/sass/jeet), ES6, partially Typescript. As IDEs I use Visual Studio Code and Netbeans unter Linux.
+Then I got a row of projects to work on at the SPIEGEL News Magazine: Responsive Design, Javascript Apps, self-service portals including styling, javascript und connecting templates (JSP, JSTL, EJS, JSX, …) to the respective backends.
 
-Beside implementation I do like conceptual work and can deliver Photoshop designs and mockups for additional features. In the 90ies I worked a lot on computer graphics and compositing. This “pixelpushing background” often helps me, to reduce overhead between design and coding and clarify tasks directly with stake holders.
-
-In a permanent role I worked nearly 5 years for Adobe Systems and spent another two 2 years at a Polytechnic in Singapore teaching Media Computer Science.
+With the rise of `NodeJS` all of a sudden JavaScript became a viable option for the backend, alternative to Java or PHP, becoming instantly my backend language of choice.
