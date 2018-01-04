@@ -39,17 +39,17 @@ I hold a **diploma in media computer science (Medieninformatik FH)** since 1997,
 
 ## Experiences & Technologies
 
-When I got self-employed I started working an smaller full-stack projects for various Hamburg media agency. – **„LAMP“** =&nbsp;`Linux`, `Apache`, `MySQL`, `PHP` and `html`, `CSS`&thinsp;&amp;&thinsp;plenty of `jQuery`, naturally.
+When I got self-employed I started working an smaller full-stack projects for various Hamburg media agencies. – **„LAMP“** =&nbsp;`Linux`, `Apache`, `MySQL`, `PHP` and `html`, `CSS`&thinsp;&amp;&thinsp;plenty of `jQuery`, naturally.
 
 Then I got a row of projects to work on at the SPIEGEL News Magazine: Responsive Design, Javascript Apps, self-service portals including styling, javascript und connecting templates (JSP, JSTL, EJS, JSX, …) to the respective backends.
 
-With the rise of `NodeJS` all of a sudden JavaScript became a viable option for the backend, alternative to Java or PHP, becoming instantly my backend language of choice.
+With the rise of `NodeJS` suddenly JavaScript became a viable option for the backend, alternative to Java or PHP, instantly becoming my backend language of choice.
 
 First working on an `Angular.js` project, then contributing to a number of `React.js` sites, which I like a tad better. I also gathered experience with REST-APIs, micro services and newer technologies like [GraphQL](http://graphql.org/learn/){:target="_blank"}.
 
 Regarding CSS ui libraries and layout systems, I worked with `bootstrap` und `ant-design`.
 
-And I really fancy [`Jeet`](http://jeet.gs/){:target="_blank"}, as it is a little less obstrusive from my angle, and you can handle a lot of layout matters through pretty elegant mixins. Beside complex frameworks, a [solid base of custom classes](https://github.com/nocke/musterknabe/){:target="_blank"} can also often do the job.
+And I really fancy [`Jeet`](http://jeet.gs/){:target="_blank"}, as it is a little less obstrusive from my angle, and you can handle a lot of layout matters through pretty elegant, compact mixins. Beside complex frameworks, a [solid base of custom classes](https://github.com/nocke/musterknabe/){:target="_blank"} can also often do the job.
 
 In terms of **build-tools / task-handlern / bundlern** I have worked time and again with `make`, `ant` und `maven`. In past years, `npm`, `gulp` and naturally `webpack` for react.js came to the list.
 
@@ -98,11 +98,11 @@ Besides Singapore I worked in Liechtenstein, Switzerland, a couple of weeks in S
 %}
 
 
-## Persönliches
+## Personal
 
 In Hamburg's cleary too short summers I play beach volleyball, go kayaking or cycling through Hamburgs surroundings. Since 2013 I do a bit of carpentering, which is also a great compensation for screen work.
 
-Between projects I still love to travel. Basically [anything](https://medium.com/nocke/frank-nocke-hamburg-hafen-bilder-d8458e108f03){:target="_blank"} [but](https://medium.com/nocke/frank-nocke-ballonfahrt-%C3%BCber-die-alpen-bilder-b5f21d85fda7) package tours… and, naturally, south east asia still got a grip on me…
+Between projects I still love to travel. Basically [anything](https://medium.com/nocke/frank-nocke-hamburg-hafen-bilder-d8458e108f03){:target="_blank"} [but](https://medium.com/nocke/frank-nocke-ballonfahrt-%C3%BCber-die-alpen-bilder-b5f21d85fda7) package tours… and, naturally, Southeast&nbsp;Asia still got a grip on me…
 
 {% include tags/picture.html
   class="picture-wide"

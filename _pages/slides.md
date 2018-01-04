@@ -7,8 +7,9 @@ permalink: /slides/
 
 <!-- Slides will be listed here...  (some day) -->
 
-<h2 class='h2 center bpad40'>
-  <span class='zbounce1'>( Things</span>
+<h2 class='h3 center bpad40'>
+  <span class='zdrop1'>( more</span>
+  <span class='zbounce1'>things</span>
   <span class='zdrop1'>are</span>
   <span class='zbounce2'>coming</span>
   <span class='zdrop2'>soon</span>
