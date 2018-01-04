@@ -22,9 +22,10 @@ mainclass: justify-wide
 
 Ich bin freiberuflicher Web-Entwickler / Freelancer mit Schwerpunkt Frontend. Also: `Javascript`, `ES6`, `NodeJS`, `React` und `Redux`, aber vor allem auch Styling mit `CSS3`, `Less`, `Sass` und `Stylus`.
 
-Diplom-Medieninformatiker&thinsp;[FH] bin ich seit 1997, Master of Computer&thinsp;Science&thinsp;[MSc] seit 2005 und freiberuflicher Javascript–Entwickler (Freelancer) seit 2011. [Meinen ersten Computer](https://de.wikipedia.org/wiki/Sinclair_ZX81){:target="_blank"} bekam ich mit 9, [meinen zweiten](https://de.wikipedia.org/wiki/Apple_IIe){:target="_blank"} mit 13, [meinen dritten](https://de.wikipedia.org/wiki/Amiga_500){:target="_blank"} mit 15.
+**Diplom-Medieninformatiker&thinsp;[FH]** bin ich seit 1997, **Master of Computer&thinsp;Science&thinsp;[MSc]** seit 2005 und **freiberuflicher Javascript–Entwickler (Freelancer)** seit 2011.
 
-## Übersicht
+[Meinen ersten Computer](https://de.wikipedia.org/wiki/Sinclair_ZX81){:target="_blank"} bekam ich mit 9, [meinen zweiten](https://de.wikipedia.org/wiki/Apple_IIe){:target="_blank"} mit 13, [meinen dritten](https://de.wikipedia.org/wiki/Amiga_500){:target="_blank"} mit 15.
+
 
 | ----------: | :---------------------                                       |
 |        1993 | Abitur in Osnabrück                                          |

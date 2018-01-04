@@ -24,9 +24,9 @@ lang: en
 
 I am a freelance web developer with focus on `react.js` and `UX/UI`. So it's `Javascript`, `ES6`, `NodeJS`, `React` und `Redux`, and styling languages `CSS3`, `Less`, `Sass` und `Stylus`.
 
-I hold a diploma in media computer science (Medieninformatik FH) since 1997, and a “Master of Computer Science [MSc.]” since 2005. Ever since 2011 I work as a web development freelancer. [My first computer](https://de.wikipedia.org/wiki/Sinclair_ZX81){:target="_blank"} I got at age 9, [my second](https://de.wikipedia.org/wiki/Apple_IIe){:target="_blank"} when I turned 13, [and my third](https://de.wikipedia.org/wiki/Amiga_500){:target="_blank"} when I was 15.
+I hold a **diploma in media computer science (Medieninformatik FH)** since 1997, and a **“Master of Computer Science [MSc.]”** since 2005. Ever since 2011 I work as a **web development freelancer**.
 
-## Overview
+[My first computer](https://de.wikipedia.org/wiki/Sinclair_ZX81){:target="_blank"} I got at age 9, [my second](https://de.wikipedia.org/wiki/Apple_IIe){:target="_blank"} when I turned 13, [and my third](https://de.wikipedia.org/wiki/Amiga_500){:target="_blank"} when I was 15.
 
 | ----------: | :---------------------                                       |
 |        1993 | Abitur (high school) in Osnabrück, Germany                   |
@@ -36,7 +36,6 @@ I hold a diploma in media computer science (Medieninformatik FH) since 1997, and
 | 2002 – 2005 | **FH Wedel**: Master of Computer Science [MSc.],             |
 | 2005 – 2009 | Adobe Systems, **Hamburg** (+partly in San Jose): C++, XMP,… |
 | seit **2011** | **Web Developer (freelance)** <br> • 2011-13 various LAMP-Stack <br>• 2013-15 SPIEGEL News Magazine<br>• 2015-2017 Angular.js, React-Projects… <br>• Winter 2017/18: Project in Switzerland…  |
-
 
 ## Experiences & Technologies
 
