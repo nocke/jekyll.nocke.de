@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "clean": "rm -rf _site",
-
     "build": "bundle exec jekyll build --drafts",
+    "rebuild": "npm run clean && npm run build",
+
     "watch": "bundle exec jekyll serve --watch --verbose --drafts --incremental --config _config.yml,_dev.yml",
 
     "newwatch": "bundle exec jekyll serve --watch --drafts",
