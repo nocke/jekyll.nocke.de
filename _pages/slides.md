@@ -17,10 +17,16 @@ permalink: /slides/
 
 <ul class='big-links bpad20'>
   <li>
-    <a href='styling/' class='h2 zbounce1'>Styling</a>
+    <a href='testing/' target='_blank' class='h2 zdrop1'>
+      Testing
+      <h4>some basic reveal.js testing</h4>
+    </a>
   </li>
   <li>
-    <a href='testing/' class='h2 zdrop1'>Testing</a>
+    <a href='styling/' target='_blank' class='h2 zbounce1'>
+      Styling
+      <h4>styling fundamentals (WIP)</h4>
+    </a>
   </li>
 
 </ul>
