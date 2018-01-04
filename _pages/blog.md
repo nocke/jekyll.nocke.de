@@ -6,6 +6,5 @@ permalink: /blog/
 
 From time to time, I publish a blog post...
 
-
 {% include post-list.html %}
 
