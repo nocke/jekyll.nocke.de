@@ -1,7 +1,7 @@
 
 ## What is this?
 
-Well, the styles and data behind my personal blog page...
+Well, the styles and data behind [my personal blog page](https://www.nocke.de)...
 
 ## Running
 
@@ -20,8 +20,9 @@ Local site is accessible at [`localhost:4000`](http://localhost:4000).
 `npm start` does precisely that.
 
 ### caveats
-→ `_config.yml` changes might cause a 2-3s delay, in particular together with live reloading. But should eventuall load.
+→ `_config.yml` changes can cause a 2-3s delay, in particular together with live reloading, but will eventually load.
 → adding files might mean to stop and restart the live reload task, so those file get on the watchlist
+→ `incremental` support for Jekyll is still experimental. Consider `npm run rebuild` to ensure complete iteration (i.e. of change menu.yml's, etc…)
 
 
 
