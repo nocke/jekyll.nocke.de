@@ -24,18 +24,26 @@ title: Hamburg Javascript Freelancer, Zürich, Bern
         <h1 class='h2'>Frontend Entwickler | JavaScript, Node JS, React | Web Apps | Konzeption & UI</h1>
         <span markdown='1'>
             {{ introDE | truncatewords: 45 }}
+            **[ →&thinsp;weiter... ]**
         </span>
     </a>
     <a lang='de' href='{% link _pages/work_EN.md %}' class='col plain'>
         <h2>Frontend Developer | JavaScript Node JS, React | Web Apps | Concepts & UI</h2>
         <span markdown='1'>
             {{ introEN | truncatewords: 50 }}
+            **[ →&thinsp;more... ]**
         </span>
     </a>
 
 </section>
 
-<div class='box h3'>→ Aktuelle Verfügbarkeit: März/April 2018.</div>
+<div class='box box-green center h3'>
+    <a href='/contact/' class='plain'> → Aktuelle Verfügbarkeit: März/April 2018…</a>
+    <h4 class='center'>Ich suche primär in der <b>Schweiz</b> (<b>Zürich</b>, <b>Bern</b>, ...), <b>Hamburg</b> oder mit hohem remote-Anteil. In Deutschland primär Hamburg und nur freiberuflich.</h4>
+</div>
+
+
+
 
 ## Skills
 
