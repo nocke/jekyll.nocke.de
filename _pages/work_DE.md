@@ -43,7 +43,7 @@ Zu Beginn meiner Selbständigkeit habe ich vor allem Full-Stack Projekte für Ha
 
 Mit dem Aufkommen von `NodeJS` wurde JavaScript zur großartigen Alternative zu Java und PHP als Backend-Sprache und war quasi sofort mein Favorit. Zunächst in einem `Angular.js` Projekt, seit dem mit `React.js`, was mir noch etwas besser gefällt. Erfahrungen mit REST-APIs, Microservices und Technologien wie [GraphQL](http://graphql.org/learn/){:target="_blank"} konnte ich außerdem sammeln.
 
-An CSS-Layout-Systemen/UI Libraries hatte ich `Bootstrap` und `Ant-Design` gearbeitet. Noch etwas moderner finde ich [`Jeet`](http://jeet.gs/){:target="_blank"}, weil es weniger obstrusiv ist, und sehr viel über Mixins erledigt. Wobei man häufig auch ohne komplexes Framework mit einer Reihe [ausgereifter Basisklassen](https://github.com/nocke/musterknabe/){:target="_blank"}arbeiten kann.
+An CSS-Layout-Systemen/UI Libraries hatte ich `Bootstrap` und `Ant-Design` gearbeitet. Noch etwas moderner finde ich [`Jeet`](http://jeet.gs/){:target="_blank"}, weil es weniger obstrusiv ist, und sehr viel über Mixins erledigt. Wobei man häufig auch ohne komplexes Framework mit einer Reihe [ausgereifter Basisklassen](https://github.com/nocke/jekyll.nocke.de/tree/master/_sass){:target="_blank"} arbeiten kann.
 
 An **build-tools / task-handlern / bundlern** habe ich natürlich immer schon viel mit `make`, `ant` und `maven` gearbeitet. In den letzten Jahren kamen `npm`, `gulp` und natürlich `Webpack` für React.js dazu. Das „drumherum“ ist natürlich auch vorhanden: `npm`, `bash`-scripting, testing &amp; TDD mit `mocha`, `jasmin` und `jest`. Weniger Erfahrung habe ich bislang mit DevOps (deployment, Cloud, CI, …). Auch wenn ich z.B. für diese Site hier schon so meine eigenen deployment-scripte und apache-Setups habe…
 
@@ -78,9 +78,9 @@ Ein wunderbares System, weil man sich nicht mit den Komplexitäten eines CMS und
 
 ## Sprachen & International
 
-Die ersten 2 Jahre des Jahrtausends habe ich in Singapur gelebt &amp;&thinsp;gearbeitet, als „International Fellow&thinsp;/ Visiting Lecturer“ an einer [technischen Hochschule](http://www.np.edu.sg/ict){:target="_blank"}. Komplett auf Englisch, zusammen mit britischen, schottischen, neuseeländischen und amerikanischen Fellows/Flatmates. So gesehen spreche ich jetzt fließend Singlish, Cinglish und, naja, ich kann Schotten verstehen. Das Arbeit bei Adobe Systems (2005-2009) verlief ebenfalls zu einem Großteil auf Englisch. Insoweit würde ich mein Englisch als robust, präsentations- und verhandlungssicher bezeichnen.
+Die ersten 2 Jahre des Jahrtausends habe ich in Singapur gelebt &amp;&thinsp;gearbeitet, als „International Fellow&thinsp;/ Visiting Lecturer“ an einer [technischen Hochschule](http://www.np.edu.sg/ict){:target="_blank"}. Komplett auf Englisch, zusammen mit britischen, schottischen, neuseeländischen und amerikanischen Fellows/Flatmates. So gesehen spreche ich jetzt fließend Singlish, Cinglish und… kann Schotten verstehen. Das Arbeit bei Adobe Systems (2005-2009) verlief ebenfalls zu einem Großteil auf Englisch. Mein Englisch würde ich daher als sehr präsentations- und verhandlungssicher bezeichnen.
 
-Gearbeitet habe ich neben Singapur auch schon in Liechtenstein, der Schweiz, einige Zeit in San Jose und Seattle, und 1999 mal 6 Wochen in Peking, kurz vor Singapur.
+Gearbeitet habe ich neben Singapur auch schon in Liechtenstein, aktuell in der Schweiz, einige Zeit in San Jose und Seattle, und 1999 für 6 Wochen in Peking.
 
 {% include tags/picture.html
   class="picture-wide"
@@ -91,9 +91,9 @@ Gearbeitet habe ich neben Singapur auch schon in Liechtenstein, der Schweiz, ein
 
 ## Persönliches
 
-In Hamburgs empfindlich zu kurzen Sommern spiele Beachvolleyball oder gehe paddel oder Radfahren durch's wunderbare Seevetal und die Vierlande. 2013 habe ich mit Tischlern angefangen, was im Winter ein wunderbarer Ausgleich zum Bildschirm ist.
+In Hamburgs empfindlich zu kurzen Sommern spiele Beachvolleyball, gehe paddeln oder radle mit meiner Frau durch's wunderbare Seevetal und die Vierlande. 2013 habe ich mit Tischlern angefangen, was vor allem im Winter ein wunderbarer Ausgleich zum Bildschirm ist.
 
-Zwischen Projekten reise ich immer noch recht viel. Eigentlich [alles](https://medium.com/nocke/frank-nocke-hamburg-hafen-bilder-d8458e108f03){:target="_blank"} [außer](https://medium.com/nocke/frank-nocke-ballonfahrt-%C3%BCber-die-alpen-bilder-b5f21d85fda7) Pauschalreisen… und Südostasien lässt einen natürlich nie wieder los.
+Zwischen Projekten reise ich immer noch recht viel. Eigentlich [alles](https://medium.com/nocke/frank-nocke-hamburg-hafen-bilder-d8458e108f03){:target="_blank"} [außer](https://medium.com/nocke/frank-nocke-ballonfahrt-%C3%BCber-die-alpen-bilder-b5f21d85fda7) Pauschalreisen… und [Südostasien](https://hubud.org){:target="_blank"} lässt einen natürlich nie wieder los.
 
 {% include tags/picture.html
   class="picture-wide"
@@ -101,4 +101,5 @@ Zwischen Projekten reise ich immer noch recht viel. Eigentlich [alles](https://m
   src="/img/frank-nocke/frank-nocke-portrait-strandweg.jpg"
 %}
 
-Sei's drum: da man ja nie genug Zeit vor dem Schirm verbringen kann, habe ich ein kleines open-source ‚pet projekt’ auf github, bislang mit dem nüchternen Namen [`photocmd`](https://github.com/nocke/photocmd){:target="_blank"}. Es soll vor allem beim Auswählen & Ausmisten großer Photomengen helfen…
+Sei's drum: da man ja nie genug Zeit vor dem Schirm verbringen kann, habe ich ein kleines open-source ‚pet projekt’ auf github, bislang mit dem nüchternen Namen [`photocmd`](https://github.com/nocke/photocmd){:target="_blank"}. Es soll vor allem beim Auswählen & Ausmisten großer Photomengen helfen (bis jetzt habe ich die essentielle Logik und die test suite dazu. Da geht noch was.)...
+

@@ -49,7 +49,7 @@ First working on an `Angular.js` project, then contributing to a number of `Reac
 
 Regarding CSS ui libraries and layout systems, I worked with `bootstrap` und `ant-design`.
 
-And I really fancy [`Jeet`](http://jeet.gs/){:target="_blank"}, as it is a little less obstrusive from my angle, and you can handle a lot of layout matters through pretty elegant, compact mixins. Beside complex frameworks, a [solid base of custom classes](https://github.com/nocke/musterknabe/){:target="_blank"} can also often do the job.
+And I really fancy [`Jeet`](http://jeet.gs/){:target="_blank"}, as it is a little less obstrusive from my angle, and you can handle a lot of layout matters through pretty elegant, compact mixins. Beside complex frameworks, a [solid base of custom classes](https://github.com/nocke/jekyll.nocke.de/tree/master/_sass){:target="_blank"} can also often do the job.
 
 In terms of **build-tools / task-handlern / bundlern** I have worked time and again with `make`, `ant` und `maven`. In past years, `npm`, `gulp` and naturally `webpack` for react.js came to the list.
 
@@ -87,9 +87,9 @@ A great system, because one does not have to deal with the complexcity of a CMS 
 
 The first 2 years of the millenium I lived &amp;&thinsp;worked in Singapore, as „International Fellow&thinsp;/ Visiting Lecturer“ at a [Polytechnic](http://www.np.edu.sg/ict){:target="_blank"}.
 
-Completely on Englisch, together with british, scottish, kiwi and american fellows/flatmates. Ever since I speak Singlish, Cinglish and understand, whatever language the Scots are using. My time at Adobe Systems (2005-2009) also largely happened on English. Thus I would call my English somewhat fluent and presentation-proof.
+Completely on Englisch, together with british, scottish, kiwi and american fellows/flatmates. Ever since I speak Singlish, Cinglish and understand, whatever language the Scots are using. My time at Adobe Systems (2005-2009) also largely happened in English. Thus I would call my English very fluent and presentation-proof.
 
-Besides Singapore I worked in Liechtenstein, Switzerland, a couple of weeks in San Jose and Seattle, and 1999 for 6 weeks in Beijing, briefly before Singapore.
+Besides Singapore I worked in Liechtenstein, currently Switzerland, a couple of weeks in San Jose and Seattle, and for 6 weeks in Beijing in 1999.
 
 {% include tags/picture.html
   class="picture-wide"
@@ -100,9 +100,9 @@ Besides Singapore I worked in Liechtenstein, Switzerland, a couple of weeks in S
 
 ## Personal
 
-In Hamburg's cleary too short summers I play beach volleyball, go kayaking or cycling through Hamburgs surroundings. Since 2013 I do a bit of carpentering, which is also a great compensation for screen work.
+In Hamburg's disturbingly short summers I play beach volleyball, go kayaking or cycle with my wife through Hamburgs beautiful surroundings. Since 2013 I do a bit of carpentering, which is a great compensation for screen work.
 
-Between projects I still love to travel. Basically [anything](https://medium.com/nocke/frank-nocke-hamburg-hafen-bilder-d8458e108f03){:target="_blank"} [but](https://medium.com/nocke/frank-nocke-ballonfahrt-%C3%BCber-die-alpen-bilder-b5f21d85fda7) package tours… and, naturally, Southeast&nbsp;Asia still got a grip on me…
+Between projects I still love to travel. Basically [anything](https://medium.com/nocke/frank-nocke-hamburg-hafen-bilder-d8458e108f03){:target="_blank"} [but](https://medium.com/nocke/frank-nocke-ballonfahrt-%C3%BCber-die-alpen-bilder-b5f21d85fda7) package tours… and, naturally, [Southeast&nbsp;Asia](https://hubud.org){:target="_blank"} still got a grip on me…
 
 {% include tags/picture.html
   class="picture-wide"
@@ -110,4 +110,4 @@ Between projects I still love to travel. Basically [anything](https://medium.com
   src="/img/frank-nocke/frank-nocke-portrait-strandweg.jpg"
 %}
 
-Having said that, I still have a small ‚pet projekt’ on github, so far with the rather straight name [`photocmd`](https://github.com/nocke/photocmd){:target="_blank"}. It's meant to help on sort & delete huge bulks of shot images…
+Having said that, I still have a small ‚pet projekt’ on github, so far by the rather dry name [`photocmd`](https://github.com/nocke/photocmd){:target="_blank"}. It's meant to help on sort & delete huge bulks of shot images… (so far I got the inner logic and the test harness, jay!)
