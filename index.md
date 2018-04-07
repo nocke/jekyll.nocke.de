@@ -4,6 +4,19 @@ bodyclass: home
 title: Hamburg Javascript Freelancer, Zürich, Bern
 ---
 
+<div class='box box-green center h2'>
+    <a href='/contact/' class='plain'>Aktuelle Verfügbarkeit: August 2018</a>
+    <ul class='h3'>
+        <li>
+            Ich suche primär Freelance-Projekte in &amp; um Hamburg oder (nach der Einarbeitung) mit hohem Remote-Anteil.
+        </li>
+        <li>
+            Recruiter-Anfragen bitte-bitte <a href='/contact'>per Email oder XING</a>, nicht per Telefon…
+        </li>
+    </ul>
+</div>
+
+
 <div class='col-2-m'>
     <div class='col h1 center zbounce1 hide-s'>Herzlich willkommen</div>
     <div class='col h1 center zdrop1 middle'>Welcome</div>
@@ -36,13 +49,6 @@ title: Hamburg Javascript Freelancer, Zürich, Bern
     </a>
 
 </section>
-
-<div class='box box-green center h3'>
-    <a href='/contact/' class='plain'> → Aktuelle Verfügbarkeit: März/April 2018…</a>
-    <h4 class='center'>Ich suche primär in der <b>Schweiz</b> (<b>Zürich</b>, <b>Bern</b>, ...), <b>Hamburg</b> oder mit hohem remote-Anteil. In Deutschland primär Hamburg und nur freiberuflich.</h4>
-</div>
-
-
 
 
 ## Skills
