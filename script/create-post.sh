@@ -4,7 +4,7 @@ TITLE="$*"
 # Teststring: TITLE="die Jürgen ÄÖÜ.!#äöü Straße 42🎜 ♬"
 
 if [ $# -eq 0 ]; then
-    printf "\nusage: ./script/create-post.sh The title of your blogpost goes here\n\n"
+    printf "\nusage: ./script/create-post.sh The title of your post goes here\n\n"
     exit 1
 fi
 
@@ -46,6 +46,9 @@ lang: en
 ---
 
 " >> $FULLPATH;
+
+echo "npm run build --------"
+npm run build
 
 echo "Done -----------------"
 code -r "$FULLPATH"
