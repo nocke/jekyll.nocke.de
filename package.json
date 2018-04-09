@@ -7,8 +7,8 @@
     "build": "bundle exec jekyll build",
     "rebuild": "npm run clean && npm run build",
 
-    "watch-blog" : "watchy -w _posts/**/* -- touch _pages/blog.md",
-    "watch-data" : "watchy -w _data/**/* -- touch _includes/*",
+    "watch-blog": "watchy -w _posts/**/* -- touch _pages/blog.md",
+    "watch-data": "watchy -w _data/**/* -- touch _includes/*",
     "serve": "bundle exec jekyll serve --watch --incremental --livereload --config _config.yml,_dev.yml",
 
     "start": "concurrently \"npm run watch-blog\" \"npm run watch-data\" \"npm run serve\"",
@@ -17,14 +17,16 @@
     "reload": "browser-sync start --reloadDebounce 100 --proxy \"localhost:4000\" --files \"_site/**/*\" \"_*.yml\" --no-ui --port 4001",
     "superwatch": "npm run restart & npm run reload",
 
-
     "deploy": "script/deploy.sh"
   },
+
   "keywords": [],
   "license": "LicenseRef-LICENSE.md",
   "dependencies": {},
+
   "devDependencies": {
     "browser-sync": "^2.18.13",
+    "concurrently": "^3.5.1",
     "watchy": "^0.7.0"
   }
 }

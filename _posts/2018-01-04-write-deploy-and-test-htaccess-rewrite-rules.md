@@ -1,8 +1,9 @@
 ---
-title: einfaches Testen von .htaccess Rewrite-Regeln
+title: einfaches Testen von .htaccess Rewrite-Regeln123
 categories: hamburg, frontend, javascript, htaccess, testing
 lang: de
 layout: post
+permalink: /blog/testing-htaccess-rewrite-rules.html
 ---
 
  htaccess-Regeln

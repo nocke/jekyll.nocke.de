@@ -29,11 +29,11 @@ body
   min-height: 100vh
   line-height: 1.6em
 
-  font-size: 20px // common base font size
+  font-size: 16px // common base font size
   +below(m)
-    font-size: 18px
+    font-size: 15px
   +below(s-m)
-    font-size: 17px
+    font-size: 14px
 
 
 body.hide-header
@@ -57,17 +57,6 @@ blockquote
   padding-left: 10px
   border-left: 1px dotted #666
 
-pre
-  background: rgba(0, 0, 0, 0.9)
-  border: 1px solid rgba(255, 255, 255, 0.15)
-  padding: 10px
-  font-size: 16px
-  color: $hackerGreen
-  border-radius: 2px
-  text-wrap: normal
-  overflow: auto
-  overflow-y: hidden
-
 hr
   margin: 2*$pad 0 // “padding”
   border: 0
@@ -77,9 +66,11 @@ hr
 // inline source-code _____________________________
 code.highlighter-rouge
   font-family: Courier New, Courier, monospace
+  font-size: .84em // yes, relative to situation
+
   color: $hackerGreen
-  background: rgba( white, .05 )
-  padding: 2px 4px
+  background: rgba( white, .08 )
+  padding: 3px 6px 2px
   margin-left: 2px
   margin-right: 2px
   text-decoration: none

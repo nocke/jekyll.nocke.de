@@ -17,8 +17,26 @@ $brown: #8f5536
 $turquoise: #75b5aa
 $carmine: #ac4142
 
+
+// TODO built-in
+pre
+  +responsiveSize(.8, 0.6rem)
+  +radiusL
+
+  // hipster
+  background: #080808
+  box-shadow: inset 5px 5px 10px black
+
+  border: 1px solid rgba(255, 255, 255, 0.15)
+  color: $hackerGreen
+  text-wrap: normal
+  overflow: auto
+  overflow-y: hidden
+  tab-size: 2
+
+
 .highlight
-  margin: .5em 0
+  margin: .5em 0 1.2em
 
   >pre
     border: none
@@ -27,19 +45,22 @@ $carmine: #ac4142
     >code
       display: block
       padding: 6px 12px !important
-      
+
       >table.rouge-table
         margin: 0 0 0 -12px !important
+        border-spacing: 0
 
         td.gutter, td.code
           padding: 0
           >pre
             margin: -6px 0
             border: 0
+            border-radius: 0
 
         td.gutter
           >pre
-            background: $gray1
+            color: $gray1
+            background: #181818
 
   &, .w
     color: $lightGray

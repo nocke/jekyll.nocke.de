@@ -1,4 +1,28 @@
 
+
+// responsive headlines __________________________________
+// make default size the media-query-less default. just in case.
+
+=responsiveSize($factor, $minSize:0.5rem)
+  // assume l as default
+  font-size:   ( 1rem * $factor * 100) / 100 + $minSize
+  +above(l-xl)
+    font-size: ( 1.13rem * $factor * 100) / 100 + $minSize
+  +above(xl)
+    font-size: ( 1.25rem * $factor * 100) / 100 + $minSize
+
+  +below(m-l)
+    font-size: ( .9rem * $factor * 100) / 100 + $minSize
+  +below(m)
+    font-size: ( .8rem * $factor * 100) / 100 + $minSize
+  +below(s-m)
+    font-size: ( .65rem * $factor * 100) / 100 + $minSize
+  +below(s)
+    font-size: ( .5rem * $factor * 100) / 100 + $minSize
+
+
+// shadow & radius
+
 $shadowTiny: 0 1px 1px rgba( black, .6)
 $shadowMassive: 0 4px 8px rgba(0, 0, 0, 1)
 

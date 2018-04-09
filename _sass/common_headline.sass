@@ -1,26 +1,4 @@
 
-
-// responsive headlines __________________________________
-// make default size the media-query-less default. just in case.
-
-=responsiveSize($factor, $minSize:0.5rem)
-  // assume l as default
-  font-size:   ( 1rem * $factor * 100) / 100 + $minSize
-  +above(l-xl)
-    font-size: ( 1.13rem * $factor * 100) / 100 + $minSize
-  +above(xl)
-    font-size: ( 1.25rem * $factor * 100) / 100 + $minSize
-
-  +below(m-l)
-    font-size: ( .9rem * $factor * 100) / 100 + $minSize
-  +below(m)
-    font-size: ( .8rem * $factor * 100) / 100 + $minSize
-  +below(s-m)
-    font-size: ( .65rem * $factor * 100) / 100 + $minSize
-  +below(s)
-    font-size: ( .5rem * $factor * 100) / 100 + $minSize
-
-
 // headlines ______________________________________________
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
@@ -38,19 +16,24 @@ h1, .h1
   text-align: center
   font-weight: normal
   font-family: Pacifico, Segoe, "Segoe UI", sans-serif
-  +responsiveSize(3.8, 1.4rem)
+  +responsiveSize(3.4, 1.2rem)
 
 h2, .h2
   margin: 1em 0 0
   color: #5d8
-  +responsiveSize(1.8, 1.4rem)
+  font-weight: normal
+  letter-spacing: .04em
+  +responsiveSize(1.2, 1.2rem)
 
 h3, .h3
   font-weight: bold
+  font-weight: 500
+  letter-spacing: .04em
   +responsiveSize(1, 1.2rem)
   font-size: 18px
 
 h4, .h4
+  font-weight: bold
   color: $gray4
   font-size: 14px
 
