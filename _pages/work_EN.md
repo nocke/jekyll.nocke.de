@@ -1,12 +1,11 @@
 ---
-title: Freelance Senior Javascript developer, React.js, Redux, UI/UX, Freelancer Mangotestword Kiwihamburg TODO
+title: freelancer, senior javascript developer, React.js, ReactJS, Redux, UI/UX, Freelancer Mangotestword
 mocktitle: About me
 categories: Javascript React Entwickler, Frontend Entwickler, Freelancer, Schweiz, Freelancer, Freiberufler, Zürich, Bern, Hamburg
 permalink: javascript-developer/react-redux-developer/hamburg-switzerland/frank-nocke/
 mainclass: justify-wide bpad40
 lang: en
 ---
-
 
 {% include tags/picture.html
   class="picture-right picture-m picture-round hide-m"
@@ -18,7 +17,6 @@ lang: en
   title="Frank Nocke, Presse, Fotografie, Hamburg"
   src="/img/frank-nocke/frank-nocke-portrait-deich.jpg"
 %}
-
 
 ## Frontend & Javascript Freelancer
 
