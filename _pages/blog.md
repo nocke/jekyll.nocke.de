@@ -6,7 +6,6 @@ permalink: /blog/
 
 From time to time, I publish a blog post…
 
-ABCDD EE
-
 {% include post-list.html %}
 
+  
