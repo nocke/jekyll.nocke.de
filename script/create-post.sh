@@ -23,10 +23,8 @@ SLUG="$(echo -n "$SLUG" | sed 's/Ü/Ue/g')"
 SLUG="$(echo -n "$SLUG" | sed -e 's/^[\-]*//' -e 's/[\-]*$//')"
 
 DATE=`date +%Y-%m-%d`
-TYPE='.md'
-PERMALINK=${DATE}-${SLUG}${TYPE}
-FULLPATH=./_posts/${PERMALINK}
-# (do not call it path, for obvious reasons)
+PERMALINK=/blog/${DATE}-${SLUG}.html
+FULLPATH=./_posts/${DATE}-${SLUG}.md      # nb: PATH would be a system var, do not collide
 
 echo TITLE:  $TITLE
 echo SLUG:   $SLUG
@@ -42,13 +40,17 @@ layout: post
 title: ${TITLE}
 permalink: ${PERMALINK}
 categories: hamburg, frontend, javascript
-lang: en
+lang: 
 ---
 
 " >> $FULLPATH;
 
-# needed for changes to be picked up)
-npm run build
+# needed for changes in blog list to be picked up:
+touch ${FULLPATH}
+
+# one way to force changes being picked up: (the other, better is watchy)
+# npm run build
+
 
 echo "Done -----------------"
 code -r "$FULLPATH"

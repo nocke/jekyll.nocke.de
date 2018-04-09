@@ -7,8 +7,12 @@
     "build": "bundle exec jekyll build",
     "rebuild": "npm run clean && npm run build",
 
-    "watch": "bundle exec jekyll serve --watch --verbose --incremental --config _config.yml,_dev.yml",
-    "start": "printf \"regular watch on port 4000\n\"     && npm run watch",
+    "sync": "browser-sync start -s '_site' -f '_site' --no-ui",
+    "watch-blog" : "watchy -w _posts/**/* -- touch _pages/blog.md",
+    "watch-data" : "watchy -w _data/**/* -- touch _includes/*",
+    "watch": "bundle exec jekyll build --watch --incremental --config _config.yml,_dev.yml",
+
+    "start": "npm run sync & npm run watch-blog & npm run watch-data & npm run watch",
 
     "restart": "watchy -w _config.yml -- bundle exec jekyll serve --watch --incremental --config _config.yml,_dev.yml",
     "reload": "browser-sync start --reloadDebounce 100 --proxy \"localhost:4000\" --files \"_site/**/*\" \"_*.yml\" --no-ui --port 4001",

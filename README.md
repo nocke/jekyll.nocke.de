@@ -5,19 +5,17 @@ Well, the styles and data behind [my personal blog page](https://www.nocke.de)..
 
 ## Running
 
+`npm run clean` – as you'd expect
 `npm run build` – builds (a single time, no watch, no nothing)
+`npm run rebuild` – clean & build
 
-`npm watch` – watches Jekyll content files, however not `_config.yml`
+`npm run watch` – watches Jekyll content files, however not `_config.yml`. → localhost:4000
+`npm start` – alias to that
 
-`npm restart` – does the same, but also restarts on `_config.yml` changes.
+`npm superwatch` – deluxe version, watching for _config.yml changes (task: `restart`) and restarts browser-sync (`reload`) as needed. → localhost: 4001
 
-Local site is accessible at [`localhost:4000`](http://localhost:4000).
+`npm run deploy` – uploads to server according to credentials (securely placed outside), using lftp
 
-`npm reload` – live reload (pressing ‘refresh’ no more) proxy, outputs to port 4001. Works for boths content and styling changes.
-
-**Most convenient:** use `npm restart` and `npm reload`, access dev site at [`localhost:4001`](http://localhost:4001).
-
-`npm start` does precisely that.
 
 ### caveats
 
