@@ -70,9 +70,7 @@ Qua de causa `Helvetii` quoque reliquos `Gallos` virtute praecedunt, quod fere c
 (old-fashioned, deprecated way. Use →
     `\{\% include tags/picture.html…`
 )
-![image-title-here]({{site.static}}/img/bg_amden.jpg){:class="img-responsive"}
-
-
+![image-title-here]({{site.static}}/img/bg_amden.jpg 'Ein Blick aus Amden'){:class="img-responsive"}
 
 ```javascript
 {% raw %}
