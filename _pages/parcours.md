@@ -5,7 +5,7 @@ bodyclass: NOPE-hide-header
 
 > Before hammering out individual pages, one should ensure, his common styles work well. Even in the midst (or maintenance) of a project, with the pages partly or fully standing, it's great to have a singular, common test page, showcasing every stylistic element there is, including critical edge cases...
 >
-> To see how things behave, and if they are consistent to each other. **So this is, 
+> To see how things behave, and if they are consistent to each other. **So this is,
 what you are looking at…**
 
 
@@ -67,7 +67,7 @@ Yes
 
 Qua de causa `Helvetii` quoque reliquos `Gallos` virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una, pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine.
 
-(old-fashioned, deprecated way. Use → 
+(old-fashioned, deprecated way. Use →
     `\{\% include tags/picture.html…`
 )
 ![image-title-here]({{site.static}}/img/bg_amden.jpg){:class="img-responsive"}
@@ -75,15 +75,28 @@ Qua de causa `Helvetii` quoque reliquos `Gallos` virtute praecedunt, quod fere c
 
 
 ```javascript
+{% raw %}
+    {% include post-list.html %}
     const demo = { a:42, b:true};
     let double = (a) => { return 2*a; }
+{% endraw %}
 ```
 
+{% highlight javascript%}{% raw %}
+    working bad bad indend, reduced highlighting
+    {% include post-list.html %}
+    const demo = { a:42, b:true};
+    let double = (a) => { return 2*a; }
+{% endraw %}{% endhighlight %}
+
 ```html
+    (trouble, if jekyll curly tags)
     <header id="x" class='foo' data-x='bar'>
         header 123 ${template}
     </header>
 ```
+
+
 
 * Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.
   * Hi omnes lingua, insti  tutis,
