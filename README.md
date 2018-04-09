@@ -20,8 +20,12 @@ Local site is accessible at [`localhost:4000`](http://localhost:4000).
 `npm start` does precisely that.
 
 ### caveats
-→ `_config.yml` changes can cause a 2-3s delay, in particular together with live reloading, but will eventually load.
-→ adding files might mean to stop and restart the live reload task, so those file get on the watchlist
+
+- `_config.yml` changes can cause a 2-3s delay, in particular together with live reloading, but will eventually load.
+- changes to `.yaml` menu files, added/removed files (in particular the automatic listing of blog entries) might not be picked up by incremental watch
+
+   → `npm run build` helps. (`rebuild` is overdone.) That\`s why `create-post.sh` contains it
+
 → `incremental` support for Jekyll is still experimental. Consider `npm run rebuild` to ensure complete iteration (i.e. of change menu.yml's, etc…)
 
 
