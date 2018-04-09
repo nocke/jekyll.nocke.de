@@ -47,7 +47,7 @@ lang: en
 
 " >> $FULLPATH;
 
-echo "npm run build --------"
+# needed for changes to be picked up)
 npm run build
 
 echo "Done -----------------"
