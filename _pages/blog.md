@@ -4,7 +4,7 @@ categories: Frank Nocke, Fotografie, Photographie, künstlerischer Fotograf, pri
 permalink: /blog/
 ---
 
-From time to time, I publish a blog post...
+From time to time, I publish a blog post…
 
 {% include post-list.html %}
 
