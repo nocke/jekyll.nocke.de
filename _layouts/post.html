@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include head.html %}
+
+<body class='body default {{page.bodyclass}}'>
+  {% unless page.show-header == false %}{% include header.html %}{% endunless %}
+
+  <main id="main" class="wrap {{page.mainclass}}">
+      {% if page.mocktitle %}
+        <h1 class='mockunder'>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' }}{% endif %}</h1>
+        <h2 class='h1 mockover ubuntu'>{{ page.mocktitle | escape }}</h2>
+      {% elsif page.title %}
+      <h1 class='ubuntu'>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' }}{% endif %}</h1>
+      {% endif %}
+      {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

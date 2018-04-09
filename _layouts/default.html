@@ -1,25 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US " }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {% include head.html %}
 
-<body>
-  {% include header.html %}
+<body class='body default {{page.bodyclass}}'>
+  {% unless page.show-header == false %}{% include header.html %}{% endunless %}
 
-  <div class="wrap">
-    <section id="main_content">
-
-      {% if my_page.title %}
-      <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+  <main id="main" class="wrap {{page.mainclass}}">
+      {% if page.mocktitle %}
+        <h1 class='mockunder'>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' }}{% endif %}</h1>
+        <h2 class='h1 mockover'>{{ page.mocktitle | escape }}</h2>
+      {% elsif page.title %}
+      <h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ 'untitled' }}{% endif %}</h1>
       {% endif %}
-
-      <h1>page title:{{ page.title }}</h1>
-
       {{ content }}
-
-    </section>
-  </div>
+  </main>
 
   {% include footer.html %}
 </body>
-
 </html>

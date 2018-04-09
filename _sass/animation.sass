@@ -1,0 +1,146 @@
+
+// bounce-in ___________________________________________
+
+// REF → https://codepen.io/codeams/pen/IuGxn
+@keyframes bounceIn
+  0%
+    opacity: 0
+    transform: scale(0.4) translate3d(0,0,0)
+  40%
+    opacity: 0.9
+    transform: scale(1.2)
+  70%
+    opacity: 1
+    transform: scale(.92)
+  90%
+    transform: scale(1.02)
+  100%
+    opacity: 1
+    transform: scale(1) translate3d(0,0,0)
+
+// same, same but w/o fade-in
+@keyframes bounce
+  0%
+    transform: scale(1.2) translate3d(0,0,0)
+  10%
+    transform: scale(0.6) translate3d(0,0,0)
+  30%
+    transform: scale(1.1)
+  65%
+    transform: scale(.92)
+  80%
+    transform: scale(1.02)
+  100%
+    transform: scale(1) translate3d(0,0,0)
+
+@keyframes zoomout
+  0%
+    animation-timing-function: linear
+    transform: scale(1.1) translate3d(0,0,0)
+  80%
+    transform: scale(1.03) translate3d(0,0,0)
+  100%
+    animation-timing-function: ease-out
+    transform: scale(1) translate3d(0,0,0)
+
+.zoomout
+    animation-name: zoomout
+    animation-duration: 8s
+    animation-fill-mode: forwards
+
+
+@keyframes zoomin
+  0%
+    animation-timing-function: linear
+    transform: scale(1) translate3d(0,0,0)
+  80%
+    transform: scale(1.09) translate3d(0,0,0)
+  100%
+    animation-timing-function: ease-out
+    transform: scale(1.1) translate3d(0,0,0)
+
+.zoomin
+    animation-name: zoomin
+    animation-duration: 12s
+    animation-fill-mode: forwards
+
+
+
+.zbounce, .zbounce1, .zbounce2, .zbounce3, .zbounce4, .zbounce5, .bounce, .bounce1, .bounce2, .bounce3, .bounce4, .bounce5
+    opacity: 0
+    animation-name: bounceIn
+    animation-duration: .5s
+    animation-timing-function: ease-in-out
+    animation-fill-mode: forwards
+    // on inline-stuff like letters, adjust blocking
+    @at-root #{selector-append(span, &)}  // → stackoverflow.com/q/47417943
+        display: inline-block
+
+.bounce, .bounce1, .bounce2, .bounce3, .bounce4, .bounce5
+    opacity: 1
+    animation-name: bounce
+
+
+
+// drop-in ___________________________________________
+
+// REF → https://codepen.io/codeams/pen/IuGxn
+@keyframes dropIn
+  0%
+    opacity: 0
+    transform: translate3d(0,-80vh,0)
+  40%
+    opacity: 0.9
+    transform: translate3d(0,10%,0)
+  70%
+    opacity: 1
+    transform: translate3d(0,-5%,0)
+  90%
+    transform: translate3d(0,-1%,0)
+  100%
+    opacity: 1
+    transform: translate3d(0,0,0)
+
+
+.zdrop, .zdrop1, .zdrop2, .zdrop3, .zdrop4, .zdrop5, .zdrop2s
+    opacity: 0
+    animation-name: dropIn
+    animation-duration: .5s
+    animation-timing-function: ease-in-out
+    animation-fill-mode: forwards
+    @at-root #{selector-append(span, &)}
+        display: inline-block
+
+
+// delays collectively TODO =================
+
+
+.bounce2
+    animation-delay: .2s
+.bounce3
+    animation-delay: .4s
+.bounce4
+    animation-delay: .6s
+.bounce5
+    animation-delay: .8s
+
+.zbounce2
+    animation-delay: .2s
+.zbounce3
+    animation-delay: .4s
+.zbounce4
+    animation-delay: .6s
+.zbounce5
+    animation-delay: .8s
+
+
+.zdrop2
+    animation-delay: .2s
+.zdrop3
+    animation-delay: .4s
+.zdrop4
+    animation-delay: .6s
+.zdrop5
+    animation-delay: .8s
+.zdrop2s
+    animation-delay: 2s

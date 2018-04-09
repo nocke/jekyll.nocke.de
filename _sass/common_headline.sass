@@ -1,0 +1,63 @@
+
+// headlines ______________________________________________
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
+  margin: .32em 0 .1em
+  line-height: 1.20em
+  font-weight: normal
+  text-align: left // as this might be within a .justify text block for example
+  color: white
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba($hackerGreen, 0.1), 0 0 10px rgba($hackerGreen, 0.1)
+  -webkit-font-smoothing: antialiased
+
+
+h1, .h1
+  clear: both
+  text-align: center
+  font-weight: normal
+  font-family: Pacifico, Segoe, "Segoe UI", sans-serif
+  +responsiveSize(3.4, 1.2rem)
+
+h2, .h2
+  margin: 1em 0 0
+  color: #5d8
+  font-weight: normal
+  letter-spacing: .04em
+  +responsiveSize(1.2, 1.2rem)
+
+h3, .h3
+  font-weight: bold
+  font-weight: 500
+  letter-spacing: .04em
+  +responsiveSize(1, 1.2rem)
+  font-size: 18px
+
+h4, .h4
+  font-weight: bold
+  color: $gray4
+  font-size: 14px
+
+h5, .h5
+  color: $gray2
+  font-size: 12px
+
+h6, .h6
+  color: $gray2
+  text-transform: uppercase
+  color: #999
+
+
+// mock titles ____________________________________________
+.mockunder
+  max-height: 1em
+  line-height: 4em
+  overflow: hidden
+
+.mockover
+  margin-top: -1em
+
+
+
+
+
+

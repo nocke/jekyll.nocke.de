@@ -12,7 +12,6 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
-
 # all hidden files/folders (except .gitignore, .htaccess,... )
 # (note: there might be .htaccess on multiple levels...)
 .*

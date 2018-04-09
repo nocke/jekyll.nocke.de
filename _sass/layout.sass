@@ -20,8 +20,8 @@
   @extend .cf
 
 // smooth responsive borders
-$pad : 16px
-$maxWidth : 960px
+// $pad defined in variables.sass
+$maxWidth : map-get($breakpoints, l) // 960px
 $scrollBar : 15px // HACK → stackoverflow.com/q/8146874
 
 // general layout -----------------------
@@ -30,10 +30,14 @@ $scrollBar : 15px // HACK → stackoverflow.com/q/8146874
   margin: 0 auto !important
   position: relative
   max-width: $maxWidth
-  background: rgba( blue, .3) // DEBUG
 
 // before touching borders switch to "margin-mode"
 .wrap
-  @media ( max-width: $maxWidth + 2*$pad + $scrollBar )
+  +below( $maxWidth + 2*$pad + $scrollBar )
     margin-left: $pad !important
     margin-right: $pad !important
+
+  // in the blue zone (<768) save some margin...
+  +below( s-m )
+    margin-left: $halfpad !important
+    margin-right: $halfpad !important

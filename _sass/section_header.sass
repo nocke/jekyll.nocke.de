@@ -1,0 +1,136 @@
+
+$headerImageHeight : 140px
+
+header
+  position: absolute
+  +border-box
+  top: 0
+  width: 100%
+  z-index: 20
+  background: $gray3
+  border-bottom: 3px solid $gray2
+  height: $headerHeight
+  overflow: hidden // ribbon creates scrollbars otherwise
+
+  .header-image
+    height: $headerImageHeight
+    background: $darkblue
+    overflow: hidden
+    .zoomer
+      width: 100%
+      height: 100%
+      @extend .zoomin
+
+    img
+      background-size: cover
+      background-position-y: bottom
+      display: block
+      width: 100%
+      height: $headerImageHeight
+
+    .shader
+      position: absolute
+      top: 0
+      width: 100%
+      height: 100%
+      box-shadow: inset 0px -4px 16px 0px rgba(0,0,0,0.8)
+
+    .description a
+      color: white
+      display: block
+      text-decoration: none
+      line-height: 1.0em
+      position: absolute
+      width: 100%
+      font-family: Pacifico, Segoe, "Segoe UI", sans-serif
+      top: 40%
+      left: 50%
+      transform: translate(-50%,-50%)
+      text-align: center
+      +responsiveSize(4)
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 -2px 4px rgba(0, 0, 0, 1), $shadowMassive, $shadowMassive
+      // structure into big head and smaller subhead below given size
+      +below(s-m)
+        +responsiveSize(6)
+        span
+          +responsiveSize(3)
+          display: block
+
+  .menu
+    border-top: 2px solid $gray4
+    text-align: center
+    +below(m)
+      text-align: left
+      padding-left: 1%
+      padding-right: floor($pad/4)
+
+    ul.plain-inline
+      font-size: 0 // prevent spaces
+    li
+      font-size: 1.6rem
+
+    // an inner div, to not hightlight all, but have the margin in the hover area
+    a
+      display: block
+      color: $gray5
+      text-decoration: none
+      padding: 2px 4px
+      +below(l)
+        padding: 2px 2px
+    div
+      +radiusS
+      text-align: center
+      padding: 6px 20px
+      +below(xl)
+        padding: 6px 15px
+      +below(l-xl)
+        padding: 6px 6px
+      +below(m-l)
+        padding: 6px 3px
+    li:focus, li:hover
+      div
+        +bump
+        background: rgba( $gray4, .5)
+        //@extend .bounce
+    li.active div
+      background: white
+      color: black
+
+
+    ul li:first-child a
+      font-weight: 900
+      padding-right: 40px
+      +below(xl)
+        padding-right: 20px
+      +below(l)
+        padding-right: 4px
+        span
+          display: none
+      +below(s-m)
+        b
+          display: none
+
+    b
+      font-weight: inherit
+
+    .fav
+        +below(m-l)
+          display: none
+      i, i::before
+        color: $gray5
+        line-height: 0 !important
+        padding: 0 !important
+      &:focus, &:hover, &.active
+        i::before
+          @extend .bounce
+          transform: scale(1.2) translate3d(0,0,0)
+          color: $orange // the heart orange
+      +below(m)
+        font-size: 1.8rem
+        float: right
+        span
+          display: none
+
+// hiding, if desired
+body.hide-header header
+  display: none

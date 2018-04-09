@@ -1,0 +1,88 @@
+
+body .bilingual
+  // tricking away h1 and h2 (seo)
+  padding-top: 1em
+
+  h1, h2
+    font-size: 20px
+    position: absolute
+    padding-left: 50px
+
+  a
+    +radiusL
+    overflow: hidden
+    text-overflow: ellipsis
+    &:hover, &:focus, &:hover span, &:focus span,
+      background: #444
+
+    span
+
+      background-image: url(./bkg.png) // SEO-cover...
+      display: block
+      position: relative
+      overflow: hidden
+      text-overflow: ellipsis
+
+
+// really big hover links
+.big-links
+  list-style: none
+  list-style-image: none
+  margin: 0 auto
+
+  max-width: 700px
+  width: 80%
+  min-width: 360px
+
+  +below(360px)
+    min-width: 100%
+
+  padding: 0
+  line-height: 1em
+  li
+    display: table
+    width: 100%
+  span.sprite
+    vertical-align: middle
+    margin-right: $pad
+  a
+    +responsiveSize(1.8, 1.4rem)
+    +radiusL
+    text-decoration: none
+    display: table-cell
+    vertical-align: middle
+    display: block
+
+    &:hover, &:focus
+      color: white
+      +shadow-tiny-text
+      background-color: rgba( white, .4 )
+      span.sprite, span.sprite:focus, span.sprite:hover
+        background-color: transparent !important
+        @extend .zbounce
+
+
+// recruiter-advice
+.recruiter-advice
+  padding: $halfpad 0
+  +below(s-m)
+    div
+      display: inline
+
+
+// boxes ______________________________________-
+$glossy : linear-gradient(to bottom, rgba(77,205,79,1) 0%,rgba(62,200,67,1) 50%,rgba(44,158,49,1) 51%,rgba(36,130,39,1) 90%,rgba(54,164,72,1) 100%)
+
+
+.box, a.box
+  display: block
+  text-decoration: none
+  padding: $halfpad
+  background: #666
+  +radiusS
+
+  &:hover
+    color: white
+
+  &.box-green
+    background: #262

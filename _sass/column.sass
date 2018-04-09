@@ -1,0 +1,53 @@
+// multi-column layouts ______________________________
+// with responsive behaviour
+// various tiles
+//
+
+
+
+
+// common breakpoint sequences
+
+// wide to small,
+//    col-<initial_num_cols> [ – <breakpoint> – <num_cols> ]
+//    e.g.  col-2-sm-1
+//    trailing -1 left out:
+//          col-2-sm
+//    an ever-constant column devision has no breakpoints:
+//          col-2    // always two column
+
+$gutter: 2%
+
+// widths for various columns (lampost-ish there's always one gutter less)
+// (macro might be 'cooler', but this is shorter. And tweakable)
+$colwidth1: 100%
+$colwidth2: ( 100% - (2-1) * $gutter ) / 2
+$colwidth3: ( 100% - (3-1) * $gutter ) / 3
+$colwidth4: ( 100% - (4-1) * $gutter ) / 4
+
+.col-2-m
+    display: table
+    table-layout: fixed
+    width: 100%
+    padding: 0
+
+    .col
+        position: relative
+        display: table-cell
+        vertical-align: top // a needed override
+
+        width: $colwidth2 + $gutter
+        padding-left: $gutter
+        &:first-of-type
+            width: $colwidth2
+            padding-left: 0
+
+    +below(m)
+        .col
+            display: block
+            width: 100%
+            padding: $halfpad 0 0 // no more to the side, but now a bit vertical…
+        .col:first-of-type
+            width: 100%
+            padding-top: 0 // …except first
+

@@ -1,0 +1,9 @@
+entries:
+
+- title: Impressum
+  url: http://impressum.nocke.de/fnw
+  target: _blank
+
+- title: Datenschutz
+  url: http://impressum.nocke.de/fnw#privacy
+  target: _blank

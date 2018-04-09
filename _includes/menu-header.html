@@ -1,0 +1,20 @@
+{% assign url = page.url %}
+
+{% assign blogtest = url | truncate: 6, '' %}
+{% if blogtest == '/blog/' %}
+{% assign url = '/blog/' %}
+{% endif %}
+
+{% capture rooturl %}{% link index.md %}{% endcapture %}
+<nav class='menu neverprint'>
+    <ul class='plain-inline'>
+        {% for item in site.data.menu-header.entries %}
+        <li {% if url == item.url %}class='active' {% endif %}>
+            <a href="{{ item.url }}" {% if item.target %}target="{{ item.target }}" {% endif %}alt="{{ item.title }}"><div>{% if rooturl == item.url %}<i class='icon-home'></i>&thinsp;{% endif %}<b>{{ item.title }}</b></div></a>
+        </li>
+        {% endfor %}
+
+        <!-- <li class='fav{% if url == '/favorites/' %} active {% endif %}'><a href="/favorites/"><div><span>Favourites&thinsp;</span><i class='icon-heart'></i></div></a></li>
+         -->
+    </ul>
+</nav>

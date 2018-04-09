@@ -1,7 +1,26 @@
 
 
-//        <────────┼───────────┼───────────┼────────────┤
-$breakpoints: ("xs": 480px, "m": 768px, "l": 960px, "xl": 1200px)
+//     <────────┼─────────┼─────────┼──────────┼──────────┤
+//       purple    blue     green      yellow    orange
+$breakpoints: (s: 480px, m: 768px, l: 960px, xl: 1200px)
+$tween: ()
+
+// generate inbetween sizes
+$prior: null
+@each $bp, $value in $breakpoints
+  @if $prior != null
+    $tweenResolution : floor( (map-get($breakpoints, $prior) + map-get($breakpoints, $bp)) / 2)
+    $tuple: ( #{$prior}-#{$bp} : $tweenResolution )
+    $tween: map-merge($tween, $tuple)
+  $prior: $bp
+
+$breakpoints: map-merge($breakpoints, $tween)
+
+// debug output
+// @each $bp, $value in $breakpoints
+//   .banana-#{$bp}
+//     color: #{$value}
+
 
 =below($breakpoint)
   $value: map-get($breakpoints, $breakpoint)
@@ -59,6 +78,7 @@ $breakpoints: ("xs": 480px, "m": 768px, "l": 960px, "xl": 1200px)
     +below($name)
         display: none !important  //we mean it. no override by some coincidental precedence
   .show-#{$name}
+    display: none !important
     +below($name)
         display: block !important
   .show-inline-#{$name}

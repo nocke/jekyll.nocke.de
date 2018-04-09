@@ -1,0 +1,5 @@
+**Ich bin freiberuflicher Web-Entwickler / Freelancer mit Schwerpunkt Frontend.** Also: `Javascript`, `ES6`, `NodeJS`, `React` und `Redux`, aber vor allem auch Styling mit `CSS3`, `Less`, `Sass` und `Stylus`.
+
+Zu Beginn meiner Selbständigkeit habe ich vor allem Full-Stack Projekte für Hamburger Agenturen bearbeitet. – **„LAMP“** =&nbsp;`Linux`, `Apache`, `MySQL`, `PHP` und natürlich `html`, `CSS`&thinsp;&amp;&thinsp;jede Menge `jQuery`. Dann war ich gut 2 Jahre beim SPIEGEL–Verlag intensiv mit einer Reihe von Frontend-Projekten betraut: Responsive Design, Javascript Applikationen, Self-Service Portale mit Styling, Javascript und Anbindung mit Template-Sprachen (JSP, JSTL, EJS, JSX, …) an die jeweiligen Backends.
+
+Mit dem Aufkommen von `NodeJS` wurde JavaScript zur großartigen Alternative zu Java und PHP als Backend-Sprache und war quasi sofort mein Favorit. Zunächst in einem `Angular.js` Projekt, seit dem mit `React.js`, was mir noch etwas besser gefällt. Erfahrungen mit REST-APIs, Microservices und Technologien wie [GraphQL](http://graphql.org/learn/){:target="_blank"} konnte ich außerdem sammeln.

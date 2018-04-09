@@ -1,0 +1,1 @@
+The **Icomoon icon font** generated [here](https://icomoon.io/app) is used under the [Creative Commons CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) Keyamoon ([github](https://github.com/Keyamoon/IcoMoon-Free)|[website](http://keyamoon.com/)) license.

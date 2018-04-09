@@ -1,28 +1,33 @@
 
 ## What is this?
 
-Well, the styles and data behind my personal blog page...
+Well, the styles and data behind [my personal blog page](https://www.nocke.de)...
 
 ## Running
 
+`npm run clean` – as you'd expect
 `npm run build` – builds (a single time, no watch, no nothing)
+`npm run rebuild` – clean & build
 
-`npm watch` – watches Jekyll content files, however not `_config.yml`
+`npm run watch` – watches Jekyll content files, however not `_config.yml`. → localhost:4000
+`npm start` – alias to that
 
-`npm restart` – does the same, but also restarts on `_config.yml` changes. 
+`npm superwatch` – deluxe version, watching for _config.yml changes (task: `restart`) and restarts browser-sync (`reload`) as needed. → localhost: 4001
 
-Local site is accessible at [`localhost:4000`](http://localhost:4000).
+`npm run deploy` – uploads to server according to credentials (securely placed outside), using lftp
 
-`npm reload` – live reload (pressing ‘refresh’ no more) proxy, outputs to port 4001. Works for boths content and styling changes.
-
-**Most convenient:** use `npm restart` and `npm reload`, access dev site at [`localhost:4001`](http://localhost:4001).
-
-`npm start` does precisely that.
 
 ### caveats
-→ `_config.yml` changes might cause a 2-3s delay, in particular together with live reloading. But should eventuall load.
-→ adding files might mean to stop and restart the live reload task, so those file get on the watchlist
 
+- `_config.yml` changes can cause a 2-3s delay, in particular together with live reloading, but will eventually load.
+- changes to `.yaml` menu files, added/removed files (in particular the automatic listing of blog entries) might not be picked up by incremental watch
+
+   → `npm run build` helps. (`rebuild` is overdone.) That\`s why `create-post.sh` contains it
+
+	 → dedicated touches of the .yaml/iteration-bearing .htlm-File also help. And avoid manual refresh needs.
+
+	 - `touch _pages/blog.md` →  updates bloglist (iteration)
+	 - `touch _includes/header.html` →  updates bloglist (menu-header.yaml)
 
 
 ## Acknowledgements

@@ -1,0 +1,76 @@
+/* __________________________________
+ * CSS sprites
+ *
+ * regular and retina support
+ * __________________________________ */
+
+=retina($ratio)
+  @media only screen and (-webkit-min-device-pixel-ratio: $ratio),only screen and (min--moz-device-pixel-ratio: $ratio), only screen and (-o-min-device-pixel-ratio: $ratio / 1), only screen and (min-device-pixel-ratio: $ratio), only screen and (min-resolution: floor(72*$ratio)dpi), only screen and (min-resolution: #{$ratio}dppx)
+    @content
+
+.sprite
+  display: block
+  border: none
+  margin: 0 // remove styling on anchor/button
+  padding: 0
+  background-color: transparent !important
+  background-size: 640px 320px
+  // background-color: #aae !important // DEBUG
+  +content-box
+  background-image: url('https://nocke.de/static/img/sprite/sprite1.png') !important
+  +retina(1.3)
+    background-image: url('https://nocke.de/static/img/sprite/sprite2.png') !important
+  +retina(2.2)
+    background-image: url('https://nocke.de/static/img/sprite/sprite4.png') !important
+
+  &-xing, &-stackoverflow, &-github, &-medium, &-email
+    width: 80px
+    height: 80px
+  &-xing
+    background-position: 0 -80px
+    @at-root #{selector-append(a, &, ':focus')}, #{selector-append(a, &, ':hover')}
+      background-position: 0 -160px
+  &-stackoverflow
+    background-position: -80px -80px
+    @at-root #{selector-append(a, &, ':focus')}, #{selector-append(a, &, ':hover')}
+      background-position: -80px -160px
+  &-github
+    background-position: -160px -80px
+    @at-root #{selector-append(a, &, ':focus')}, #{selector-append(a, &, ':hover')}
+      background-position: -160px -160px
+  &-medium
+    background-position: -240px -80px
+    @at-root #{selector-append(a, &, ':focus')}, #{selector-append(a, &, ':hover')}
+      background-position: -240px -160px
+  &-email
+    background-position: -320px -80px
+    @at-root #{selector-append(a, &, ':focus')}, #{selector-append(a, &, ':hover')}
+      background-position: -320px -160px
+
+  &-ribbon
+    width: 160px
+    height: 160px
+    background-position: top right // it's always there
+    position: absolute
+    top: -12px
+    right: -28px
+    z-index: 40
+    transition: margin .4s
+    &:focus, &:hover
+      margin: 2px 2px 0 0
+
+  &-jekyll
+    width: 200px
+    height: 80px
+    background-position: -360px -240px
+
+  &-jekyll-typo
+    width: 200px
+    height: 80px
+    background-position: -160px -240px
+
+
+span.sprite, .inline.sprite
+  display: inline-block  // roll back from above
+  position: relative     // allow finetuning
+

@@ -1,32 +1,117 @@
+/* ----------------------------------
+ * Button - button styling
+ *
+ * inside, but also outside of forms
+ * modern <button> buttons, input buttons, anchor buttons
+ * ---------------------------------- */
 
-/* Buttons */
+$button-regular : #555
+$button-cta : rgb(56,198,58)
 
-.btn
+$glossy : linear-gradient(to bottom, rgba(77,205,79,1) 0%,rgba(62,200,67,1) 50%,rgba(44,158,49,1) 51%,rgba(36,130,39,1) 90%,rgba(54,164,72,1) 100%)
+$glossyHL : linear-gradient(to bottom, rgba(94,210,96,1) 0%,rgba(81,205,85,1) 50%,rgba(50,182,57,1) 51%,rgba(44,156,47,1) 90%,rgba(61,187,82,1) 100%)
+
+$linkcolor : $hackerBlue
+
+// everybody being a button ----------------------------
+
+// #helperline   //  for baseline alignment
+//   position: relative
+//   height: 1px
+//   color: transparent
+//   &::after
+//     display: block
+//     position: absolute
+//     width: 100%
+//     bottom: -54px
+//     content: ''
+//     border-top: 1px solid #0f0
+
+button, a.button, span.button, div.button, input.button
+  margin: .2em 0
+  padding: 0
+  font-family: Verdana, Helvetica, Arial, sans-serif
+  font-size: 1.6rem
   display: inline-block
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3))
-  padding: 8px 18px
-  border-radius: 50px
-  border: 2px solid rgba(0, 0, 0, 0.7)
-  border-bottom: 2px solid rgba(0, 0, 0, 0.7)
-  border-top: 2px solid rgba(0, 0, 0, 1)
-  color: rgba(255, 255, 255, 0.8)
-  font-family: Helvetica, Arial, sans-serif
-  font-weight: bold
-  font-size: 13px
+  border: none
+  line-height: 1em // that makes the input/button identical!
   text-decoration: none
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75)
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05)
+  cursor: pointer // for 'action' buttons, w/o href, etc...
+  padding: 4px 8px
 
-.btn:hover
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8))
+  color: white
+  background: $button-regular
+  +round-small
+  +shadow-tiny-text
+  +shadow-tiny
 
-.btn .icon
+  &:focus, &:hover
+    +bump
+    background: lighten( $button-regular, 10% )
+
+.button-main, a.button-main, input.button-main
+  background: $button-cta
+  background: $glossy
+  &:focus, &:hover
+    +bump
+    color: white
+    background: lighten( $button-cta, 5% )
+    background: $glossyHL
+
+.button-cta, a.button-cta, input.button-cta
+  background: $button-cta
+  background: $glossy
+
+  font-size: 3rem
+  padding: 8px 12px
+  &:focus, &:hover
+    +bump
+    color: white
+    background: lighten( $button-cta, 5% )
+    background: $glossyHL
+
+// everybody being an anchor ..........................
+
+a, button.anchor, input.anchor, .anchor   // be so explicit for precedence
+  // unstyle (also the above, for button)
+  background: transparent
+  text-shadow: none
+  box-shadow: none
+  border: none
+  // gives trouble on S2 Tablet (and only there…) font-size: inherit
+
+  // style
   display: inline-block
-  width: 16px
-  height: 16px
-  margin: 1px 8px 0 0
-  float: left
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5)
+  text-decoration: underline
+  cursor: pointer // href-less buttons
+  color: $linkcolor
+  &:focus, &:hover
+    +round-small
+    color: lighten( $linkcolor, 15% )
 
-.btn-github .icon
-  opacity: 0.6
-  background: url("../img/blacktocat.png") 0 0 no-repeat
+// only those of the above who need it, should get this
+// (render difference for inherit on samsung tablet)
+input.anchor
+  font-size: inherit // important for input!
+
+
+// plain links (i.e. to prepare for menus, ...) -------------------------
+
+button.plain, a.plain,  input.plain   // be so explicit for precedence
+  // unstyle (also the above, for button)
+  background: transparent
+  color: inherit
+  text-decoration: inherit
+  font-size: inherit
+  font-family: inherit
+  text-shadow: none
+  box-shadow: none
+  border: none
+  padding: inherit
+
+
+
+
+
+

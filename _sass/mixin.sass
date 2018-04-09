@@ -1,8 +1,80 @@
 
 
-=retina
-  @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)
-    @content
+// responsive headlines __________________________________
+// make default size the media-query-less default. just in case.
+
+=responsiveSize($factor, $minSize:0.5rem)
+  // assume l as default
+  font-size:   ( 1rem * $factor * 100) / 100 + $minSize
+  +above(l-xl)
+    font-size: ( 1.13rem * $factor * 100) / 100 + $minSize
+  +above(xl)
+    font-size: ( 1.25rem * $factor * 100) / 100 + $minSize
+
+  +below(m-l)
+    font-size: ( .9rem * $factor * 100) / 100 + $minSize
+  +below(m)
+    font-size: ( .8rem * $factor * 100) / 100 + $minSize
+  +below(s-m)
+    font-size: ( .65rem * $factor * 100) / 100 + $minSize
+  +below(s)
+    font-size: ( .5rem * $factor * 100) / 100 + $minSize
+
+
+// shadow & radius
+
+$shadowTiny: 0 1px 1px rgba( black, .6)
+$shadowMassive: 0 4px 8px rgba(0, 0, 0, 1)
+
+=shadow-tiny
+  box-shadow: $shadowTiny
+
+=shadow-tiny-text
+  text-shadow: $shadowTiny
+
+=shadow-massive-text
+  text-shadow: $shadowMassive
+
+
+=radiusL()
+  border-radius: $radiusL
+
+=radiusS()
+  border-radius: $radiusS
+
+
+// have buttons jump out ------------------
+=transcenter()
+  display: block
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+
+
+=bump
+  transform: scale(1.02) !important
+
+=bumpM
+  transform: translate3d(0,0,0) scale(1.08) !important
+
+=bumpL
+  transform: translate3d(0,0,0) scale(1.28) !important
+
+=unbump
+  transform: scale(1.00)
+
+=round-small
+  border-radius: 4px
+
+//I am just lazy here#
+// the modern one / quirks
+=border-box
+  box-sizing: border-box !important
+
+// classic box model
+=content-box
+  box-sizing: content-box !important
 
 =print
   @media print
