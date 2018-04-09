@@ -9,7 +9,7 @@ Well, the styles and data behind [my personal blog page](https://www.nocke.de)..
 
 `npm watch` – watches Jekyll content files, however not `_config.yml`
 
-`npm restart` – does the same, but also restarts on `_config.yml` changes. 
+`npm restart` – does the same, but also restarts on `_config.yml` changes.
 
 Local site is accessible at [`localhost:4000`](http://localhost:4000).
 
@@ -26,8 +26,10 @@ Local site is accessible at [`localhost:4000`](http://localhost:4000).
 
    → `npm run build` helps. (`rebuild` is overdone.) That\`s why `create-post.sh` contains it
 
-→ `incremental` support for Jekyll is still experimental. Consider `npm run rebuild` to ensure complete iteration (i.e. of change menu.yml's, etc…)
+	 → dedicated touches of the .yaml/iteration-bearing .htlm-File also help. And avoid manual refresh needs.
 
+	 - `touch _pages/blog.md` →  updates bloglist (iteration)
+	 - `touch _includes/header.html` →  updates bloglist (menu-header.yaml)
 
 
 ## Acknowledgements
