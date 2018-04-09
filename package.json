@@ -8,12 +8,12 @@
     "rebuild": "npm run clean && npm run build",
 
     "watch": "bundle exec jekyll serve --watch --verbose --incremental --config _config.yml,_dev.yml",
-    "watch-noincrement": "bundle exec jekyll serve --watch --verbose --config _config.yml,_dev.yml",
+    "start": "printf \"regular watch on port 4000\n\"     && npm run watch",
 
     "restart": "watchy -w _config.yml -- bundle exec jekyll serve --watch --incremental --config _config.yml,_dev.yml",
     "reload": "browser-sync start --reloadDebounce 100 --proxy \"localhost:4000\" --files \"_site/**/*\" \"_*.yml\" --no-ui --port 4001",
+    "superwatch": "npm run restart & npm run reload",
 
-    "start": "npm run restart & npm run reload",
 
     "deploy": "script/deploy.sh"
   },
