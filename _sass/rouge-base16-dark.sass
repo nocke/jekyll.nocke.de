@@ -18,12 +18,28 @@ $turquoise: #75b5aa
 $carmine: #ac4142
 
 .highlight
+  margin: .5em 0
 
-  table
-    td
-      padding: 5px
-    pre
-      margin: 0
+  >pre
+    border: none
+    padding: 0
+
+    >code
+      display: block
+      padding: 6px 12px !important
+      
+      >table.rouge-table
+        margin: 0 0 0 -12px !important
+
+        td.gutter, td.code
+          padding: 0
+          >pre
+            margin: -6px 0
+            border: 0
+
+        td.gutter
+          >pre
+            background: $gray1
 
   &, .w
     color: $lightGray
