@@ -22,3 +22,32 @@ ul.plain-inline
   li, a
     display: inline-block
     white-space: nowrap
+
+
+// just big, touchable/hoverable links  ul > li > a (very outermost anchor)
+// used on blog/
+// REF → component.sass / .contact-links
+ul.big-list
+  @extend .ul-plain
+
+  li
+    width: 100%
+    margin: 0 0
+
+  a
+    +radiusL
+    display: block
+    text-decoration: none
+    padding: .4em
+
+    &:hover, &:focus
+      color: white
+      +shadow-tiny-text
+      text-decoration: none
+      background-color: rgba( white, .4 )
+
+  .h4
+    font-weight: normal
+
+  h2
+    margin: .2em 0 .1em

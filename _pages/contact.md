@@ -9,7 +9,7 @@ bodyclass: cornerpin-center
 
 <section title='Kontakt, Email, Telefon, Anschrift'>
 
-  <ul class='big-links bpad20'>
+  <ul class='contact-links bpad20'>
     <li>
       <a href='#' target='_blank' class='email zbounce1' title='Frank Nocke Hamburg Email'><span class='sprite sprite-email'></span><span class='label'>{{ site.profile.mail }}</span></a>
     </li>

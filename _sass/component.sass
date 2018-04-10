@@ -24,8 +24,8 @@ body .bilingual
       text-overflow: ellipsis
 
 
-// really big hover links
-.big-links
+// really big hover links, as used in contacts/ _____________
+.contact-links
   list-style: none
   list-style-image: none
   margin: 0 auto
@@ -48,10 +48,9 @@ body .bilingual
   a
     +responsiveSize(1.8, 1.4rem)
     +radiusL
-    text-decoration: none
-    display: table-cell
-    vertical-align: middle
     display: block
+    text-decoration: none
+    vertical-align: middle
 
     &:hover, &:focus
       color: white
@@ -60,7 +59,6 @@ body .bilingual
       span.sprite, span.sprite:focus, span.sprite:hover
         background-color: transparent !important
         @extend .zbounce
-
 
 // recruiter-advice
 .recruiter-advice
