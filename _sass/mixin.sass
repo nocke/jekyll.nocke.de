@@ -25,15 +25,22 @@
 
 $shadowTiny: 0 1px 1px rgba( black, .6)
 $shadowMassive: 0 4px 8px rgba(0, 0, 0, 1)
+// a pit for sourcecode and special boxes...
+$shadowPit: inset 0px -4px 16px 0px rgba(0,0,0,0.8)
 
 =shadow-tiny
   box-shadow: $shadowTiny
+
+=shadow-pit
+  box-shadow: $shadowPit
 
 =shadow-tiny-text
   text-shadow: $shadowTiny
 
 =shadow-massive-text
   text-shadow: $shadowMassive
+.shadow-massive-text
+  +shadow-massive-text
 
 
 =radiusL()
