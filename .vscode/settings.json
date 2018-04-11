@@ -8,6 +8,16 @@
 		".vscode" : true
   	},
 
+	"[markdown]": {
+		// no unnerving completion popups
+		"editor.wordBasedSuggestions": false,
+
+		// do enforce spaces (otherwise trouble in code quotes)
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false,
+		"editor.tabSize": 2,
+	},
+
     "html.format.endWithNewline": false,
     "html.format.extraLiners": "",
     "css.validate": true,
