@@ -5,7 +5,7 @@ permalink: /slides/
 ---
 
 
-<!-- Slides will be listed here...  (some day) -->
+<!-- Slides will be listed here...  (ony testing so far. stay tuned.) -->
 
 <h2 class='h3 center bpad40'>
   <span class='zdrop1'>( more</span>
@@ -16,18 +16,20 @@ permalink: /slides/
   <span class='zbounce3'>… )</span>
 </h2>
 
-<ul class='big-links bpad20'>
+<ul class='big-list'>
   <li>
-    <a href='testing/' target='_blank' class='h2 zdrop1'>
-      Testing
+    <a href='testing/' target='_blank' class='zdrop1'>
+      <h2>Testing</h2>
       <h4>some basic reveal.js testing</h4>
     </a>
   </li>
   <li>
-    <a href='styling/' target='_blank' class='h2 zbounce1'>
-      Styling
+    <a href='styling/' target='_blank' class='zbounce1'>
+      <h2>Styling</h2>
       <h4>styling fundamentals (WIP)</h4>
     </a>
   </li>
+
+  <!-- TODO: auto-generation by iteration (if possible) -->
 
 </ul>
